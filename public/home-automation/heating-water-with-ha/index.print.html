@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="(Free in third party energy costs, anyway)
+Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma">
+    <meta name="twitter:description" content="(Free in third party energy costs, anyway)
+Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85">
+    <meta property="og:url" content="https://digdilem.org/home-automation/heating-water-with-ha/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma">
+    <meta property="og:description" content="(Free in third party energy costs, anyway)
+Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma">
+    <meta itemprop="description" content="(Free in third party energy costs, anyway)
+Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85">
+    <meta itemprop="datePublished" content="2025-06-20T20:08:45+01:00">
+    <meta itemprop="dateModified" content="2025-06-20T20:08:45+01:00">
+    <meta itemprop="wordCount" content="830">
+    <meta itemprop="keywords" content="Home-Automation,Projects">
+    <title>How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma</title>
+    <link href="https://digdilem.org/home-automation/heating-water-with-ha/index.html" rel="canonical" type="text/html" title="How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma">
+    <link href="/home-automation/heating-water-with-ha/index.xml" rel="alternate" type="application/rss+xml" title="How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma">
+    <link href="/images/favicon.png?1750596076" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750596076" rel="stylesheet">
+    <link href="/css/theme.min.css?1750596076" rel="stylesheet">
+    <link href="/css/format-print.min.css?1750596076" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750596076" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750596076" defer></script>
+    <script src="/js/search.min.js?1750596076" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/home-automation\/heating-water-with-ha\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1750596076";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support print" data-url="/home-automation/heating-water-with-ha/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#update-after-three-years">Update after three years</a></li>
+    <li><a href="#background">Background</a></li>
+    <li><a href="#items">Items:</a></li>
+    <li><a href="#cost">Cost:</a></li>
+    <li><a href="#controlling-things">Controlling things</a></li>
+    <li><a href="#safety">Safety:</a></li>
+    <li><a href="#result">Result</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/home-automation/index.html"><span itemprop="name">Home Automation</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Heating Water With Home Assistant</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/heating-water-with-ha/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/zigbee-sensors-in-the-cold/index.html" title="Keeping Zigbee Sensors Running in Extreme Cold (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/using-gpslogger-for-traccar/index.html" title="Using Gpslogger for Traccar (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable home-automation" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="how-home-assistant-is-helping-heat-my-water-for-free-with-help-from-the-sun">How Home Assistant is helping heat my water for free (With help from the sun)</h1>
+
+<p><em>(Free in third party energy costs, anyway)</em></p>
+<h2 id="update-after-three-years">Update after three years</h2>
+<p>I&rsquo;ve not had to change or maintain <strong>any</strong> of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water&rsquo;s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85</p>
+<h2 id="background">Background</h2>
+<p>I had Solar panels fitted a month ago. At the time I discussed with the engineer about using excess to heat water, directly from the inverter. But there was no immersion heater fitted to my tank at that time, and the installer wasn&rsquo;t keen on adding that to the job.<em>(And having fitted it myself now, I totally understand why, fitting the element was a tank-out pig of a job that took most of a day)</em></p>
+<p>But once the solar panels were fitted and generating power, I wasn’t entirely happy to see the excess being pushed back into the grid for nothing. (After much setting up and back and forth, I did start to be paid 5p per kwh, but as I pay them 33p for the same, I don&rsquo;t consider this a <em>great</em> deal)</p>
+<p>Anyway, I scratched my head and came up with this system.</p>
+<h2 id="items">Items:</h2>
+<ul>
+<li>The Inverter and Battery and GivEnergy systems are integrated into my HA setup thanks to <a href="https://github.com/cdpuk/givenergy-local" rel="external" target="_blank">cdpuk&rsquo;s integration 11</a>, which works perfectly. This allows me to get all the stats I need into HA, and display them like this:</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="1.png"
+       alt="Solar Inverter integrating into Home Assistant"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Solar Inverter integrating into Home Assistant</b></i></p></figcaption>
+  
+</figure>
+</p>
+<ul>
+<li>A low power 1kw 27″ top-mounted immersion element. Normal immersions are 3kw, which is more than I can generate to excess. 1kw is perfect for me. I fitted this to the tank (fiddly) and connected it to a 13a capable flex which connected to a standard UK 13a fused plug.</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="2.png"
+       alt="Top of the 1kw immersion element, showing its two thermostats (one user settable, one factory set)"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Top of the 1kw immersion element, showing its two thermostats (one user settable, one factory set)</b></i></p></figcaption>
+  
+</figure>
+</p>
+<ul>
+<li>A TPLink MiniKasa smart socket. (wifi) The socket is rated for 13a and by choosing a low power immersion (they’re normally 3kw for fixed wiring) I’m keeping load on that around 5a at 230vac, and the switch is not getting warm. I would be more concerned about load with an unbranded or low quality switch. But even in a warm room, this is fine.</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="3.png"
+       alt="TPLink MiniKasa socket that allows HA to turn the Immersion Element on and off"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>TPLink MiniKasa socket that allows HA to turn the Immersion Element on and off</b></i></p></figcaption>
+  
+</figure>
+</p>
+<ul>
+<li>
+<p>A Onewire temperature sensor on the outside of the hot water tank. Have also used Aqara sensors for this. On the picture above, that&rsquo;s the &ldquo;HW_Tank&rdquo; reading on the above screenshot.</p>
+</li>
+<li>
+<p>An existing Home Assistant setup.</p>
+</li>
+</ul>
+<h2 id="cost">Cost:</h2>
+<ul>
+<li>£73 for the 1kw element.</li>
+<li>£12 for the MiniKasa smart socket</li>
+<li>£5 for ancillaries (socket, wiring, sensor, tea)</li>
+<li>£7,700 for the solar install <em>(ahem)</em></li>
+</ul>
+<h2 id="controlling-things">Controlling things</h2>
+<p>This just needs two very simple automations</p>
+<ol>
+<li>
+<p>If the solar system is sending &gt;1200 watts to the grid for more than 5 minutes and the temperature of the tank is &lt;60c:</p>
+<ul>
+<li>Turn <strong>on</strong> socket feeding the immersion.</li>
+</ul>
+</li>
+<li>
+<p>If sending &lt;1000w to the grid for more than 3 minutes <strong>or</strong> temp &gt;65c:</p>
+<ul>
+<li>Turn <strong>off</strong> socket feeding the immersion.</li>
+</ul>
+</li>
+</ol>
+<h2 id="safety">Safety:</h2>
+<p>Some things to consider if you fancy doing something similar.</p>
+<ul>
+<li>
+<p>This is a traditional UK Y-Plan <strong>vented</strong> hot water system. It&rsquo;s fed by an unpressurised cold water tank in the loft, so there is little risk of explosion should the water get too hot.</p>
+</li>
+<li>
+<p>My tank didn&rsquo;t have space to insert the heating element in-situ, so I needed to drain and remove it. Even then, the top nut was very stiff and difficult to remove.</p>
+</li>
+<li>
+<p>Be competent at mains wiring.</p>
+</li>
+<li>
+<p>Choose an immersion element with dual thermostats. One of these should be set by the factory, the second is where you set the target temperature. Once either is reached, it will cut power into the element regardless of the switch. This system is independent of HA and any automation - that&rsquo;s important.</p>
+</li>
+<li>
+<p>Build in as many safeguards as you can. For example, I have a tertiary automation that turns off the switch if it happens to be on at sunset, when there&rsquo;s no chance of any more free power. This is a safety precaution, but also a cost one. Electricity from the mains is expensive - I don&rsquo;t want that to be heating my water by accident!</p>
+</li>
+</ul>
+<p>It&rsquo;s working great. The water gets hotter</p>
+<h2 id="result">Result</h2>
+<p>It&rsquo;s working great. The system satisfies my house hot water needs entirely on any sunny day (in Winter too). My LPG boiler doesn&rsquo;t get used in the summer, although it&rsquo;s still connected and will step in if the water drops too low during its own schedule.</p>
+<p>It&rsquo;s hard to estimate the cost saving, but it certainly repays the investment several times a year.  (That&rsquo;s this project, not the whole solar install!)</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/home-automation/index.html">Home-Automation</a></li>
+    <li><a class="term-link" href="/categories/projects/index.html">Projects</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard/clipboard.min.js?1750596076" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750596076" defer></script>
+    <script src="/js/theme.min.js?1750596076" defer></script>
+  </body>
+</html>

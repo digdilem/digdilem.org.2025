@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Making two excellent pieces of free software talk to each other
+Traccar is an amazing piece of free, open source software to track GPS devices and people. GPSLogger is an amazing piece of free software that records GPS tracks on Android very well. Wouldn’t it be nice if you could use GPSLogger to send your position to Traccar? Well, you can, and it’s not hard.
+Why not just use Traccar’s Android client? A good question, and there’s no reason why not. It (usually) works fine. however, I did have a few issues with it that, whilsts not serious, were enough to steer me towards GPSlogger.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Using Gpslogger With Traccar :: Digital Dilemma">
+    <meta name="twitter:description" content="Making two excellent pieces of free software talk to each other
+Traccar is an amazing piece of free, open source software to track GPS devices and people. GPSLogger is an amazing piece of free software that records GPS tracks on Android very well. Wouldn’t it be nice if you could use GPSLogger to send your position to Traccar? Well, you can, and it’s not hard.
+Why not just use Traccar’s Android client? A good question, and there’s no reason why not. It (usually) works fine. however, I did have a few issues with it that, whilsts not serious, were enough to steer me towards GPSlogger.">
+    <meta property="og:url" content="https://digdilem.org/misc/using-gpslogger-with-traccar/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Using Gpslogger With Traccar :: Digital Dilemma">
+    <meta property="og:description" content="Making two excellent pieces of free software talk to each other
+Traccar is an amazing piece of free, open source software to track GPS devices and people. GPSLogger is an amazing piece of free software that records GPS tracks on Android very well. Wouldn’t it be nice if you could use GPSLogger to send your position to Traccar? Well, you can, and it’s not hard.
+Why not just use Traccar’s Android client? A good question, and there’s no reason why not. It (usually) works fine. however, I did have a few issues with it that, whilsts not serious, were enough to steer me towards GPSlogger.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Using Gpslogger With Traccar :: Digital Dilemma">
+    <meta itemprop="description" content="Making two excellent pieces of free software talk to each other
+Traccar is an amazing piece of free, open source software to track GPS devices and people. GPSLogger is an amazing piece of free software that records GPS tracks on Android very well. Wouldn’t it be nice if you could use GPSLogger to send your position to Traccar? Well, you can, and it’s not hard.
+Why not just use Traccar’s Android client? A good question, and there’s no reason why not. It (usually) works fine. however, I did have a few issues with it that, whilsts not serious, were enough to steer me towards GPSlogger.">
+    <meta itemprop="datePublished" content="2025-06-20T14:37:18+01:00">
+    <meta itemprop="dateModified" content="2025-06-20T14:37:18+01:00">
+    <meta itemprop="wordCount" content="1043">
+    <meta itemprop="keywords" content="Misc,Linux,Gps">
+    <title>Using Gpslogger With Traccar :: Digital Dilemma</title>
+    <link href="https://digdilem.org/misc/using-gpslogger-with-traccar/index.html" rel="canonical" type="text/html" title="Using Gpslogger With Traccar :: Digital Dilemma">
+    <link href="/misc/using-gpslogger-with-traccar/index.xml" rel="alternate" type="application/rss+xml" title="Using Gpslogger With Traccar :: Digital Dilemma">
+    <link href="/images/favicon.png?1750596076" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750596076" rel="stylesheet">
+    <link href="/css/theme.min.css?1750596076" rel="stylesheet">
+    <link href="/css/format-print.min.css?1750596076" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750596076" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750596076" defer></script>
+    <script src="/js/search.min.js?1750596076" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/misc\/using-gpslogger-with-traccar\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1750596076";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support print" data-url="/misc/using-gpslogger-with-traccar/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/misc/index.html"><span itemprop="name">Misc</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Using Gpslogger With Traccar</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/misc/using-gpslogger-with-traccar/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/misc/redneck-water-cooling/index.html" title="Redneck PC Water Cooling (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/software/index.html" title="Software (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable misc" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="using-gpslogger-with-traccar">Using Gpslogger With Traccar</h1>
+
+<p><em>Making two excellent pieces of free software talk to each other</em></p>
+<ul>
+<li><a href="https://www.traccar.org/" rel="external" target="_blank">Traccar</a> is an amazing piece of free, open source software to track GPS devices and people.</li>
+<li><a href="https://gpslogger.app/" rel="external" target="_blank">GPSLogger</a> is an amazing piece of free software that records GPS tracks on Android very well.</li>
+</ul>
+<p>Wouldn&rsquo;t it be nice if you could use GPSLogger to send your position to Traccar? Well, you can, and it&rsquo;s not hard.</p>
+<h4 id="why-not-just-use-traccars-android-client">Why not just use Traccar&rsquo;s Android client?</h4>
+<p>A good question, and there&rsquo;s no reason why not. It (usually) works fine. however, I did have a few issues with it that, whilsts not serious, were enough to steer me towards GPSlogger.</p>
+<ul>
+<li>GPSLogger has more settings for granularity, and those are well documented.</li>
+<li>One of the devices I was using kept on turning off Traccar-Client and nothing I tried would keep it running for more than an hour.</li>
+<li>I found GPSLogger was better at dropping GPS Jitter reports from the devices.</li>
+<li>GPSLogger used less battery for me.</li>
+<li>Traccar has huge support for a great many devices and software. Whilst it doesn&rsquo;t support GPSLogger natively, it does provide a simple webhook for OSMand which is easily used.</li>
+<li>And - critically - I was already using GPSLogger to record GPS tracks whenever I walked or biked somewhere.</li>
+</ul>
+<p><em>Please don&rsquo;t think I&rsquo;m criticising Traccar or Traccar-Client - I&rsquo;m sure it works great for many people and I love the project</em></p>
+<p>And one reason not to use GPSLogger: It&rsquo;s no longer published via Google&rsquo;s Play store. So you will need to visit the <a href="https://gpslogger.app/" rel="external" target="_blank">website</a> and download the APK to install it. Some people are understandably nervous about doing this, and some phones won&rsquo;t let you do so without a lot of fiddling. Fair enough, and Traccar Client is on Play store.</p>
+<h4 id="how-to-get-gpslogger-reporting-your-position-to-traccar">How to get GPSLogger reporting your position to Traccar</h4>
+<p>*I&rsquo;ve been using this method for almost a year with a very good success)</p>
+<p><em>References:</em></p>
+<ul>
+<li><a href="https://www.traccar.org/osmand/" rel="external" target="_blank">Traccar documentation for OSMAN type URL paramaters</a></li>
+<li><a href="https://gpslogger.app/images/17b.png" rel="external" target="_blank">GPSLogger&rsquo;s parameter reference </a> <a href="https://gpslogger.app/#morescreenshots" rel="external" target="_blank">(Parent)</a></li>
+</ul>
+<h4 id="before-you-begin">Before you begin</h4>
+<p>Go to your Traccar website, into <code>Settings</code> then <code>Devices</code> and make a note of the <code>Identifier</code> number for the device you&rsquo;re configuring. This is your <code>USER-ID</code> and you&rsquo;ll need it later.</p>
+<p><em>If you haven&rsquo;t set up a new Device in Traccar yet, please do so first</em></p>
+<p><em>Steps:</em></p>
+<ol>
+<li>
+<p>Have a publically accessible URL for your Traccar server.
+<em>I host Traccar on my private server behind a CGNat, and use a free Cloudflare tunnel to allow remote access to it. Eg: <code>https://tracserver.domain.com</code></em></p>
+</li>
+<li>
+<p>Install GPSLogger onto your phone  <a href="https://gpslogger.app/" rel="external" target="_blank">Website</a>
+*You can either use FDroid, which also keeps it up to date, or just install the latest APK from the <a href="/misc/using-gpslogger-with-traccar/index.html">GPSLogger website</a></p>
+<p><em><strong>Note:</strong> GPSLogger is not on Google&rsquo;s Play store, so you&rsquo;ll need to use FDroid or install manually via APK – see the <a href="https://gpslogger.app/" rel="external" target="_blank">GPSLogger site</a> for details</em></p>
+</li>
+<li>
+<p>In GPSLogger, tap the 3-line menu top-left to enter settings.</p>
+<ul>
+<li>Set your <strong>Logging Details</strong> up as you want and then navigate to <code>Auto Send, email and upload</code></li>
+</ul>
+<p>This section should be left unset for Traccar, but if you’re also sending a GPX file to GDrive or elsewhere, you may already have settings here. Just ensure “Custom URL” in this section is <em>NOT ticked</em></p>
+<ul>
+<li>
+<p>Return to the GPSLogger settings menu and select <code>Custom URL</code></p>
+</li>
+<li>
+<p>Tick <code>Log to custom URL</code></p>
+</li>
+<li>
+<p><strong>UNTICK</strong> <code>Allow Auto Sending</code>  <em>(Otherwise it will repeatedly send the same coords to Traccar until it floods out a few hours later)</em></p>
+</li>
+<li>
+<p>Also leave <code>Discard offline locations</code> <em>unticked</em>. This way if your connection fails, GPSlogger will keep recording and send those logs to Traccar once network is restored, so you can a decent history log even offline.</p>
+</li>
+<li>
+<p>In <code>URL</code>, put the following, but change two items</p>
+<ol>
+<li>
+<p><strong>TRACCAR_URL</strong> to the public URL of your Traccar server. If you have a specific port you need to use, specify that after the URL and BEFORE the following slash. Eg: <code>https://my-traccar-server-mydomain.com:5505/</code></p>
+</li>
+<li>
+<p>The <strong>USER-ID</strong> for your device, as noted earlier. <em>(Change YOUR_ID to that number)</em></p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>https://TRACCAR_URL/?id=YOUR_ID&amp;lat=%LAT&amp;lon=%LON&amp;hdop=1&amp;altitude=%ALT&amp;speed=%SPD&amp;batt=%BATT&amp;timestamp=%TIMESTAMP&amp;charge=%ISCHARGING&amp;bearing=%DIR</code></pre></div>
+<p><em>I find it easiest to copy and paste these to my email client to get them on the phone, then copy and paste into GPSLogger. You can play around with the parameters as per the Parameter guide on GPSLogger and Traccar&rsquo;s sites to change what it sends above, but these are quite comprehensive.</em></p>
+<ol start="4">
+<li>
+<p><strong>Important!</strong> Under <code>HTTP Method</code> in GPSLogger&rsquo;s Custom URL settings page, <strong>change</strong> this from <code>GET</code> to <code>POST</code></p>
+</li>
+<li>
+<p>Back out of the menus and click <code>Start Logging</code> in GPSLogger&rsquo;s main page. If everything is good, then you should see your device start to update on the page.</p>
+</li>
+</ol>
+<h4 id="notes-and-problems">Notes and Problems</h4>
+<ul>
+<li>
+<p>GPSLogger shows a small blue circle at the top right of its menu when it’s sending and the device should be updated a few seconds after that, at whatever upload frequency you set.</p>
+</li>
+<li>
+<p>Opening GPSLogger&rsquo;s <code>Log View</code> page will show you what it&rsquo;s doing. If you see any red lines, something broke. Green lines denote a successful send of coordinates.</p>
+</li>
+<li>
+<p>Traccar&rsquo;s logs are quite useful in debugging any problems - <code>tail -f /opt/traccar/logs/tracker-server.log</code></p>
+</li>
+</ul>
+<h4 id="fine-tuning-things">Fine Tuning Things</h4>
+<p>In GPSLogger&rsquo;s Settings menu, under <code>Performance</code> you can make a big difference to battery usage by tuning a few items. These are my suggestions;</p>
+<ul>
+<li>
+<p><strong>Logging interval</strong> <em>(How often GPSLogger sends coordinates to Traccar)</em> - No less than 10 seconds. 30-60 is a more normal balance for good battery life.</p>
+</li>
+<li>
+<p><strong>Distance filter</strong> <em>(If GPSLogger detects you&rsquo;ve moved less than this distance since it last sent your location to Traccar, it won&rsquo;t send this time - very useful to save it sending pointless updates and wearing down the battery, and it explains that in the Log View.)</em>  I use <code>4 meters</code>.</p>
+</li>
+<li>
+<p><strong>Accuracy filter</strong> <em>(If GPSLogger has a weak GPS signal that gives a certainty less than this value, it won&rsquo;t send a reading to Traccar this time)</em>  I set this to <code>50meters</code></p>
+</li>
+<li>
+<p><strong>Duration to match accuracy)</strong> <em>(How long it takes to get a GPS reading should take less than this)</em> I set this to <code>10 seconds</code> as a good balance to save using too much battery trying to get a fix in a poor signal area.</p>
+</li>
+<li>
+<p>Options ON: <code>Log GPS/GNSS Locations</code>, <code>Choose best accuracy in duration</code>.  Every other option left off, apart from those mentioned.</p>
+</li>
+</ul>
+<p>That&rsquo;s it!  GPSLogger should be sending your device&rsquo;s position every <code>Logging interval</code> seconds with a reasonably balance of accuracy and battery life.</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/gps/index.html">Gps</a></li>
+    <li><a class="term-link" href="/categories/linux/index.html">Linux</a></li>
+    <li><a class="term-link" href="/categories/misc/index.html">Misc</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard/clipboard.min.js?1750596076" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750596076" defer></script>
+    <script src="/js/theme.min.js?1750596076" defer></script>
+  </body>
+</html>

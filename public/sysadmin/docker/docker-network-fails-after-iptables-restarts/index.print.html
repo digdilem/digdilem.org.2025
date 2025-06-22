@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="For almost a decade, Docker users have been complaining about a specific problem using Docker. This has affected us quite a lot, including taking around 40 docker servers running hundreds of services offline recently when I ran a script that added a local firewall rule.
+The issue is that when Docker starts, it adds whatever rules it needs to talk to the world to the local firewall service. That’s often iptables, but also nftables and probably others. Those rules are temporary and not saved in the firewall’s configuration.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Docker Network Fails After Iptables Restarts :: Digital Dilemma">
+    <meta name="twitter:description" content="For almost a decade, Docker users have been complaining about a specific problem using Docker. This has affected us quite a lot, including taking around 40 docker servers running hundreds of services offline recently when I ran a script that added a local firewall rule.
+The issue is that when Docker starts, it adds whatever rules it needs to talk to the world to the local firewall service. That’s often iptables, but also nftables and probably others. Those rules are temporary and not saved in the firewall’s configuration.">
+    <meta property="og:url" content="https://digdilem.org/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Docker Network Fails After Iptables Restarts :: Digital Dilemma">
+    <meta property="og:description" content="For almost a decade, Docker users have been complaining about a specific problem using Docker. This has affected us quite a lot, including taking around 40 docker servers running hundreds of services offline recently when I ran a script that added a local firewall rule.
+The issue is that when Docker starts, it adds whatever rules it needs to talk to the world to the local firewall service. That’s often iptables, but also nftables and probably others. Those rules are temporary and not saved in the firewall’s configuration.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Docker Network Fails After Iptables Restarts :: Digital Dilemma">
+    <meta itemprop="description" content="For almost a decade, Docker users have been complaining about a specific problem using Docker. This has affected us quite a lot, including taking around 40 docker servers running hundreds of services offline recently when I ran a script that added a local firewall rule.
+The issue is that when Docker starts, it adds whatever rules it needs to talk to the world to the local firewall service. That’s often iptables, but also nftables and probably others. Those rules are temporary and not saved in the firewall’s configuration.">
+    <meta itemprop="datePublished" content="2025-06-16T12:40:58+01:00">
+    <meta itemprop="dateModified" content="2025-06-16T12:40:58+01:00">
+    <meta itemprop="wordCount" content="504">
+    <title>Docker Network Fails After Iptables Restarts :: Digital Dilemma</title>
+    <link href="https://digdilem.org/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html" rel="canonical" type="text/html" title="Docker Network Fails After Iptables Restarts :: Digital Dilemma">
+    <link href="/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.xml" rel="alternate" type="application/rss+xml" title="Docker Network Fails After Iptables Restarts :: Digital Dilemma">
+    <link href="/images/favicon.png?1750596076" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750596076" rel="stylesheet">
+    <link href="/css/theme.min.css?1750596076" rel="stylesheet">
+    <link href="/css/format-print.min.css?1750596076" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750596076" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750596076" defer></script>
+    <script src="/js/search.min.js?1750596076" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/sysadmin\/docker\/docker-network-fails-after-iptables-restarts\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1750596076";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support print" data-url="/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/index.html"><span itemprop="name">Sysadmin</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/docker/index.html"><span itemprop="name">Docker</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Docker Network Fails After Iptables Restarts</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/docker/index.html" title="Docker (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/mariadb/index.html" title="Mariadb (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable sysadmin" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="docker-network-fails-after-iptables-restarts">Docker Network Fails After Iptables Restarts</h1>
+
+<p>For almost a decade, Docker users have been complaining about a specific problem using Docker. This has affected us quite a lot, including taking around 40 docker servers running hundreds of services offline recently when I ran a script that added a local firewall rule.</p>
+<p>The issue is that when Docker starts, it adds whatever rules it needs to talk to the world to the local firewall service. That’s often iptables, but also nftables and probably others. Those rules are temporary and not saved in the firewall’s configuration.</p>
+<p>If the firewall is restarted for any reason (such as a sysadmin adding a new port) then those temporary rules are lost by the firewall and Docker can no longer talk to the outside world. Alerts start flashing, people get unhappy – you’ve just lost points in the game of sysadminning.</p>
+<p>I researching this problem, and found that Docker’s devs take the firm view that “It’s not Docker’s problem”. I can actually understand that. If other parts of the OS went away, would we expect services to continue running? Some people clearly do – and other software checks basic network continuity and will automatically heal if something like this happens. (Several examples given <a href="https://github.com/moby/moby/issues/12294" rel="external" target="_blank">in the Github thread</a> )</p>
+<p>But – Docker is Docker and does what Docker does. We needed a workaround or it was only a matter of time before someone (probably me) forgot to restart docker after touching the firewall and broke things again.</p>
+<p>My boss came up with what I think is an elegant solution to this ugly problem, using systemd’s <code>[Unit]</code> syntaxes.</p>
+<ol>
+<li>
+<p>Create a new text file, let’s call it <code>/etc/systemd/system/docker.service.d/restart-docker-if-firewall-breaks.conf</code></p>
+<p><strong>Explanation:</strong> <em>.conf files in this directory will be added to Docker’s main .service unit file by systemd, but will both be given a higher priority in case of conflict with that, and persist during updates. Docker’s main service file can be overwritten during normal updates.</em></p>
+</li>
+<li>
+<p>That file should contain this text:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>[Unit]
+After=iptables.service
+Requires=iptables.service
+PartOf=iptables.service</code></pre></div>
+<p><strong>Note:</strong> Replace iptables with nftables if that is your local firewall (Debian, Rocky9 etc)</p>
+<p><strong>Explanation:</strong></p>
+<p><code>After</code> = <em>Ensures that the listed unit is fully started up before the configured unit is started</em>
+<code>Requires</code> = <em>If this unit gets activated, the units listed will be activated as well</em>
+<code>PartOf</code> = <em>When systemd stops or restarts the units listed here, the action is propagated to this unit</em></p>
+<p>In short, don’t run until iptables is already up, and if that restarts, restart docker.
+<strong>Reference:</strong> <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html" rel="external" target="_blank">Systemd documentation</a></p>
+</li>
+<li>
+<p>Lastly, we need to tell systemd about the change with <code>systemctl daemon-reload</code>
+We don’t need to restart the Docker service for this.</p>
+</li>
+<li>
+<p>Testing (Optional)</p>
+<p>To test this works, restart iptables: <code>systemctl restart iptables</code></p>
+<p>Then check docker’s service status and you should see it’s restarted recently too. <code>systemctl status docker</code></p>
+</li>
+</ol>
+<p>That’s it! You can walk away and know that if the local firewall is restarted, instead of docker breaking completely, it will restart and repopulate the firewall with its own temporary rules. You might lose connection to those services briefly, but it will auto-heal.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard/clipboard.min.js?1750596076" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750596076" defer></script>
+    <script src="/js/theme.min.js?1750596076" defer></script>
+  </body>
+</html>

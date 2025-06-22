@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory :: Category :: Digital Dilemma</title>
+    <link>https://digdilem.org/categories/memory/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jun 2025 09:09:50 +0100</lastBuildDate>
+    <atom:link href="https://digdilem.org/categories/memory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3 Quick Ways to Improve Mariadb Memory Handling</title>
+      <link>https://digdilem.org/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 09:09:50 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html</guid>
+      <description>These are quick and easy and can make a big difference</description>
+    </item>
+    <item>
+      <title>Solving Excess Memory Usage in Mariadb</title>
+      <link>https://digdilem.org/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 09:05:13 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/index.html</guid>
+      <description>Users of MariaDb sometimes notice that the memory used by the process far exceeds what MariaDb is configured to use through its various configuration parameters and buffers. This is especially noticed in larger and busier database servers.&#xA;Often, despite looking like a memory leak in the application, this is actually a problem of fragmented memory not being aggressively cleaned by the malloc (memory allocation) library used.&#xA;Fortunately, it is a fairly easy thing to solve by installing one of two freely available libraries, jemalloc or tcmalloc, and telling mariadb to use it instead of the OS’s default. These more tightly monitor and defragmented memory pages.</description>
+    </item>
+  </channel>
+</rss>

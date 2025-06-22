@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me :: Digital Dilemma</title>
+    <link>https://digdilem.org/about/index.html</link>
+    <description>About this Website History Digital Dilemma is a name used by it’s creator, Simon Avery, since around 1990 relating to computer related services.&#xA;Early 1990s – Round Corner Software / Digital Dilemma I founded and ran a Public Domain / Shareware company that distributed cassette tapes and 3″ 178Kb disks of free software for the Amstrad CPC. Some of it was my own text adventures, but mostly other peoples. Back then, this was the standard way to distribute software that wasn’t on sale in the local shops. People would request some selections, I’d copy them to the requested media and post them in a jiffy bag. Commercially it was a flop, but it was only ever intended to cover the postage costs.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jun 2025 10:32:32 +0100</lastBuildDate>
+    <atom:link href="https://digdilem.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About the Author</title>
+      <link>https://digdilem.org/about/me/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 10:32:32 +0100</pubDate>
+      <guid>https://digdilem.org/about/me/index.html</guid>
+      <description>Digital Dilemma / digdilem / Simon Avery An old geek from Dartmoor&#xA;I’ve been a labourer, tree surgeon, van driver, maintenance worker, fundraiser and managing director of a horse charity.&#xA;Currently I’m a Linux Sysadmin happily working for a Sports company in Exeter, England.&#xA;I have always been a geek, and fairly recently self-diagnosed as Autistic. This follows an early formal diagnosis of Dyslexia. Re-evaluating my life with this information has led to a lot of “Of course!” moments…</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+/2025/03/containers-for-esp-projects/   /home-automation/esphome/esp-containers/
+/the-online-dartmoor-archive/           /dartmoor/
+/category/ha/                           /home-automation/
+/category/land-rover/                   /vehicles/land-rover/
+/land-rovers/                           /vehicles/land-rover/
+/category/motorbikes/                   /vehicles/motorbikes/ 
+/category/mariadb-mysql/                /sysadmin/mariadb/
+/category/linux-sysadmin/               /sysadmin/
+/2025/03/solving-excess-memory-usage-in-mariadb/   /sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/
+/2025/03/migrating-from-prtg-to-zabbix-one-teams-journey/   /sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/
+/2025/02/zabbix-how-to-monitor-ssl-website-certificates/ /sysadmin/zabbix/zabbix-monitor-ssl/
+/2024/10/mariadb-improving-memory-management-and-performance/      /sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/
+/2024/10/solution-docker-networking-fails-after-iptables-service-is-restarted/     /sysadmin/docker/docker-network-fails-after-iptables-restarts/
+/2024/09/improving-or-ruining-a-himalayan-motorbike-seat/      /vehicles/motorbikes/improving-a-himalayan-seat/
+/2024/09/how-to-do-backups-of-important-data/      /sysadmin/backing-up-data/
+

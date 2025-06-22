@@ -1,0 +1,69 @@
+baseURL: https://digdilem.org/
+languageCode: en-us
+title: Digital Dilemma
+description: A place for things
+#linkTitle: Relearn
+theme: hugo-theme-relearn
+
+author:
+  email: digdilem@gmail.com
+  name: Simon Avery
+
+params:
+  disableGeneratorVersion: true
+  disableLandingPageButton: true  
+  showVisitedLinks: true  
+  alwaysopen: false
+  hideAuthorDate: true
+  enableMermaid: true
+
+#  imageEffects:
+#    bg-white: false
+#    border: true
+#    dataurl: true
+#    inlinecontent: false
+#    lazy: true
+#    lightbox: true
+#    shadow: true
+
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Needed if you want to allow raw HTML
+    # 20250621 Try to get images to display with a title below them
+    # parser:
+    #   attribute:
+    #     block: true
+    # renderer:
+    #   wrapStandAloneImageWithinParagraph: false    
+    # ---20250621
+
+  highlight:
+    codeFences: true
+
+#  titleSeparator: '|'  
+#  themeVariant:
+#    - auto
+#    - zen-dark
+#    - relearn-light
+#    - relearn-dark
+# Advanced
+  themeVariant:
+  - identifier: digdilem
+
+outputs:
+  home:
+  - html
+  - rss
+  - print
+  page:
+  - html
+  - rss
+  - print
+  section:
+  - html
+  - rss
+  - print
+

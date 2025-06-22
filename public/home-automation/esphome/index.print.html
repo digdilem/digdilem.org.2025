@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="This is a new chapter.
+ESP Project Boxes Measuring Voltage With an Esp32 Measuring Wind With Esphome One Wire">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Esphome :: Digital Dilemma">
+    <meta name="twitter:description" content="This is a new chapter.
+ESP Project Boxes Measuring Voltage With an Esp32 Measuring Wind With Esphome One Wire">
+    <meta property="og:url" content="https://digdilem.org/home-automation/esphome/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Esphome :: Digital Dilemma">
+    <meta property="og:description" content="This is a new chapter.
+ESP Project Boxes Measuring Voltage With an Esp32 Measuring Wind With Esphome One Wire">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Esphome :: Digital Dilemma">
+    <meta itemprop="description" content="This is a new chapter.
+ESP Project Boxes Measuring Voltage With an Esp32 Measuring Wind With Esphome One Wire">
+    <meta itemprop="datePublished" content="2025-06-21T15:26:57+01:00">
+    <meta itemprop="dateModified" content="2025-06-21T15:26:57+01:00">
+    <meta itemprop="wordCount" content="19">
+    <title>Esphome :: Digital Dilemma</title>
+    <link href="https://digdilem.org/home-automation/esphome/index.html" rel="canonical" type="text/html" title="Esphome :: Digital Dilemma">
+    <link href="/home-automation/esphome/index.xml" rel="alternate" type="application/rss+xml" title="Esphome :: Digital Dilemma">
+    <link href="/images/favicon.png?1750596076" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750596076" rel="stylesheet">
+    <link href="/css/theme.min.css?1750596076" rel="stylesheet">
+    <link href="/css/format-print.min.css?1750596076" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750596076" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750596076" defer></script>
+    <script src="/js/search.min.js?1750596076" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/home-automation\/esphome\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1750596076";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support print" data-url="/home-automation/esphome/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/home-automation/index.html"><span itemprop="name">Home Automation</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Esphome</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/index.html" title="Home Automation (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/measuring-voltage-with-an-esp32/index.html" title="Measuring Voltage With an Esp32 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable chapter" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="chapter narrow">
+  <header class="headline">   
+  </header>
+
+
+<h1 id="esphome">Esphome</h1>
+
+<p>This is a new chapter.</p>
+<ul class="children children-li children-sort-title">
+  <li class="children-title"><a href="/home-automation/esphome/esp-containers/index.html">ESP Project Boxes</a></li>
+  <li class="children-title"><a href="/home-automation/esphome/measuring-voltage-with-an-esp32/index.html">Measuring Voltage With an Esp32</a></li>
+  <li class="children-title"><a href="/home-automation/esphome/measuring-wind-with-esphome/index.html">Measuring Wind With Esphome</a></li>
+  <li class="children-title"><a href="/home-automation/esphome/one-wire/index.html">One Wire</a></li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Esphome</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="measuring-voltage-with-an-esp32">Measuring Voltage With an Esp32</h1>
+
+<p><em>A fun little project that has a useful function for me – wirelessly connecting a vehicle battery to Home Assistant.</em></p>
+<p><strong>Justification</strong>: I wanted to be able to check my vehicle&rsquo;s battery was good, and automatically alert me if it wasn&rsquo;t.</p>
+<p>I own a classic Land Rover that doesn&rsquo;t get driven enough, and I wanted to keep an eye on the battery voltage so that I knew when to put it on charge, using HA to alert me when it dropped below a certain point. That worked well for a while, but then I had much worse problems with my Motorbike which, despite two new batteries, went low enough to fail to start after only 10 days. I spent a long time trying to sort out the parasitic drain, but the general advice was “They all do that”. So I got a Optimate battery tender that trickle-charges it. The only problem was remembering to plug the thing in! So I moved my widget across to the bike shed and connected it directly to the 12v feed on the tender. Now, if I forget to plug it back in and the voltage drops below 12.6v, I get a SMS telling me I&rsquo;ve been forgetful.</p>
+<h2 id="the-hardware">The Hardware:</h2>
+<ul>
+<li>A nodemcu ESP8266 board circuit board (Other boards will work too)</li>
+<li>A power shield to step the incoming ~12v voltage down to a level that the ESP8266 can accept</li>
+<li>A car cigarette-lighter USB adapter (To stop the 12v down to ~5v and power the ESP8266)</li>
+<li>A box to keep it in (I used a standard UK wall-mount socket with blanking plate, but any box works as long as it provides some protection against knocks and the weather if it&rsquo;s exposed to them. I&rsquo;ve even used Chinese Takeaway containers)</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="1.jpg"
+       alt="Super mega deluxe wireless voltage measuring device"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Super mega deluxe wireless voltage measuring device</b></i></p></figcaption>
+  
+</figure>
+</p>
+<ul>
+<li>Here&rsquo;s what it looks like:
+<ul>
+<li>Wrapped in red tape – the 12-&gt;5v adapter</li>
+<li>Top left: The power shield to reduce 12v</li>
+<li>Bottom: The ESP8266, face down.</li>
+</ul>
+</li>
+</ul>
+<p><em>Notes: If you&rsquo;re running the ESP from a separate power supply, perhaps by measuring the voltage coming out of a trickle-charger instead of directly to the battery, you obviously won&rsquo;t need any 12 -&gt; 5v adapter</em></p>
+<h2 id="the-ecosystem">The Ecosystem:</h2>
+<ul>
+<li><a href="https://www.home-assistant.io/" rel="external" target="_blank">Home Assistant</a> Free open source Home Automation Platform, running in Docker on my home server</li>
+<li><a href="https://esphome.io/" rel="external" target="_blank">EspHome</a> Excellent plugin for Home Assistant that programs the 8266 board</li>
+<li><a href="https://grafana.com/" rel="external" target="_blank">Grafana</a> (Optional) Makes for prettier and more flexible graphs than Home Assistant does. Connecting them requires InfluxDb. <a href="https://thesmarthomejourney.com/2021/05/02/grafana-influxdb-home-assistant/" rel="external" target="_blank">Example setup guide</a></li>
+</ul>
+<h2 id="esphome-code">ESPHome code:</h2>
+<p>Esphome makes programming chips really as easy as it could be. I&rsquo;ve always been interested in doing this, but had struggled with the thought of soldering and electronics generally. No need for any of that with this project.</p>
+<p>I installed esphome on a little low power PC that runs Debian and connected the ESP8266 via a usb lead. I then followed their instructions for creating a new project, and wrote the following code:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>esphome:
+  name: voltage
+  platform: ESP8266
+  board: nodemcu
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: &#34;&#34;
+
+ota:
+  password: &#34;&#34;
+
+wifi:
+  ssid: &#34;WifiSSID&#34;
+  password: &#34;WifiPass&#34;
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: &#34;Esphome Voltage Fallback Hotspot&#34;
+    password: &#34;WifiPass&#34;
+
+captive_portal:
+
+#deep_sleep:
+#  run_duration: 20s
+#  sleep_duration: 10min
+
+sensor:
+  - platform: adc
+    pin: A0
+    name: &#34;Bike Voltage&#34;
+    update_interval: 60s
+    filters:
+      - multiply: 24.8</code></pre></div>
+<h2 id="notes-about-the-code">Notes about the code:</h2>
+<ul>
+<li>I first used this code on my Landrover, which took power from the main battery. The deep_sleep section puts the chip into a very low power state which saved a lot of drain. As my bike is connected to the output wires from a trickle charger, I commented out this section as I no longer need it.</li>
+<li>The <em>multiply</em>: value of 24.8 took quite a lot of trial and error to be accurate. I used a reliable multimeter on the same voltage source on my bench and then experimented with this until it matched. The power shield steps the voltage down to below the 3.3v that the chip can accept. If you connect 12v directly to the chip, it&rsquo;s going to blow, so reducing it, reading it and then multiplying that value is the only way for this to work. Sounds quite hacky but it&rsquo;s surprising how often solutions like this exist to get around such problems.</li>
+</ul>
+<p>This is then compiled by esphome and and uploaded to the chip via the usb lead and starts running.</p>
+<p>Any future updates to this code can be done without connecting it – esphome will connect to the device over the wifi connection and, by magic, update the code remotely!</p>
+<p>ESPHome also runs as an integration in Home Assistant, and once installed, will automatically register new devices to itself.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="2.png"
+       alt="ESPHome integration within Home Assistant"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>ESPHome integration within Home Assistant</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>That entity this integration creates is then available within HA to do anything we want with. We can stick it on HA&rsquo;s own dashboard like so</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="3.png"
+       alt="Home Assistant Dashboard output"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Home Assistant Dashboard output</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>And, by exporting it to Grafana, show prettier graphs of any range we like. In this one, we see the battery tender going through a cycle of topping up the battery, then sleeping for a bit, then repeating.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="4.png"
+       alt="Grafana chart, using Home Assistant as a data source"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Grafana chart, using Home Assistant as a data source</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>I also have an Automation in Home Assistant that alerts me when the voltage drops below 12.2v, or stops updating for 24h as that means my bike is going to struggle to start and I&rsquo;d rather find that out before I put on all my leathers and get ready to go out! The reason is usually because I&rsquo;ve forgotten to plug it back into the charger!</p>
+<p>I hope you enjoyed this article and found it useful.</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/esphome/index.html">Esphome</a></li>
+    <li><a class="term-link" href="/categories/home-assistant/index.html">Home-Assistant</a></li>
+    <li><a class="term-link" href="/categories/home-automation/index.html">Home-Automation</a></li>
+    <li><a class="term-link" href="/categories/measuring/index.html">Measuring</a></li>
+    <li><a class="term-link" href="/categories/project/index.html">Project</a></li>
+    <li><a class="term-link" href="/categories/voltage/index.html">Voltage</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="measuring-wind-with-esphome">Measuring Wind With Esphome</h1>
+
+<p>One very windy Autumn night, I wondered just how hard was the wind blowing? Spotting a cheap anenometer on Ebay, I figured it was worth trying to add this to my HA setup. It turned out to be surprisingly easy and in just an afternoon, things were up and working beautifully.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="1.png"
+       alt="The WH1090 in-situ and working"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>The WH1090 in-situ and working</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="the-physical-bits">The Physical Bits</h2>
+<ul>
+<li>One Anenemeter, a HADEX WH1080.
+<ul>
+<li>Although pretty much any pulse-based meter will work.</li>
+<li>It has two wires and putting a multimeter across them, I saw that one full revolution opens and closes these wires three times. Considering how fast these things can spin, that’s going to take a lot of counting!</li>
+<li>I extended the wiring by soldering and heat-shrinking a 5 meter length of bell wire onto it, then tested again.</li>
+<li>I mounted it on a shelf bracket with a suitable sized bolt that neatly screws into the mount, as i don’t have the full weather-station kit this unit comes with. This sits near my garage, although it’s not a great position since it’s quite sheltered. However, this is just a fun little project and I’m not too worried about its accuracy, and I won’t be sharing speeds with anyone else.</li>
+</ul>
+</li>
+<li>One ESP8266 or ESP32 or similar chip.
+<em>I’ve used a Nodemcu chip without any additional backboarding or hats. I put it in an old light-switch box just for some protection from knocks.</em></li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="2.png"
+       alt="Inside this scruffy thing lies the ESP8266, honest! Next time I’ll take better photos"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Inside this scruffy thing lies the ESP8266, honest! Next time I’ll take better photos</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="connecting-the-bits">Connecting the bits</h2>
+<p>The ESP8266 connects to HA by wifi, so it only needs a USB power supply and whatever connections we’re poking into it.</p>
+<p>The Anenometer has two wires, and they open and close three times per revolution. It shouldn’t matter which way around they are connecting as we only care that they open and close.</p>
+<p>I connected these to pins GND and GPIO14 next to it (which is Pin D4 on the board) – see this useful reference for the NodemCPU to figure out which pins go where.</p>
+<p>That’s it! One micro usb connector supplying 5v and two wires.</p>
+<h2 id="the-esphome-code">The ESPHome code</h2>
+<p>(I won’t cover the ‘Getting started’ bit of ESPhome – they have their own excellent documentation <a href="https://esphome.io/" rel="external" target="_blank">here</a>)</p>
+<p>Before I placed the ESP8266 in position, I connected it to a small Linux PC via USB and did this;</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mkdir -p /opt/esphome/anenometer
+cd /opt/esphome/anenomter
+esphome wizard configuration anenometer.yaml</code></pre></div>
+<p>This creates a directory for the files and changes into it, then sets up the initial yaml file for the project. Once you’ve answered some basic questions, you’re can then edit the anenometer.yaml file with the editor of your choice. (I use vi, but you do whatever you like)</p>
+<p>This is what my anenometer.yaml file looks like once I’ve added in some bits</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>esphome:
+  name: anenometer
+  platform: ESP8266
+  board: nodemcu
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: &#34;&#34;
+
+ota:
+  password: &#34;&#34;
+
+wifi:
+  ssid: &#34;HOMESSID&#34;
+  password: &#34;PASSWORD&#34;
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: &#34;Anenometer Fallback Hotspot&#34;
+    password: &#34;PASSWORD&#34;
+
+captive_portal:
+
+sensor:
+  - platform: pulse_meter
+    pin:
+      number: GPIO14
+      mode: INPUT_PULLUP
+    name: &#39;Windspeed Meter&#39;
+    icon: &#39;mdi:weather-windy&#39;
+    id: wind_meter
+    unit_of_measurement: &#39;mph&#39;
+    accuracy_decimals: 0
+    timeout: 5s
+    filters:
+      - multiply: 0.0015    
+      - sliding_window_moving_average:
+          window_size: 100
+          send_every: 100</code></pre></div>
+<p>Now, to explain some of the sensor bits here that might not be self-evident:</p>
+<ul>
+<li><strong>Name</strong>: What Home Assistant will call this entity.</li>
+<li><strong>filters</strong>:
+<ul>
+<li><strong>multiply</strong>: This is where the trial and error comes in. At this stage, I’m guessing as I have no other point of reference, but this seems roughly to match the Beaufort Scale over the past few days. Do experiment with this value yourself. (The fact this is less than 1 means the multiplication is actually a division)</li>
+<li><strong>sliding_window_moving_average</strong>: This allows us to count a bunch of pulses and then send a value every N number. Without this we would be trying to send every pulse, and as each rotate is three pulses, that might not be so good.</li>
+<li><strong>window_size</strong>: How many pulses to read before establishing an average number over that time. This could be much larger to eliminate gusts, but it would be much slower to update in non-windy conditions.</li>
+<li><strong>send_every</strong>: How many pulses are received before sending an update to HA.</li>
+</ul>
+</li>
+</ul>
+<p>Again, Esphome has better and accurate documentation on each of these items <a href="https://esphome.io/components/sensor/index.html" rel="external" target="_blank">here</a></p>
+<p>That’s about it! The config was first uploaded to the ESP8266 using esphome run anenometer.yaml and then choosing the right-looking USB port.</p>
+<p>Once it’s up though, you can change this file and update the ESP8266 over the air by re-running the same command and choosing “Over the air” instead of selecting a USB port. Magic!</p>
+<h2 id="one-last-thing">One last thing!</h2>
+<p>You’ll need to know what IP address your new ESP8266 was given. I find this out by checking my router’s DHCP list, but you can also use arpwatch to look for new devices.</p>
+<h2 id="home-assistant">Home Assistant</h2>
+<p>To add the new ESP8266 device to HA, we need to</p>
+<ul>
+<li>Go into Settings -&gt; Devices &amp; Services in Home Assistant</li>
+<li>Click Add Integration</li>
+<li>Select ESPHome</li>
+<li>Enter the IP Address of your new ESP8266 (See ‘One Last Thing!’ above) and leave the default port of 6053 as it is. Click Submit.</li>
+<li>Your new device should appear in the ESPhome panel on the Integrations page, and selecting it will show it has one entity – which should be called Windspeed and have the entity id of sensor.windspeed_meter</li>
+<li>Clicking on that entry, and into the Info tab should show some data, and after a little while, look something like this</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="3.png"
+       alt="My windspeed graph"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>My windspeed graph</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>And that’s it! You can add it to any dashboards you like.</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/anenometer/index.html">Anenometer</a></li>
+    <li><a class="term-link" href="/categories/esphome/index.html">Esphome</a></li>
+    <li><a class="term-link" href="/categories/home-assistant/index.html">Home-Assistant</a></li>
+    <li><a class="term-link" href="/categories/measuring/index.html">Measuring</a></li>
+    <li><a class="term-link" href="/categories/wind/index.html">Wind</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="using-one-wire-sensors-in-esphome">Using One Wire sensors in ESPHome</h1>
+
+<p>Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.</p>
+<p>I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There&rsquo;s several ways to use them and I&rsquo;ll explain a couple.</p>
+<h1 id="one-wire-with-home-assistant-esphome-and-esp32esp8266-controllers-or-usb">One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB)</h1>
+<p>This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors</p>
+<p><em>This guide assumes you have set up ESPHome already and have a microcontroller ready to be written</em></p>
+<h2 id="step-1---the-physical-wiring">Step 1 - The physical wiring.</h2>
+<p>There are two main type of 1-wire temp sensors:</p>
+<ul>
+<li>The DS1820 or DS18S20 bare sensor  <figure><img src="/home-automation/esphome/one-wire/ds1920.jpg"
+    alt="DS1820 or DS18S20" width="290px">
+</figure>
+</li>
+<li>The DS18B20 or Waterproof <figure><img src="/home-automation/esphome/one-wire/ds18b20.jpg"
+    alt="DS18B20 or Waterproof" width="290px">
+</figure>
+</li>
+</ul>
+<p>Most people will buy the DS18B20 which is easier to assemble and still very cheap.</p>
+<h4 id="connections">Connections:</h4>
+<ul>
+<li>Red wire of DS18B20, Pin 3 (VDD) of DS1820 should be connected to between 3 and 5v.  Both these voltages are typically available on an ESP, but 3.3 is the more commonly used.</li>
+<li>Black wire of DS18B20, Pin 1 (GND) of DS1820 1 should be connected to GND on the ESP.</li>
+<li>Yellow wire of DS18B20, Pin 2 (DQ) of DS1820, should be connected to the GPIO port you choose on your ESP.</li>
+</ul>
+<h4 id="the-resistor">The Resistor</h4>
+<ul>
+<li>A resistor should be placed between the Red and Yellow (Pins 1 and 3 on the DS1820) to &ldquo;Pull up&rdquo; the bus. This should be 4.7k ohms. However, I have tested with various resistors down to 1kohm, and even omitted it entirely and had satisfactory results. But it does seem to work best with 4.7kohms used.</li>
+<li>The resistor should be connected as close to the ESP as possible, so it affects the whole bus.</li>
+</ul>
+<p>Wiring Flowchart</p>
+<pre class="mermaid align-center ">flowchart TD
+    A[&#34;ESP&lt;br&gt;(ESP32/8266)&#34;] --&gt; n1[&#34;GND pin&#34;] &amp; n2[&#34;3.3v pin&#34;] &amp; n3[&#34;Signal Pin (Say, D5)&#34;]
+    n3 --&gt; n4[&#34;Yellow Wire of DS18B20, or DQ, Center pin &#39;2&#39; of DS1820&#34;]
+    n2 --&gt; n5@{ label: &#34;&lt;span style=\&#34;padding-left:\&#34;&gt;Red Wire of DS18B20, or pin &#39;3&#39; of DS1820&lt;/span&gt;&#34; }
+    n1 --&gt; n6@{ label: &#34;&lt;span style=\&#34;padding-left:\&#34;&gt;Black Wire of DS18B20, or pin &#39;1&#39; of DS1820&lt;/span&gt;&#34; }
+    n5 --&gt; n7([&#34;4.7K Ohm Resistor&#34;])
+    n4 --&gt; n7</pre>
+<h4 id="connecting-multiple-sensors-to-one-bus">Connecting multiple sensors to one bus</h4>
+<ul>
+<li>References to a &ldquo;Bus&rdquo; in other documentation simply means the wire network this system runs on, especially when there are multiple sensors connected.</li>
+</ul>
+<p>This is simply done by creating either a single &ldquo;star&rdquo; where multiple sensors are fed from the same connections, or from multiple stars where connections are made from a common backbone wire. In all cases, it is simply a case of connecting all the same wires or pins together. Every red to a red, every black to a black, every yellow to a yellow - until the first connection which goes to the relevant pins on the ESP.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="onewire-star.jpg"
+       alt="Diagram of a multi-star one-wire bus"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Diagram of a multi-star one-wire bus</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h6 id="notes">Notes:</h6>
+<ul>
+<li>Either sensor can run at between 3 and 5v dc and the red/pin3 can be connected to either. It does not affect accuracy which is used.</li>
+<li>Sensors have a unique ID which is reported along with their readings along the common &ldquo;bus&rdquo; back to the ESP or controller. This ID is how we identify which device is supplying which reading.</li>
+<li>It is possible to run large lengths of one-wire with many devices. I personally have run a bus of around 80 feet with 12 sensors connected to it.</li>
+<li>One wire can be remarkably resilient on the type of wire it uses. There are recorded cases if people using house pipework.</li>
+<li>It&rsquo;s reported that longer installations work best with an external 5v power supply, but I have had no problem using an ESP&rsquo;s 3.3v output. The current needed is tiny.</li>
+<li>Although it&rsquo;s called one wire, a good installation requires three cores.</li>
+<li>That said, it is possible to create a network by connecting only two cores. This is done by connecting the red and yellow wires of the DS18B20 (The outer two, GND and VDD of a DS1820). This can work very reliably and avoids the needs of a resistor, but should only be considered if three core wire is unavailable.</li>
+</ul>
+<h2 id="step-2---ok-so-the-wirings-done-what-about-taking-readings">Step 2 - Ok, so the wiring’s done, what about taking readings?</h2>
+<p>There are multiple ways to get the readings into Home Assistant.</p>
+<h3 id="esphome">ESPHome</h3>
+<p>Assuming you already have an ESP set up and ready to use.</p>
+<p>Connect the wiring as above to the ESP (Most GPIO pins can be used for the Signal/DQ/Yellow pin - we&rsquo;ll use GPIO5 for our example below (Pin D1 on a Nodemcu)</p>
+<p>Add this to the ESPHome yaml;</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code># GPIO
+one_wire:
+  - platform: gpio
+    pin: GPIO5</code></pre></div>
+<p>And run <code>esphome run MyESPFile.yaml</code> and wait until it boots and starts producing logs.</p>
+<p>Inside the logs, assuming the physical connection is good, ESPHome will discover all devices on the one-wire bus, like so:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>[20:59:28][C][gpio.one_wire:022]: GPIO 1-wire bus:
+[20:59:28][C][gpio.one_wire:023]:   Pin: GPIO14
+[20:59:28][C][gpio.one_wire:084]:   Found devices:
+[20:59:28][C][gpio.one_wire:086]:     0x9c01145eeabd4028 (DS18B20)
+[20:59:28][C][gpio.one_wire:086]:     0xee012026de4a2428 (DS18B20)
+[20:59:28][C][gpio.one_wire:086]:     0x0401202706051528 (DS18B20)
+[20:59:28][C][captive_portal:089]: Captive Portal:</code></pre></div>
+<p>These provide the unique ID of each temperature sensor and the model needed.</p>
+<p>Now you have the information you need to re-edit the yaml and create the sensors properly, like so:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>sensor:
+  # Dallas
+  # Repeat for each sensor on this bus
+  - platform: dallas_temp
+    address: 0x9c01145eeabd4028
+    name: &#34;Boiler Flow&#34;    
+    update_interval: 30s
+  - platform: dallas_temp
+    address: 0xee012026de4a2428
+    name: &#34;Hot Water Tank&#34;    
+    update_interval: 30s</code></pre></div>
+<h4 id="tips">Tips</h4>
+<ol>
+<li>
+<p>The DB18B20 sensor may have the ID printed on its label and you can create the sensor config on your first go.</p>
+</li>
+<li>
+<p>If your Dallas bus has several sensors and you&rsquo;re unsure which sensor relates to which purpose, continue streaming logs after building it, and simply hold one in your hand (or mouth, or cup of ice) for a little while until its readings change. Then add a sticky label to its lead.</p>
+</li>
+</ol>
+<h3 id="connecting-the-onewire-bus-to-a-pc-not-for-esphome">Connecting the Onewire bus to a PC <em>(Not for ESPHome)</em></h3>
+<p>You will need an adapter to connect your one-wire bus to your PC, such as  the <a href="https://datasheets.maximintegrated.com/en/ds/DS9490-DS9490R.pdf" rel="external" target="_blank">DS9490R</a></p>
+<figure><img src="/home-automation/esphome/one-wire/DS9490R.jpg"
+    alt="DS9490R" width="290px">
+</figure>
+
+<p>This can be connected to Home Assistant directly using it&rsquo;s native <a href="https://www.home-assistant.io/integrations/onewire/" rel="external" target="_blank">1-wire integration</a> or, as I did (because the former wasn&rsquo;t available when I first set up one-wire), by using Linux&rsquo;s OWFS one-wire file system, and writing a script to read the values from the local file system and put them into a MariaDb database, from which HA would fetch the values. (Not a very elegant way, but it worked well for years!)</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+<div class="R-taxonomy taxonomy-tags cstyle tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="/tags/esp/index.html">Esp</a></li>
+    <li><a class="term-link" href="/tags/home-automation/index.html">Home-Automation</a></li>
+    <li><a class="term-link" href="/tags/project/index.html">Project</a></li>
+  </ul>
+</div>
+  </header>
+
+<h1 id="containers-for-esp-projects">Containers for ESP Projects</h1>
+
+<p>What to use once you&rsquo;ve worked out your project and want to actually use it?</p>
+<p>Here&rsquo;s some containers that I&rsquo;ve used for various projects. This isn&rsquo;t so much a demonstration of how you <em>should</em> do, more a hall of shame of how <em>I&rsquo;ve</em> done it&hellip;</p>
+<h2 id="naked-esp-dangling-from-its-usb-supply">Naked ESP dangling from its USB supply</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="1.png"
+       alt="This one measured my classic car&rsquo;s battery voltage so has a little daughter board to step that down. And no, I&rsquo;m not proud of that negative connection."
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>This one measured my classic car&rsquo;s battery voltage so has a little daughter board to step that down. And no, I&rsquo;m not proud of that negative connection.</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="electrical-tape-wound-around-the-esp-and-connecting-wires">Electrical tape wound around the ESP and connecting wires</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="2.png"
+       alt="Terrible. Never do this."
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Terrible. Never do this.</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="a-plastic-bag-taped-closed">A plastic bag taped closed</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="3.png"
+       alt="This was surprisingly effective for a zero effort container that didn&rsquo;t need any ongoing work. Keeps the dust off, stops short circuits. Might suffer from overheating if you run a very hot chip, but for my 8266&rsquo;s it was fine."
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>This was surprisingly effective for a zero effort container that didn&rsquo;t need any ongoing work. Keeps the dust off, stops short circuits. Might suffer from overheating if you run a very hot chip, but for my 8266&rsquo;s it was fine.</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="an-electrical-socket">An Electrical Socket</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="4.png"
+       alt="Specifically, a deep backing box for surface mount. Lots of space, heat rated plastic, handy knockouts for wire entry and screw mounting. Top with a blanking plate (or even an actual light switch or socket) and it blends right in – until someone tries to use it."
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Specifically, a deep backing box for surface mount. Lots of space, heat rated plastic, handy knockouts for wire entry and screw mounting. Top with a blanking plate (or even an actual light switch or socket) and it blends right in – until someone tries to use it.</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="an-outside-light-switch">An outside light switch</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="5.png"
+       alt="I had an old one of these with a broken switch when I was looking for a container to use outside and it fit the bill. Handy grommits to run wires, totally waterproof – worked great!"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>I had an old one of these with a broken switch when I was looking for a container to use outside and it fit the bill. Handy grommits to run wires, totally waterproof – worked great!</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="a-takeaway-food-container">A takeaway food container</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="6.png"
+       alt="With the lid on, it keeps dust out nicely. A little bubble wrap ensures it sleeps soundly."
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>With the lid on, it keeps dust out nicely. A little bubble wrap ensures it sleeps soundly.</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p><em>This was actually my first &ldquo;proper&rdquo; ESP project! The 12v incoming supply to the breakaway board feeds power to the 12v PIRs. The cat5 brings wires connected to the zones of my old and broken home burglar alarm. Running Konnected, the esp8266 has been feeding house movement and door/window sensor information to Home Assistant for over half a decade like this!</em></p>
+<h2 id="various-project-boxes">Various &ldquo;Project Boxes&rdquo;</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="7.png"
+       alt="These are perfectly useful, but probably my least favourite containers to use. They&rsquo;re quite expensive and so predictable!"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>These are perfectly useful, but probably my least favourite containers to use. They&rsquo;re quite expensive and <em>so</em> predictable!</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h2 id="the-rugged-aluminium-speaker-and-electronics-boxes-from-a-heavy-plant-reversing-system">The rugged aluminium speaker and electronics boxes from a heavy plant reversing system</h2>
+<p>
+
+  
+
+
+<figure>
+  <img src="8.png"
+       alt="I was lucky enough to score a big box full of these things at a local auction for a quid. They&rsquo;re about 250x100mm by about 50mm deep - lots of space and made of aluminium so really strong."
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>I was lucky enough to score a big box full of these things at a local auction for a quid. They&rsquo;re about 250x100mm by about 50mm deep - lots of space and made of aluminium so really strong.</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p><em>They did have a bunch of lights and buttons on the front, which is why I&rsquo;ve rivetted some ally across the holes here.</em></p>
+<p>
+
+  
+
+
+<figure>
+  <img src="9.png"
+       alt="A picture of the insides. The green things on the left are connector blocks, so I can just unplug the box and take it away without all the pain of reconnecting the sensor wires afterwards_. _Being able to replace the ESP from the breakaway board is a great thing too – I have had issues where I needed to remove it to reflash after a bodged over-the-air update and this layout made that easy."
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>A picture of the insides. The green things on the left are connector blocks, so I can just unplug the box and take it away without all the pain of reconnecting the sensor wires afterwards_. _Being able to replace the ESP from the breakaway board is a great thing too – I have had issues where I needed to remove it to reflash after a bodged over-the-air update and this layout made that easy.</b></i></p></figcaption>
+  
+</figure>
+</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/home-automation/index.html">Home-Automation</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard/clipboard.min.js?1750596076" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750596076" defer></script>
+    <script src="/js/js-yaml/js-yaml.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-color.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1750596076" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1750596076" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/theme.min.js?1750596076" defer></script>
+  </body>
+</html>

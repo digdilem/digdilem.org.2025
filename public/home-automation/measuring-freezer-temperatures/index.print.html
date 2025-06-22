@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Please also read my article about keeping Zigbee and other battery devices running in sub-zero temperatures Or dealing with battery failure in minus twenty degrees.
+Some years ago, I filled one of my freezers with frozen meat for my dogs and forgot to turn it on. My dogs helpfully reminded me three weeks later when it started oozing liquid out through the door. Finding a home for 80kg of rotted meat in open plastic bags was one of the less fun jobs I’ve had, and trying to prevent this happening again drove me to start monitoring their temperatures.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Measuring Freezer Temperatures :: Digital Dilemma">
+    <meta name="twitter:description" content="Please also read my article about keeping Zigbee and other battery devices running in sub-zero temperatures Or dealing with battery failure in minus twenty degrees.
+Some years ago, I filled one of my freezers with frozen meat for my dogs and forgot to turn it on. My dogs helpfully reminded me three weeks later when it started oozing liquid out through the door. Finding a home for 80kg of rotted meat in open plastic bags was one of the less fun jobs I’ve had, and trying to prevent this happening again drove me to start monitoring their temperatures.">
+    <meta property="og:url" content="https://digdilem.org/home-automation/measuring-freezer-temperatures/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Measuring Freezer Temperatures :: Digital Dilemma">
+    <meta property="og:description" content="Please also read my article about keeping Zigbee and other battery devices running in sub-zero temperatures Or dealing with battery failure in minus twenty degrees.
+Some years ago, I filled one of my freezers with frozen meat for my dogs and forgot to turn it on. My dogs helpfully reminded me three weeks later when it started oozing liquid out through the door. Finding a home for 80kg of rotted meat in open plastic bags was one of the less fun jobs I’ve had, and trying to prevent this happening again drove me to start monitoring their temperatures.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Measuring Freezer Temperatures :: Digital Dilemma">
+    <meta itemprop="description" content="Please also read my article about keeping Zigbee and other battery devices running in sub-zero temperatures Or dealing with battery failure in minus twenty degrees.
+Some years ago, I filled one of my freezers with frozen meat for my dogs and forgot to turn it on. My dogs helpfully reminded me three weeks later when it started oozing liquid out through the door. Finding a home for 80kg of rotted meat in open plastic bags was one of the less fun jobs I’ve had, and trying to prevent this happening again drove me to start monitoring their temperatures.">
+    <meta itemprop="datePublished" content="2025-06-16T09:30:44+01:00">
+    <meta itemprop="dateModified" content="2025-06-16T09:30:44+01:00">
+    <meta itemprop="wordCount" content="692">
+    <meta itemprop="keywords" content="Home-Automation,Temperature,Home-Assistant">
+    <title>Measuring Freezer Temperatures :: Digital Dilemma</title>
+    <link href="https://digdilem.org/home-automation/measuring-freezer-temperatures/index.html" rel="canonical" type="text/html" title="Measuring Freezer Temperatures :: Digital Dilemma">
+    <link href="/home-automation/measuring-freezer-temperatures/index.xml" rel="alternate" type="application/rss+xml" title="Measuring Freezer Temperatures :: Digital Dilemma">
+    <link href="/images/favicon.png?1750596076" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750596076" rel="stylesheet">
+    <link href="/css/theme.min.css?1750596076" rel="stylesheet">
+    <link href="/css/format-print.min.css?1750596076" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750596076" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750596076" defer></script>
+    <script src="/js/search.min.js?1750596076" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/home-automation\/measuring-freezer-temperatures\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1750596076";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support print" data-url="/home-automation/measuring-freezer-temperatures/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#pros-and-cons-of-onewire-in-this-instance">Pros and cons of onewire in this instance:</a></li>
+      </ul>
+    </li>
+    <li><a href="#pros">Pros:</a></li>
+    <li><a href="#cons">Cons:</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#pros-1">Pros:</a></li>
+    <li><a href="#cons-1">Cons:</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/home-automation/index.html"><span itemprop="name">Home Automation</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Measuring Freezer Temperatures</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/measuring-freezer-temperatures/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/using-gpslogger-for-traccar/index.html" title="Using Gpslogger for Traccar (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/cool-automation-projects/index.html" title="Cool Automation Projects (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable home-automation" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="measuring-freezer-temperatures">Measuring Freezer Temperatures</h1>
+
+<ul>
+<li><a href="/home-automation/zigbee-sensors-in-the-cold/index.html">Please also read my article about keeping Zigbee and other battery devices running in sub-zero temperatures</a></li>
+</ul>
+<p><em>Or dealing with battery failure in minus twenty degrees.</em></p>
+<p>Some years ago, I filled one of my freezers with frozen meat for my dogs and forgot to turn it on. My dogs helpfully reminded me three weeks later when it started oozing liquid out through the door. Finding a home for 80kg of rotted meat in open plastic bags was one of the less fun jobs I’ve had, and trying to prevent this happening again drove me to start monitoring their temperatures.</p>
+<p>I currently use two methods to measure these temperatures, and have an Automation that alerts me whenever one of the temperatures goes above -5c. This should alert me if I’ve forgotten to turn it on again, as well as freezer failure or someone leaving the door open. With the average cost of a freezer’s contents being over £100, it seems like a sensible thing to do and over the years has alerted us to several non-closed doors.</p>
+<h1 id="method-1-onewire">Method 1: Onewire</h1>
+<p>One method I use is to add a Onewire sensor inside a freezer by poking a small hole in the door seal by the hinges and shoving a waterproof DS18B20 sensor inside – like this:</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="1.jpg"
+       alt="A onewire DS18B20 temperature sensor inside a freezer"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>A onewire DS18B20 temperature sensor inside a freezer</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>This does work well and produces graphs in Home Assistant like so:</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="2.png"
+       alt="Freezer graph. The big spikes show when the door is opened, and the little bumps are the cycling of the freezer"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Freezer graph. The big spikes show when the door is opened, and the little bumps are the cycling of the freezer</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="9.jpg"
+       alt="Three freezers reporting to the same graph"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Three freezers reporting to the same graph</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h3 id="pros-and-cons-of-onewire-in-this-instance">Pros and cons of onewire in this instance:</h3>
+<h2 id="pros">Pros:</h2>
+<ul>
+<li>No batteries to run out</li>
+<li>Regular readings at your own requirements.</li>
+</ul>
+<h2 id="cons">Cons:</h2>
+<ul>
+<li>The need to poke a hole in the door seal.<em>(If you have some flat wire, you can avoid this by just closing the seal over it)</em></li>
+<li>Fixed wiring. This might be unsightly and time consuming to fit. I’ve used it where I had an existing Onewire run nearby.</li>
+</ul>
+<h1 id="method-2-zigbee-temperature-sensors">Method 2: Zigbee Temperature Sensors</h1>
+<p>Wireless temperature sensors like the Aqara are cheap, reasonably accurate and small. If you have Zigbee already, then I would suggest using these.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="3.png"
+       alt="An Aqara temperature sensor"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>An Aqara temperature sensor</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>These use CR2032 button batteries. In normal, room-temperature, situations these last for up to a year. However, in a freezer at -20, I’ve had good, branded batteries fail after 3 days!</p>
+<p>To overcome this, I’ve modified my sensors to use 18650 rechargable batteries by connecting wires to the battery compartment in the Aqara that go to a battery holder. That can be in the freezer with the sensor, making a very portable little unit – or, with longer wires, outside of the freezer to stay warmer.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="4.png"
+       alt="An aqara and 18650 battery&#43;holder in a ziplock bag"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>An aqara and 18650 battery+holder in a ziplock bag</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="5.png"
+       alt="The same thing, showing wires soldered to the compartment. Negative in the centre, positive where the CR2032 rim would touch"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>The same thing, showing wires soldered to the compartment. Negative in the centre, positive where the CR2032 rim would touch</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>Whilst the room-temperature version should last longer, in practice I have found little difference in lifespan. Both last at least six months before needing recharging.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="6.png"
+       alt="An Aqara with wires soldered to the battery connectors, and sealed using hot-glue"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>An Aqara with wires soldered to the battery connectors, and sealed using hot-glue</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="7.png"
+       alt="An 18650 and holder, sitting between two freezers and providing power to two Aqara sensors"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>An 18650 and holder, sitting between two freezers and providing power to two Aqara sensors</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>Incidentally, it’s no big surprise that range is affected in these low-power sensors by putting them inside a big metal box! However, they still reach across my house to my Slae.sh Zigbee usb stick and reliability has been excellent.</p>
+<h2 id="pros-1">Pros:</h2>
+<ul>
+<li>Neater and quicker to install.</li>
+</ul>
+<h2 id="cons-1">Cons:</h2>
+<ul>
+<li>Less regular updates – these sensors only send a reading when the temperature changes. However, in practice this is a non-problem since the freezer is always cycling and updates are adequate.</li>
+<li>Still a need to replace batteries.</li>
+<li>Potential range issues when inside a freezer.</li>
+</ul>
+<h1 id="alerting-to-a-problem">Alerting to a problem</h1>
+<p>Below is my automation in Home Assistant.</p>
+<p>If any of my five sensors go above -5c, then send myself a message over Telegram and run a Shell command (This plays a .wav file to a speaker that tells the house that a freezer is over temperature)</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="8.png"
+       alt="HA’s automation for a freezer being over temperature"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>HA’s automation for a freezer being over temperature</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>And finally – apparently having five freezers is unusual! I have been told this!</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/home-assistant/index.html">Home-Assistant</a></li>
+    <li><a class="term-link" href="/categories/home-automation/index.html">Home-Automation</a></li>
+    <li><a class="term-link" href="/categories/temperature/index.html">Temperature</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard/clipboard.min.js?1750596076" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750596076" defer></script>
+    <script src="/js/theme.min.js?1750596076" defer></script>
+  </body>
+</html>

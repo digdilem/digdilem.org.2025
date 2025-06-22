@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About the Author :: Digital Dilemma</title>
+    <link>https://digdilem.org/about/me/index.html</link>
+    <description>Digital Dilemma / digdilem / Simon Avery An old geek from Dartmoor&#xA;I’ve been a labourer, tree surgeon, van driver, maintenance worker, fundraiser and managing director of a horse charity.&#xA;Currently I’m a Linux Sysadmin happily working for a Sports company in Exeter, England.&#xA;I have always been a geek, and fairly recently self-diagnosed as Autistic. This follows an early formal diagnosis of Dyslexia. Re-evaluating my life with this information has led to a lot of “Of course!” moments…</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://digdilem.org/about/me/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

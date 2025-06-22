@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.
+I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There’s several ways to use them and I’ll explain a couple.
+One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Using One Wire sensors in ESPHome :: Digital Dilemma">
+    <meta name="twitter:description" content="Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.
+I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There’s several ways to use them and I’ll explain a couple.
+One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors">
+    <meta property="og:url" content="https://digdilem.org/home-automation/esphome/one-wire/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Using One Wire sensors in ESPHome :: Digital Dilemma">
+    <meta property="og:description" content="Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.
+I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There’s several ways to use them and I’ll explain a couple.
+One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Using One Wire sensors in ESPHome :: Digital Dilemma">
+    <meta itemprop="description" content="Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.
+I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There’s several ways to use them and I’ll explain a couple.
+One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors">
+    <meta itemprop="datePublished" content="2025-06-16T19:19:19+01:00">
+    <meta itemprop="dateModified" content="2025-06-16T19:19:19+01:00">
+    <meta itemprop="wordCount" content="1079">
+    <title>Using One Wire sensors in ESPHome :: Digital Dilemma</title>
+    <link href="https://digdilem.org/home-automation/esphome/one-wire/index.html" rel="canonical" type="text/html" title="Using One Wire sensors in ESPHome :: Digital Dilemma">
+    <link href="/home-automation/esphome/one-wire/index.xml" rel="alternate" type="application/rss+xml" title="Using One Wire sensors in ESPHome :: Digital Dilemma">
+    <link href="/images/favicon.png?1750596076" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750596076" rel="stylesheet">
+    <link href="/css/theme.min.css?1750596076" rel="stylesheet">
+    <link href="/css/format-print.min.css?1750596076" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750596076" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750596076" defer></script>
+    <script src="/js/search.min.js?1750596076" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/home-automation\/esphome\/one-wire\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1750596076";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support print" data-url="/home-automation/esphome/one-wire/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#step-1---the-physical-wiring">Step 1 - The physical wiring.</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#step-2---ok-so-the-wirings-done-what-about-taking-readings">Step 2 - Ok, so the wiring’s done, what about taking readings?</a>
+      <ul>
+        <li><a href="#esphome">ESPHome</a></li>
+        <li><a href="#connecting-the-onewire-bus-to-a-pc-not-for-esphome">Connecting the Onewire bus to a PC <em>(Not for ESPHome)</em></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/home-automation/index.html"><span itemprop="name">Home Automation</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/home-automation/esphome/index.html"><span itemprop="name">Esphome</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">One Wire</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/one-wire/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/measuring-wind-with-esphome/index.html" title="Measuring Wind With Esphome (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/esp-containers/index.html" title="Containers for ESP Projects (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable home-automation" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="using-one-wire-sensors-in-esphome">Using One Wire sensors in ESPHome</h1>
+
+<p>Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.</p>
+<p>I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There&rsquo;s several ways to use them and I&rsquo;ll explain a couple.</p>
+<h1 id="one-wire-with-home-assistant-esphome-and-esp32esp8266-controllers-or-usb">One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB)</h1>
+<p>This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors</p>
+<p><em>This guide assumes you have set up ESPHome already and have a microcontroller ready to be written</em></p>
+<h2 id="step-1---the-physical-wiring">Step 1 - The physical wiring.</h2>
+<p>There are two main type of 1-wire temp sensors:</p>
+<ul>
+<li>The DS1820 or DS18S20 bare sensor  <figure><img src="/home-automation/esphome/one-wire/ds1920.jpg"
+    alt="DS1820 or DS18S20" width="290px">
+</figure>
+</li>
+<li>The DS18B20 or Waterproof <figure><img src="/home-automation/esphome/one-wire/ds18b20.jpg"
+    alt="DS18B20 or Waterproof" width="290px">
+</figure>
+</li>
+</ul>
+<p>Most people will buy the DS18B20 which is easier to assemble and still very cheap.</p>
+<h4 id="connections">Connections:</h4>
+<ul>
+<li>Red wire of DS18B20, Pin 3 (VDD) of DS1820 should be connected to between 3 and 5v.  Both these voltages are typically available on an ESP, but 3.3 is the more commonly used.</li>
+<li>Black wire of DS18B20, Pin 1 (GND) of DS1820 1 should be connected to GND on the ESP.</li>
+<li>Yellow wire of DS18B20, Pin 2 (DQ) of DS1820, should be connected to the GPIO port you choose on your ESP.</li>
+</ul>
+<h4 id="the-resistor">The Resistor</h4>
+<ul>
+<li>A resistor should be placed between the Red and Yellow (Pins 1 and 3 on the DS1820) to &ldquo;Pull up&rdquo; the bus. This should be 4.7k ohms. However, I have tested with various resistors down to 1kohm, and even omitted it entirely and had satisfactory results. But it does seem to work best with 4.7kohms used.</li>
+<li>The resistor should be connected as close to the ESP as possible, so it affects the whole bus.</li>
+</ul>
+<p>Wiring Flowchart</p>
+<pre class="mermaid align-center ">flowchart TD
+    A[&#34;ESP&lt;br&gt;(ESP32/8266)&#34;] --&gt; n1[&#34;GND pin&#34;] &amp; n2[&#34;3.3v pin&#34;] &amp; n3[&#34;Signal Pin (Say, D5)&#34;]
+    n3 --&gt; n4[&#34;Yellow Wire of DS18B20, or DQ, Center pin &#39;2&#39; of DS1820&#34;]
+    n2 --&gt; n5@{ label: &#34;&lt;span style=\&#34;padding-left:\&#34;&gt;Red Wire of DS18B20, or pin &#39;3&#39; of DS1820&lt;/span&gt;&#34; }
+    n1 --&gt; n6@{ label: &#34;&lt;span style=\&#34;padding-left:\&#34;&gt;Black Wire of DS18B20, or pin &#39;1&#39; of DS1820&lt;/span&gt;&#34; }
+    n5 --&gt; n7([&#34;4.7K Ohm Resistor&#34;])
+    n4 --&gt; n7</pre>
+<h4 id="connecting-multiple-sensors-to-one-bus">Connecting multiple sensors to one bus</h4>
+<ul>
+<li>References to a &ldquo;Bus&rdquo; in other documentation simply means the wire network this system runs on, especially when there are multiple sensors connected.</li>
+</ul>
+<p>This is simply done by creating either a single &ldquo;star&rdquo; where multiple sensors are fed from the same connections, or from multiple stars where connections are made from a common backbone wire. In all cases, it is simply a case of connecting all the same wires or pins together. Every red to a red, every black to a black, every yellow to a yellow - until the first connection which goes to the relevant pins on the ESP.</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="onewire-star.jpg"
+       alt="Diagram of a multi-star one-wire bus"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Diagram of a multi-star one-wire bus</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h6 id="notes">Notes:</h6>
+<ul>
+<li>Either sensor can run at between 3 and 5v dc and the red/pin3 can be connected to either. It does not affect accuracy which is used.</li>
+<li>Sensors have a unique ID which is reported along with their readings along the common &ldquo;bus&rdquo; back to the ESP or controller. This ID is how we identify which device is supplying which reading.</li>
+<li>It is possible to run large lengths of one-wire with many devices. I personally have run a bus of around 80 feet with 12 sensors connected to it.</li>
+<li>One wire can be remarkably resilient on the type of wire it uses. There are recorded cases if people using house pipework.</li>
+<li>It&rsquo;s reported that longer installations work best with an external 5v power supply, but I have had no problem using an ESP&rsquo;s 3.3v output. The current needed is tiny.</li>
+<li>Although it&rsquo;s called one wire, a good installation requires three cores.</li>
+<li>That said, it is possible to create a network by connecting only two cores. This is done by connecting the red and yellow wires of the DS18B20 (The outer two, GND and VDD of a DS1820). This can work very reliably and avoids the needs of a resistor, but should only be considered if three core wire is unavailable.</li>
+</ul>
+<h2 id="step-2---ok-so-the-wirings-done-what-about-taking-readings">Step 2 - Ok, so the wiring’s done, what about taking readings?</h2>
+<p>There are multiple ways to get the readings into Home Assistant.</p>
+<h3 id="esphome">ESPHome</h3>
+<p>Assuming you already have an ESP set up and ready to use.</p>
+<p>Connect the wiring as above to the ESP (Most GPIO pins can be used for the Signal/DQ/Yellow pin - we&rsquo;ll use GPIO5 for our example below (Pin D1 on a Nodemcu)</p>
+<p>Add this to the ESPHome yaml;</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code># GPIO
+one_wire:
+  - platform: gpio
+    pin: GPIO5</code></pre></div>
+<p>And run <code>esphome run MyESPFile.yaml</code> and wait until it boots and starts producing logs.</p>
+<p>Inside the logs, assuming the physical connection is good, ESPHome will discover all devices on the one-wire bus, like so:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>[20:59:28][C][gpio.one_wire:022]: GPIO 1-wire bus:
+[20:59:28][C][gpio.one_wire:023]:   Pin: GPIO14
+[20:59:28][C][gpio.one_wire:084]:   Found devices:
+[20:59:28][C][gpio.one_wire:086]:     0x9c01145eeabd4028 (DS18B20)
+[20:59:28][C][gpio.one_wire:086]:     0xee012026de4a2428 (DS18B20)
+[20:59:28][C][gpio.one_wire:086]:     0x0401202706051528 (DS18B20)
+[20:59:28][C][captive_portal:089]: Captive Portal:</code></pre></div>
+<p>These provide the unique ID of each temperature sensor and the model needed.</p>
+<p>Now you have the information you need to re-edit the yaml and create the sensors properly, like so:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>sensor:
+  # Dallas
+  # Repeat for each sensor on this bus
+  - platform: dallas_temp
+    address: 0x9c01145eeabd4028
+    name: &#34;Boiler Flow&#34;    
+    update_interval: 30s
+  - platform: dallas_temp
+    address: 0xee012026de4a2428
+    name: &#34;Hot Water Tank&#34;    
+    update_interval: 30s</code></pre></div>
+<h4 id="tips">Tips</h4>
+<ol>
+<li>
+<p>The DB18B20 sensor may have the ID printed on its label and you can create the sensor config on your first go.</p>
+</li>
+<li>
+<p>If your Dallas bus has several sensors and you&rsquo;re unsure which sensor relates to which purpose, continue streaming logs after building it, and simply hold one in your hand (or mouth, or cup of ice) for a little while until its readings change. Then add a sticky label to its lead.</p>
+</li>
+</ol>
+<h3 id="connecting-the-onewire-bus-to-a-pc-not-for-esphome">Connecting the Onewire bus to a PC <em>(Not for ESPHome)</em></h3>
+<p>You will need an adapter to connect your one-wire bus to your PC, such as  the <a href="https://datasheets.maximintegrated.com/en/ds/DS9490-DS9490R.pdf" rel="external" target="_blank">DS9490R</a></p>
+<figure><img src="/home-automation/esphome/one-wire/DS9490R.jpg"
+    alt="DS9490R" width="290px">
+</figure>
+
+<p>This can be connected to Home Assistant directly using it&rsquo;s native <a href="https://www.home-assistant.io/integrations/onewire/" rel="external" target="_blank">1-wire integration</a> or, as I did (because the former wasn&rsquo;t available when I first set up one-wire), by using Linux&rsquo;s OWFS one-wire file system, and writing a script to read the values from the local file system and put them into a MariaDb database, from which HA would fetch the values. (Not a very elegant way, but it worked well for years!)</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard/clipboard.min.js?1750596076" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750596076" defer></script>
+    <script src="/js/js-yaml/js-yaml.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-color.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1750596076" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1750596076" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1750596076" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/theme.min.js?1750596076" defer></script>
+  </body>
+</html>

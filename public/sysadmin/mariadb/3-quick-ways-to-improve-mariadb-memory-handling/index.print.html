@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="These are quick and easy and can make a big difference">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="3 Quick Ways to Improve Mariadb Memory Handling :: Digital Dilemma">
+    <meta name="twitter:description" content="These are quick and easy and can make a big difference">
+    <meta property="og:url" content="https://digdilem.org/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="3 Quick Ways to Improve Mariadb Memory Handling :: Digital Dilemma">
+    <meta property="og:description" content="These are quick and easy and can make a big difference">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="3 Quick Ways to Improve Mariadb Memory Handling :: Digital Dilemma">
+    <meta itemprop="description" content="These are quick and easy and can make a big difference">
+    <meta itemprop="datePublished" content="2025-06-16T09:09:50+01:00">
+    <meta itemprop="dateModified" content="2025-06-16T09:09:50+01:00">
+    <meta itemprop="wordCount" content="334">
+    <meta itemprop="keywords" content="Mariadb,Memory,Sysadmin,Linux,Database">
+    <title>3 Quick Ways to Improve Mariadb Memory Handling :: Digital Dilemma</title>
+    <link href="https://digdilem.org/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html" rel="canonical" type="text/html" title="3 Quick Ways to Improve Mariadb Memory Handling :: Digital Dilemma">
+    <link href="/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.xml" rel="alternate" type="application/rss+xml" title="3 Quick Ways to Improve Mariadb Memory Handling :: Digital Dilemma">
+    <link href="/images/favicon.png?1750596076" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750596076" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750596076" rel="stylesheet">
+    <link href="/css/theme.min.css?1750596076" rel="stylesheet">
+    <link href="/css/format-print.min.css?1750596076" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750596076" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750596076" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750596076" defer></script>
+    <script src="/js/search.min.js?1750596076" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/sysadmin\/mariadb\/3-quick-ways-to-improve-mariadb-memory-handling\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1750596076";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support print" data-url="/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/index.html"><span itemprop="name">Sysadmin</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/mariadb/index.html"><span itemprop="name">Mariadb</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">3 Quick Ways to Improve Mariadb Memory Handling</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/mariadb/finding-user-defines/index.html" title="Finding User Defines (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/index.html" title="Solving Excess Memory Usage in Mariadb (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable sysadmin" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="3-quick-ways-to-improve-mariadb-memory-handling">3 Quick Ways to Improve Mariadb Memory Handling</h1>
+
+<p>Something that can surprise users of MariaDb is that it <em>can</em> use a lot more memory than it’s configured for. When I first encountered this I brushed it aside somewhat, thinking this was another example of a software memory leak, but it is controllable with three basic steps that MariaDb recommend and it&rsquo;s worth spending a short amount of time making these changes.</p>
+<p>These changes are intended for servers where MariaDb is the primary application. They may not suit performance for multi-role servers where Maria is a small part.</p>
+<ol>
+<li>
+<p><strong>Ensure the host has swappiness turned right down.</strong></p>
+<p>MariaDb recommend this is set to 1 and we’ve found that works well. This mostly helps performance rather than memory, but it’s so basic I thought it worth including here</p>
+</li>
+</ol>
+<ul>
+<li>Here’s <a href="https://mariadb.com/kb/en/configuring-swappiness/" rel="external" target="_blank">MariaDb’s reference piece</a> showing how to do this.</li>
+</ul>
+<ol start="2">
+<li>
+<p><strong>Ensure the host has Transparent Huge Pages disabled.</strong></p>
+<p>For us, this made maria’s memory requirements a lot more stable. The gradual increase in memory used we’d seen was entirely gone.</p>
+</li>
+</ol>
+<ul>
+<li><a href="https://mariadb.com/kb/en/transparent-huge-pages/" rel="external" target="_blank">MariaDb’s guide on disabling THPs</a></li>
+</ul>
+<ol start="3">
+<li>
+<p><strong>Use a more suitable memory manager than most distros ship with.</strong></p>
+<p>Most distros ship with a memory allocation library that has to compromise to suit a wide range of uses. MariaDb, like other databases, uses memory quite aggressively in that it&rsquo;s constantly changing what&rsquo;s stored. Fortunately there&rsquo;s at least two more suitable libraries freely available to use.</p>
+<p>We use jemalloc most commonly, but also had some success with tcmalloc. Both ship with Rocky Linux and Debian and are quick and easy to install and then enable via systemd.</p>
+</li>
+</ol>
+<ul>
+<li><a href="https://mariadb.com/kb/en/using-mariadb-with-tcmalloc-or-jemalloc/" rel="external" target="_blank">MariaDb’s guide to using tcmalloc or jemalloc</a></li>
+<li>I&rsquo;ve also written about this in <a href="/p/solving-excess-memory-usage-in-mariadb/">another post here</a></li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>All of these changes are part of our basic <strong>New Database Server</strong> build profile now and we’ve been using them for a long time. We no longer over-commit on memory to ensure stability, as the usages can be controlled via MariaDb’s configuration settings (notably innodb_buffer_pool_size ) and monitoring shows some nicely flat memory graphs after they&rsquo;ve initially populated.</p>
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/database/index.html">Database</a></li>
+    <li><a class="term-link" href="/categories/linux/index.html">Linux</a></li>
+    <li><a class="term-link" href="/categories/mariadb/index.html">Mariadb</a></li>
+    <li><a class="term-link" href="/categories/memory/index.html">Memory</a></li>
+    <li><a class="term-link" href="/categories/sysadmin/index.html">Sysadmin</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard/clipboard.min.js?1750596076" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750596076" defer></script>
+    <script src="/js/theme.min.js?1750596076" defer></script>
+  </body>
+</html>

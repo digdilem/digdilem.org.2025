@@ -1,0 +1,18 @@
+{{ $caption := "" }}
+{{ if .Title }}
+  {{ $caption = .Title }}
+{{ else if .Text }}
+  {{ $caption = .Text }}
+{{ end }}
+
+<figure>
+  <img src="{{ .Destination | safeURL }}"
+       {{ with .Text }}alt="{{ . }}"{{ end }}
+       {{ with .Title }}title="{{ . }}"{{ end }}
+       loading="lazy"
+       decoding="async"
+  >
+  {{ if $caption }}
+    <figcaption><p><b><i>{{ $caption }}</b></i></p></figcaption>
+  {{ end }}
+</figure>
