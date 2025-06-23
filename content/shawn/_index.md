@@ -151,18 +151,13 @@ This actually kind of worked. I used the pulley on the centre shaft that was des
 
 An early version, still based on mower body with alternator.
 
-<video controls width="800">  <source src="v2.mp4" type="video/mp4" />
-
-Another early version. Note handmade metal wheels and single front castor. 
-
-<video controls width="800">  <source src="v3.mp4" type="video/mp4" />
-
-A slimmer version, this time with dual castors.
-
 <video controls width="800">  <source src="v4.mp4" type="video/mp4" />
 
 This never made it to field testing. 
 
+**More videos - Hosted on Imgur as too large for Cloudflare Pages**
 
+* [Another early version. Note handmade metal wheels, 12v supply and single front castor](https://imgur.com/SMD6qLH)
+* [A slimmer version with dual castors](https://imgur.com/waRMEKo)
 
 
