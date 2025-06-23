@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hobbies :: Category :: Digital Dilemma</title>
-    <link>http://localhost:1313/categories/hobbies/index.html</link>
+    <link>https://digdilem.org/categories/hobbies/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Jun 2025 12:46:41 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/hobbies/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/categories/hobbies/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Villaging With the Himalayan</title>
-      <link>http://localhost:1313/vehicles/motorbikes/villaging-with-the-himalayan/index.html</link>
+      <link>https://digdilem.org/vehicles/motorbikes/villaging-with-the-himalayan/index.html</link>
       <pubDate>Mon, 16 Jun 2025 12:46:41 +0100</pubDate>
-      <guid>http://localhost:1313/vehicles/motorbikes/villaging-with-the-himalayan/index.html</guid>
+      <guid>https://digdilem.org/vehicles/motorbikes/villaging-with-the-himalayan/index.html</guid>
       <description>I like to ride for pleasure at least once a week, but have been getting a bit bored with riding the same roads and lanes. I’m fortunate to have some beautiful countryside nearby (Dartmoor – I’m in England) but even so, it’s a bit repetitive eventually.&#xA;My solution to this ‘problem’ is to set myself a target – to take my Himalayan to every Village in my home county of Devon.</description>
     </item>
   </channel>

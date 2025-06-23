@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Using Gpslogger for Traccar :: Digital Dilemma</title>
-    <link>http://localhost:1313/home-automation/using-gpslogger-for-traccar/index.html</link>
+    <link>https://digdilem.org/home-automation/using-gpslogger-for-traccar/index.html</link>
     <description>Traccar is an amazing piece of free, open source software to track GPS devices and people.&#xA;However, I had trouble getting accurate results through its Traccar Client Android app – it would report positions miles away from where I was, and a journey was logged with very strange results indeed. However, GPSLogger already running on the same device was extremely accurate.&#xA;I’ve since learned that changing Traccar’s client to ‘High Sensitivity’ does fix most of the inaccuracies, but I still preferred GPSLogger which could also record a local GPX and upload to Gdrive at the same time I decided to use GPSLogger’s Custom URL feature to use that to update Traccar, and skip using the dedicated client entirely. This also meant one less app running on my phone, as I use GPSLogger to automatically create GPX files of my journeys.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/home-automation/using-gpslogger-for-traccar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/home-automation/using-gpslogger-for-traccar/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

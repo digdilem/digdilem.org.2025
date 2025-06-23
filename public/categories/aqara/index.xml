@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aqara :: Category :: Digital Dilemma</title>
-    <link>http://localhost:1313/categories/aqara/index.html</link>
+    <link>https://digdilem.org/categories/aqara/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jun 2025 21:08:04 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/aqara/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/categories/aqara/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keeping Zigbee Sensors Running in Extreme Cold</title>
-      <link>http://localhost:1313/home-automation/zigbee-sensors-in-the-cold/index.html</link>
+      <link>https://digdilem.org/home-automation/zigbee-sensors-in-the-cold/index.html</link>
       <pubDate>Fri, 20 Jun 2025 21:08:04 +0100</pubDate>
-      <guid>http://localhost:1313/home-automation/zigbee-sensors-in-the-cold/index.html</guid>
+      <guid>https://digdilem.org/home-automation/zigbee-sensors-in-the-cold/index.html</guid>
       <description>The Aqara (and other) Zigbee devices are great in almost every situation. But when using them in cold conditions, such as inside a freezer, the default CR2032 batteries don’t last well, especially in subzero temperatures.&#xA;Fortunately, it’s really simple to adapt them to use the much larger and commonly available 18650 Lithium rechargable batteries. I’ve had several of these batteries reporting the temperature of my freezer in around -20c for over a year without needing recharging – quite remarkable!</description>
     </item>
   </channel>

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Dilemma</title>
-    <link>http://localhost:1313/index.html</link>
+    <link>https://digdilem.org/index.html</link>
     <description>Welcome to Digital Dilemma&#xA;A small place on the internet that’s been around for a long time and serves as a place for me to put stuff.&#xA;I hope you find something here of interest.&#xA;About Dartmoor Home Automation Misc Remote Controlled Lawnmower Software Sysadmin Vehicles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/index.html</link>
+      <link>https://digdilem.org/about/index.html</link>
       <pubDate>Mon, 16 Jun 2025 10:32:32 +0100</pubDate>
-      <guid>http://localhost:1313/about/index.html</guid>
+      <guid>https://digdilem.org/about/index.html</guid>
       <description>About this Website History Digital Dilemma is a name used by it’s creator, Simon Avery, since 1990 relating to computer related services.&#xA;Early 1990s – Round Corner Software / Digital Dilemma I founded and ran a Shareware company that distributed cassette tapes and 3″ 178Kb disks of Public Domain / Shareware Software for the Amstrad CPC. Some of it was my own text adventures, but mostly other peoples. Back then, this was the standard way to distribute software that wasn’t on sale in the local shops. People would request some titles, I’d copy them to either cassette tape or 3&#34; floppy Disks for the Amstrad CPC and post them off in a jiffy bag, charging around £3 a disk full. It was never meant to make money, just to cover the postage costs.</description>
     </item>
     <item>
       <title>The Dartmoor Archive</title>
-      <link>http://localhost:1313/dartmoor/index.html</link>
+      <link>https://digdilem.org/dartmoor/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dartmoor/index.html</guid>
+      <guid>https://digdilem.org/dartmoor/index.html</guid>
       <description>*Dartmoor is a vast, wild, and rugged upland area in Devon, England, characterized by extensive granite tors, heather-clad moorland, and deep river valleys. It’s a national park known for its dramatic landscapes, rich prehistoric archaeology including stone circles and hut circles, and unique wildlife, as well as its iconic Dartmoor ponies that roam freely. The area is steeped in history and folklore, offering diverse opportunities for walking, exploration, and experiencing a truly untamed natural environment.&#34; – Gemini AI when asked to sum up Dartmoor.</description>
     </item>
     <item>
       <title>Home Automation</title>
-      <link>http://localhost:1313/home-automation/index.html</link>
+      <link>https://digdilem.org/home-automation/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>http://localhost:1313/home-automation/index.html</guid>
+      <guid>https://digdilem.org/home-automation/index.html</guid>
       <description>My stuff about Home Automation&#xA;Cool Automation Projects Esphome Heating Water With Home Assistant Keeping Zigbee Sensors Running in Extreme Cold Measuring Freezer Temperatures Using Gpslogger for Traccar</description>
     </item>
     <item>
       <title>Misc</title>
-      <link>http://localhost:1313/misc/index.html</link>
+      <link>https://digdilem.org/misc/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
-      <guid>http://localhost:1313/misc/index.html</guid>
+      <guid>https://digdilem.org/misc/index.html</guid>
       <description>Things that don’t fit elsewhere.&#xA;Redneck PC Water Cooling Using Gpslogger With Traccar</description>
     </item>
     <item>
       <title>Shawn</title>
-      <link>http://localhost:1313/shawn/index.html</link>
+      <link>https://digdilem.org/shawn/index.html</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/shawn/index.html</guid>
+      <guid>https://digdilem.org/shawn/index.html</guid>
       <description>Meet Shawn, my Remote Controlled Lawn Mower.&#xA;Shawn, 2025&#xA;About Shawn We own this steep 5-acre field on Dartmoor where we graze our horses. As horses are not very good at grazing off weeds, it needs topping twice a year to keep the grass in good condition. When we bought the land, it was very neglected, with a lot of high bramble growth and bracken which took weeks to clear. As it’s too steep for tractors (Most of it is about 30’, with parts up to 45’) my wife and I did this ourselves using petrol strimmers. It took months of work to get it in a state good enough to call the fencers in, and they too struggled with the grade.</description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/software/index.html</link>
+      <link>https://digdilem.org/software/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/index.html</guid>
+      <guid>https://digdilem.org/software/index.html</guid>
       <description>My Software&#xA;Text Adventures During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.&#xA;A collection of my Text Adventures for various formats can be found on my github page IRC Scripts A selection of various IRC scripts, most of which were written to work with XChat (Now replaced by HexChat) as well as Irssi and Eggdrop. They ranged from fun, silly, stupid, useful and very useful. 2000s to 2010s</description>
     </item>
     <item>
       <title>Sysadmin</title>
-      <link>http://localhost:1313/sysadmin/index.html</link>
+      <link>https://digdilem.org/sysadmin/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:33:46 +0100</pubDate>
-      <guid>http://localhost:1313/sysadmin/index.html</guid>
+      <guid>https://digdilem.org/sysadmin/index.html</guid>
       <description>These are things that may be useful to Sysadmins, or just technical people who like playing with computers.&#xA;Backing Up Important Data Docker Mariadb Zabbix</description>
     </item>
     <item>
       <title>Vehicles</title>
-      <link>http://localhost:1313/vehicles/index.html</link>
+      <link>https://digdilem.org/vehicles/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:38:07 +0100</pubDate>
-      <guid>http://localhost:1313/vehicles/index.html</guid>
+      <guid>https://digdilem.org/vehicles/index.html</guid>
       <description>Some things I’ve done with Land-Rovers and Motorbikes&#xA;Land-Rover Motorbikes Others</description>
     </item>
   </channel>

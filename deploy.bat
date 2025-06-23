@@ -5,7 +5,7 @@ cd \hugo\digdilem
 
 git add .
 git commit -am "Updating to reflect development"
- git push -f origin master
+ git push -f origin main
 
 hugo --cleanDestinationDir
 
