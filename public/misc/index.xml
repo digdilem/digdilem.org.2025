@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misc :: Digital Dilemma</title>
-    <link>https://digdilem.org/misc/index.html</link>
+    <link>http://localhost:1313/misc/index.html</link>
     <description>Things that don’t fit elsewhere.&#xA;Redneck PC Water Cooling Using Gpslogger With Traccar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Jun 2025 15:44:00 +0100</lastBuildDate>
-    <atom:link href="https://digdilem.org/misc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redneck PC Water Cooling</title>
-      <link>https://digdilem.org/misc/redneck-water-cooling/index.html</link>
+      <link>http://localhost:1313/misc/redneck-water-cooling/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
-      <guid>https://digdilem.org/misc/redneck-water-cooling/index.html</guid>
+      <guid>http://localhost:1313/misc/redneck-water-cooling/index.html</guid>
       <description>Cooling servers using household plumbing&#xA;“How to water cool computers using household plumbing equipment”&#xA;I like peace and quiet. Most water cooling rigs available for home PCs are anything but – they only use water to move the heat away from the CPU and GPU to a finned radiator, then blast it with fans. I thought that radiant cooling would work and not need any fans, so I built a water cooling system. It worked perfectly for a linux server and my gaming windows PC for three years, until I had to free up space and instead focussed on sound proofing a cupboard and using air cooling. This was back in 2010 but there’s no reason why it wouldn’t work today.</description>
     </item>
     <item>
       <title>Using Gpslogger With Traccar</title>
-      <link>https://digdilem.org/misc/using-gpslogger-with-traccar/index.html</link>
+      <link>http://localhost:1313/misc/using-gpslogger-with-traccar/index.html</link>
       <pubDate>Fri, 20 Jun 2025 14:37:18 +0100</pubDate>
-      <guid>https://digdilem.org/misc/using-gpslogger-with-traccar/index.html</guid>
+      <guid>http://localhost:1313/misc/using-gpslogger-with-traccar/index.html</guid>
       <description>Making two excellent pieces of free software talk to each other&#xA;Traccar is an amazing piece of free, open source software to track GPS devices and people. GPSLogger is an amazing piece of free software that records GPS tracks on Android very well. Wouldn’t it be nice if you could use GPSLogger to send your position to Traccar? Well, you can, and it’s not hard.&#xA;Why not just use Traccar’s Android client? A good question, and there’s no reason why not. It (usually) works fine. however, I did have a few issues with it that, whilsts not serious, were enough to steer me towards GPSlogger.</description>
     </item>
   </channel>
