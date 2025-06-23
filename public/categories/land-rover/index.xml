@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Land-Rover :: Category :: Digital Dilemma</title>
-    <link>https://digdilem.org/categories/land-rover/index.html</link>
+    <link>http://localhost:1313/categories/land-rover/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Jun 2025 15:38:07 +0100</lastBuildDate>
-    <atom:link href="https://digdilem.org/categories/land-rover/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/land-rover/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tall People and Series Land Rovers</title>
-      <link>https://digdilem.org/vehicles/land-rover/tall-people-and-series-land-rovers/index.html</link>
+      <link>http://localhost:1313/vehicles/land-rover/tall-people-and-series-land-rovers/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:38:07 +0100</pubDate>
-      <guid>https://digdilem.org/vehicles/land-rover/tall-people-and-series-land-rovers/index.html</guid>
+      <guid>http://localhost:1313/vehicles/land-rover/tall-people-and-series-land-rovers/index.html</guid>
       <description>One problem taller people often have in old Land Rovers is they can be really uncomfortable to drive. I’m 6’2″ and with the standard seats, I would start to get bad cramp in my ankle and legs after only 15 minutes or so. The adjustment in the seat is very limited because of the cross bulkhead immediately behind the seat.&#xA;There is a relatively simple modification which gives you an inch or two extra space that doesn’t seem to be widely used, however, and is cheap and quick to do. It’s also fully reversible!</description>
     </item>
     <item>
       <title>Fitting gas rams to a Land Rover’s Bonnet</title>
-      <link>https://digdilem.org/vehicles/land-rover/fitting-gas-rams/index.html</link>
+      <link>http://localhost:1313/vehicles/land-rover/fitting-gas-rams/index.html</link>
       <pubDate>Mon, 16 Jun 2025 18:12:06 +0100</pubDate>
-      <guid>https://digdilem.org/vehicles/land-rover/fitting-gas-rams/index.html</guid>
+      <guid>http://localhost:1313/vehicles/land-rover/fitting-gas-rams/index.html</guid>
       <description>Easier access!&#xA;The standard Series Land Rover bonnet has no gas or spring assist, instead using a tethered prop. Replacing it with some gas rams makes it a lot easier to lift and also allows it to lift further and higher out of the way.&#xA;Front view&#xA;The fitting is fairly simple – in this case I’ve used two fairly low powered rams (from the tailgate of a Toyota Yaris). These are mounted to a single plate fixed to the bulkhead, and onto a metal plate bolted onto one of the main ribs.</description>
     </item>
   </channel>

@@ -1,368 +1,397 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://digdilem.org/vehicles/land-rover/index.html</loc>
+    <loc>http://localhost:1313/vehicles/land-rover/index.html</loc>
     <lastmod>2025-06-21T15:38:07+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/esphome/index.html</loc>
+    <loc>http://localhost:1313/home-automation/esphome/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/index.html</loc>
     <lastmod>2025-06-16T18:08:29+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/others/index.html</loc>
+    <loc>http://localhost:1313/vehicles/others/index.html</loc>
   </url>
   <url>
-    <loc>https://digdilem.org/about/index.html</loc>
+    <loc>http://localhost:1313/about/index.html</loc>
     <lastmod>2025-06-16T10:32:32+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/docker/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/docker/index.html</loc>
     <lastmod>2025-06-16T12:40:58+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/dartmoor/index.html</loc>
+    <loc>http://localhost:1313/dartmoor/index.html</loc>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/index.html</loc>
+    <loc>http://localhost:1313/home-automation/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/misc/index.html</loc>
+    <loc>http://localhost:1313/misc/index.html</loc>
     <lastmod>2025-06-21T15:44:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/software/index.html</loc>
+    <loc>http://localhost:1313/shawn/index.html</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/mariadb/index.html</loc>
+    <loc>http://localhost:1313/software/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/sysadmin/mariadb/index.html</loc>
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/index.html</loc>
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/index.html</loc>
+    <loc>http://localhost:1313/vehicles/index.html</loc>
     <lastmod>2025-06-21T15:38:07+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/zabbix/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/zabbix/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/index.html</loc>
+    <loc>http://localhost:1313/categories/index.html</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/gardening/index.html</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/nature/index.html</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/projects/index.html</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/remote-control/index.html</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/cooling/index.html</loc>
     <lastmod>2025-06-21T15:44:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/cooling/index.html</loc>
+    <loc>http://localhost:1313/categories/pc/index.html</loc>
     <lastmod>2025-06-21T15:44:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/pc/index.html</loc>
+    <loc>http://localhost:1313/categories/project/index.html</loc>
     <lastmod>2025-06-21T15:44:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/project/index.html</loc>
+    <loc>http://localhost:1313/misc/redneck-water-cooling/index.html</loc>
     <lastmod>2025-06-21T15:44:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/misc/redneck-water-cooling/index.html</loc>
+    <loc>http://localhost:1313/categories/server/index.html</loc>
     <lastmod>2025-06-21T15:44:00+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/server/index.html</loc>
-    <lastmod>2025-06-21T15:44:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://digdilem.org/categories/land-rover/index.html</loc>
+    <loc>http://localhost:1313/categories/land-rover/index.html</loc>
     <lastmod>2025-06-21T15:38:07+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/seats/index.html</loc>
+    <loc>http://localhost:1313/categories/seats/index.html</loc>
     <lastmod>2025-06-21T15:38:07+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/land-rover/tall-people-and-series-land-rovers/index.html</loc>
+    <loc>http://localhost:1313/vehicles/land-rover/tall-people-and-series-land-rovers/index.html</loc>
     <lastmod>2025-06-21T15:38:07+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/esphome/index.html</loc>
+    <loc>http://localhost:1313/categories/esphome/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/home-assistant/index.html</loc>
+    <loc>http://localhost:1313/categories/home-assistant/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/home-automation/index.html</loc>
+    <loc>http://localhost:1313/categories/home-automation/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/measuring/index.html</loc>
+    <loc>http://localhost:1313/categories/measuring/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</loc>
+    <loc>http://localhost:1313/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/voltage/index.html</loc>
+    <loc>http://localhost:1313/categories/voltage/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/anenometer/index.html</loc>
+    <loc>http://localhost:1313/categories/anenometer/index.html</loc>
     <lastmod>2025-06-21T15:18:14+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/esphome/measuring-wind-with-esphome/index.html</loc>
+    <loc>http://localhost:1313/home-automation/esphome/measuring-wind-with-esphome/index.html</loc>
     <lastmod>2025-06-21T15:18:14+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/wind/index.html</loc>
+    <loc>http://localhost:1313/categories/wind/index.html</loc>
     <lastmod>2025-06-21T15:18:14+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/aqara/index.html</loc>
+    <loc>http://localhost:1313/categories/aqara/index.html</loc>
     <lastmod>2025-06-20T21:08:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/battery/index.html</loc>
+    <loc>http://localhost:1313/categories/battery/index.html</loc>
     <lastmod>2025-06-20T21:08:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/zigbee-sensors-in-the-cold/index.html</loc>
+    <loc>http://localhost:1313/home-automation/zigbee-sensors-in-the-cold/index.html</loc>
     <lastmod>2025-06-20T21:08:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/temperature/index.html</loc>
+    <loc>http://localhost:1313/categories/temperature/index.html</loc>
     <lastmod>2025-06-20T21:08:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/zigbee/index.html</loc>
+    <loc>http://localhost:1313/categories/zigbee/index.html</loc>
     <lastmod>2025-06-20T21:08:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/heating-water-with-ha/index.html</loc>
+    <loc>http://localhost:1313/home-automation/heating-water-with-ha/index.html</loc>
     <lastmod>2025-06-20T20:08:45+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/projects/index.html</loc>
-    <lastmod>2025-06-20T20:08:45+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://digdilem.org/categories/gps/index.html</loc>
+    <loc>http://localhost:1313/categories/gps/index.html</loc>
     <lastmod>2025-06-20T14:37:18+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/linux/index.html</loc>
+    <loc>http://localhost:1313/categories/linux/index.html</loc>
     <lastmod>2025-06-20T14:37:18+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/misc/index.html</loc>
+    <loc>http://localhost:1313/categories/misc/index.html</loc>
     <lastmod>2025-06-20T14:37:18+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/misc/using-gpslogger-with-traccar/index.html</loc>
+    <loc>http://localhost:1313/misc/using-gpslogger-with-traccar/index.html</loc>
     <lastmod>2025-06-20T14:37:18+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/esphome/one-wire/index.html</loc>
+    <loc>http://localhost:1313/home-automation/esphome/one-wire/index.html</loc>
     <lastmod>2025-06-16T19:19:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/land-rover/fitting-gas-rams/index.html</loc>
+    <loc>http://localhost:1313/vehicles/land-rover/fitting-gas-rams/index.html</loc>
     <lastmod>2025-06-16T18:12:06+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/motorbikes/index.html</loc>
+    <loc>http://localhost:1313/categories/motorbikes/index.html</loc>
     <lastmod>2025-06-16T18:08:29+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/review/index.html</loc>
+    <loc>http://localhost:1313/categories/review/index.html</loc>
     <lastmod>2025-06-16T18:08:29+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/review-puig-windscreen/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/review-puig-windscreen/index.html</loc>
     <lastmod>2025-06-16T18:08:29+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/blog/index.html</loc>
+    <loc>http://localhost:1313/categories/blog/index.html</loc>
     <lastmod>2025-06-16T17:54:45+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/selling-dream-motorbike/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/selling-dream-motorbike/index.html</loc>
     <lastmod>2025-06-16T17:54:45+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/fitting-16t-sprocket/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/fitting-16t-sprocket/index.html</loc>
     <lastmod>2025-06-16T17:45:12+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/honest-review-oxford-grips/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/honest-review-oxford-grips/index.html</loc>
     <lastmod>2025-06-16T17:32:54+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/fitting-ammo-boxes-to-himalayan/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/fitting-ammo-boxes-to-himalayan/index.html</loc>
     <lastmod>2025-06-16T14:57:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/traccar/index.html</loc>
+    <loc>http://localhost:1313/categories/traccar/index.html</loc>
     <lastmod>2025-06-16T13:37:52+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/using-gpslogger-for-traccar/index.html</loc>
+    <loc>http://localhost:1313/home-automation/using-gpslogger-for-traccar/index.html</loc>
     <lastmod>2025-06-16T13:37:52+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/databases/index.html</loc>
+    <loc>http://localhost:1313/categories/databases/index.html</loc>
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/mariadb/finding-user-defines/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/mariadb/finding-user-defines/index.html</loc>
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/mariadb/index.html</loc>
+    <loc>http://localhost:1313/categories/mariadb/index.html</loc>
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/sysadmin/index.html</loc>
+    <loc>http://localhost:1313/categories/sysadmin/index.html</loc>
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/himalayan/index.html</loc>
+    <loc>http://localhost:1313/categories/himalayan/index.html</loc>
     <lastmod>2025-06-16T13:24:14+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/improving-a-himalayan-seat/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/improving-a-himalayan-seat/index.html</loc>
     <lastmod>2025-06-16T13:24:14+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/backing-up-data/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/backing-up-data/index.html</loc>
     <lastmod>2025-06-16T12:53:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/backups/index.html</loc>
+    <loc>http://localhost:1313/categories/backups/index.html</loc>
     <lastmod>2025-06-16T12:53:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/hobbies/index.html</loc>
+    <loc>http://localhost:1313/categories/hobbies/index.html</loc>
     <lastmod>2025-06-16T12:46:41+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/villaging-with-the-himalayan/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/villaging-with-the-himalayan/index.html</loc>
     <lastmod>2025-06-16T12:46:41+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html</loc>
     <lastmod>2025-06-16T12:40:58+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/motorbikes/himalayan-modifications/index.html</loc>
+    <loc>http://localhost:1313/vehicles/motorbikes/himalayan-modifications/index.html</loc>
     <lastmod>2025-06-16T10:41:56+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/vehicles/index.html</loc>
+    <loc>http://localhost:1313/categories/vehicles/index.html</loc>
     <lastmod>2025-06-16T10:41:56+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/about/me/index.html</loc>
+    <loc>http://localhost:1313/categories/about/index.html</loc>
     <lastmod>2025-06-16T10:32:32+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/measuring-freezer-temperatures/index.html</loc>
+    <loc>http://localhost:1313/about/me/index.html</loc>
+    <lastmod>2025-06-16T10:32:32+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/home-automation/measuring-freezer-temperatures/index.html</loc>
     <lastmod>2025-06-16T09:30:44+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html</loc>
     <lastmod>2025-06-16T09:09:50+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/database/index.html</loc>
+    <loc>http://localhost:1313/categories/database/index.html</loc>
     <lastmod>2025-06-16T09:09:50+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/memory/index.html</loc>
+    <loc>http://localhost:1313/categories/memory/index.html</loc>
     <lastmod>2025-06-16T09:09:50+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/index.html</loc>
     <lastmod>2025-06-16T09:05:13+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/cool-automation-projects/index.html</loc>
+    <loc>http://localhost:1313/home-automation/cool-automation-projects/index.html</loc>
     <lastmod>2025-06-15T22:18:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/home-automation/index.html</loc>
+    <loc>http://localhost:1313/tags/home-automation/index.html</loc>
     <lastmod>2025-06-15T22:18:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/project/index.html</loc>
+    <loc>http://localhost:1313/tags/project/index.html</loc>
     <lastmod>2025-06-15T22:18:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/index.html</loc>
+    <loc>http://localhost:1313/tags/index.html</loc>
     <lastmod>2025-06-15T22:18:04+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/linux/index.html</loc>
+    <loc>http://localhost:1313/tags/linux/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/ssl/index.html</loc>
+    <loc>http://localhost:1313/tags/ssl/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/sysadmin/index.html</loc>
+    <loc>http://localhost:1313/tags/sysadmin/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/zabbix/index.html</loc>
+    <loc>http://localhost:1313/categories/zabbix/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/zabbix/index.html</loc>
+    <loc>http://localhost:1313/tags/zabbix/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/zabbix/zabbix-monitor-ssl/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/zabbix/zabbix-monitor-ssl/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/index.html</loc>
+    <loc>http://localhost:1313/sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/index.html</loc>
     <lastmod>2025-06-13T20:27:37+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/esp/index.html</loc>
+    <loc>http://localhost:1313/tags/esp/index.html</loc>
     <lastmod>2025-06-11T19:07:03+00:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/home-automation/esphome/esp-containers/index.html</loc>
+    <loc>http://localhost:1313/home-automation/esphome/esp-containers/index.html</loc>
     <lastmod>2025-06-11T19:07:03+00:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/land-rovers/index.html</loc>
+    <loc>http://localhost:1313/categories/land-rovers/index.html</loc>
     <lastmod>2025-06-11T19:07:03+00:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/land-rovers/index.html</loc>
+    <loc>http://localhost:1313/tags/land-rovers/index.html</loc>
     <lastmod>2025-06-11T19:07:03+00:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/restoration/index.html</loc>
+    <loc>http://localhost:1313/tags/restoration/index.html</loc>
     <lastmod>2025-06-11T19:07:03+00:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/vehicles/land-rover/restoring-old-land-rovers/index.html</loc>
+    <loc>http://localhost:1313/vehicles/land-rover/restoring-old-land-rovers/index.html</loc>
     <lastmod>2025-06-11T19:07:03+00:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/tags/vehicles/index.html</loc>
+    <loc>http://localhost:1313/tags/vehicles/index.html</loc>
     <lastmod>2025-06-11T19:07:03+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/dartmoor/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/travel/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/walking/index.html</loc>
   </url>
 </urlset>

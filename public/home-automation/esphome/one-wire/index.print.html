@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.
@@ -12,7 +12,7 @@ One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) Thi
     <meta name="twitter:description" content="Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.
 I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There’s several ways to use them and I’ll explain a couple.
 One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors">
-    <meta property="og:url" content="https://digdilem.org/home-automation/esphome/one-wire/index.html">
+    <meta property="og:url" content="http://localhost:1313/home-automation/esphome/one-wire/index.html">
     <meta property="og:site_name" content="Digital Dilemma">
     <meta property="og:title" content="Using One Wire sensors in ESPHome :: Digital Dilemma">
     <meta property="og:description" content="Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.
@@ -28,30 +28,31 @@ One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) Thi
     <meta itemprop="dateModified" content="2025-06-16T19:19:19+01:00">
     <meta itemprop="wordCount" content="1079">
     <title>Using One Wire sensors in ESPHome :: Digital Dilemma</title>
-    <link href="https://digdilem.org/home-automation/esphome/one-wire/index.html" rel="canonical" type="text/html" title="Using One Wire sensors in ESPHome :: Digital Dilemma">
+    <link href="http://localhost:1313/home-automation/esphome/one-wire/index.html" rel="canonical" type="text/html" title="Using One Wire sensors in ESPHome :: Digital Dilemma">
     <link href="/home-automation/esphome/one-wire/index.xml" rel="alternate" type="application/rss+xml" title="Using One Wire sensors in ESPHome :: Digital Dilemma">
-    <link href="/images/favicon.png?1750622971" rel="icon" type="image/png">
-    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750622971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750622971" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750622971" rel="stylesheet">
-    <link href="/css/theme.min.css?1750622971" rel="stylesheet">
-    <link href="/css/format-print.min.css?1750622971" rel="stylesheet" id="R-format-style">
-    <link href="/css/auto-complete/auto-complete.min.css?1750622971" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1750622971" defer></script>
-    <script src="/js/lunr/lunr.min.js?1750622971" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1750622971" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1750622971" defer></script>
-    <script src="/js/lunr/lunr.en.min.js?1750622971" defer></script>
-    <script src="/js/search.min.js?1750622971" defer></script>
+    <link href="/home-automation/esphome/one-wire/index.source.md" rel="alternate" type="text/markdown" title="Using One Wire sensors in ESPHome :: Digital Dilemma">
+    <link href="/images/favicon.png?1750689484" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750689484" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1750689484" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1750689484" rel="stylesheet">
+    <link href="/css/theme.css?1750689484" rel="stylesheet">
+    <link href="/css/format-print.css?1750689484" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1750689484" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1750689484" defer></script>
+    <script src="/js/lunr/lunr.min.js?1750689484" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1750689484" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1750689484" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1750689484" defer></script>
+    <script src="/js/search.js?1750689484" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/home-automation\/esphome\/one-wire\/index.html';
       window.relearn.relBasePath='..\/..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/searchindex.en.js?1750622971";
+      window.relearn.index_js_url="/searchindex.en.js?1750689484";
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -142,6 +143,8 @@ One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) Thi
             <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">One Wire</span><meta itemprop="position" content="4"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-source" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/one-wire/index.source.md" title="Show source code"><i class="fa-fw fas fa-code"></i></a>
+            </div>
             <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/one-wire/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
             </div>
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/home-automation/esphome/measuring-wind-with-esphome/index.html" title="Measuring Wind With Esphome (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
@@ -287,27 +290,28 @@ one_wire:
 <p>This can be connected to Home Assistant directly using it&rsquo;s native <a href="https://www.home-assistant.io/integrations/onewire/" rel="external" target="_blank">1-wire integration</a> or, as I did (because the former wasn&rsquo;t available when I first set up one-wire), by using Linux&rsquo;s OWFS one-wire file system, and writing a script to read the values from the local file system and put them into a MariaDb database, from which HA would fetch the values. (Not a very elegant way, but it worked well for years!)</p>
 
   <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Jun 16, 2025
   </footer>
 </article>
         </div>
       </main>
     </div>
-    <script src="/js/clipboard/clipboard.min.js?1750622971" defer></script>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750622971" defer></script>
-    <script src="/js/js-yaml/js-yaml.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-color.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-dispatch.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-drag.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-ease.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-interpolate.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-selection.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-timer.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-transition.min.js?1750622971" defer></script>
-    <script src="/js/d3/d3-zoom.min.js?1750622971" defer></script>
-    <script src="/js/mermaid/mermaid.min.js?1750622971" defer></script>
+    <script src="/js/clipboard/clipboard.min.js?1750689484" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1750689484" defer></script>
+    <script src="/js/js-yaml/js-yaml.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-color.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1750689484" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1750689484" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1750689484" defer></script>
     <script>
       window.relearn.themeUseMermaid = JSON.parse("{}");
     </script>
-    <script src="/js/theme.min.js?1750622971" defer></script>
+    <script src="/js/theme.js?1750689484" defer></script>
   </body>
 </html>

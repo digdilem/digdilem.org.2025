@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Voltage :: Category :: Digital Dilemma</title>
-    <link>https://digdilem.org/categories/voltage/index.html</link>
+    <link>http://localhost:1313/categories/voltage/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Jun 2025 15:26:57 +0100</lastBuildDate>
-    <atom:link href="https://digdilem.org/categories/voltage/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/voltage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Measuring Voltage With an Esp32</title>
-      <link>https://digdilem.org/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</link>
+      <link>http://localhost:1313/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</guid>
+      <guid>http://localhost:1313/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</guid>
       <description>A fun little project that has a useful function for me – wirelessly connecting a vehicle battery to Home Assistant.&#xA;Justification: I wanted to be able to check my vehicle’s battery was good, and automatically alert me if it wasn’t.&#xA;I own a classic Land Rover that doesn’t get driven enough, and I wanted to keep an eye on the battery voltage so that I knew when to put it on charge, using HA to alert me when it dropped below a certain point. That worked well for a while, but then I had much worse problems with my Motorbike which, despite two new batteries, went low enough to fail to start after only 10 days. I spent a long time trying to sort out the parasitic drain, but the general advice was “They all do that”. So I got a Optimate battery tender that trickle-charges it. The only problem was remembering to plug the thing in! So I moved my widget across to the bike shed and connected it directly to the 12v feed on the tender. Now, if I forget to plug it back in and the voltage drops below 12.6v, I get a SMS telling me I’ve been forgetful.</description>
     </item>
   </channel>

@@ -10,12 +10,17 @@ author:
   name: Simon Avery
 
 params:
+# See for reference: https://mcshelby.github.io/hugo-theme-relearn/authoring/frontmatter/topbar/index.html
   disableGeneratorVersion: true
   disableLandingPageButton: true  
   showVisitedLinks: true  
   alwaysopen: false
-  hideAuthorDate: true
+  hideAuthorDate: false
   enableMermaid: true
+  disableToc: false
+  disableBreadcrumb: false
+  disableSourceButton: false
+  disableNextPrev: false
 
 #  imageEffects:
 #    bg-white: false
@@ -58,12 +63,15 @@ outputs:
   - html
   - rss
   - print
+  - source
   page:
   - html
   - rss
   - print
+  - source
   section:
   - html
   - rss
   - print
+  - source
 

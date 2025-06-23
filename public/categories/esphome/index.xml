@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Esphome :: Category :: Digital Dilemma</title>
-    <link>https://digdilem.org/categories/esphome/index.html</link>
+    <link>http://localhost:1313/categories/esphome/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Jun 2025 15:26:57 +0100</lastBuildDate>
-    <atom:link href="https://digdilem.org/categories/esphome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/esphome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Measuring Voltage With an Esp32</title>
-      <link>https://digdilem.org/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</link>
+      <link>http://localhost:1313/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</guid>
+      <guid>http://localhost:1313/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</guid>
       <description>A fun little project that has a useful function for me – wirelessly connecting a vehicle battery to Home Assistant.&#xA;Justification: I wanted to be able to check my vehicle’s battery was good, and automatically alert me if it wasn’t.&#xA;I own a classic Land Rover that doesn’t get driven enough, and I wanted to keep an eye on the battery voltage so that I knew when to put it on charge, using HA to alert me when it dropped below a certain point. That worked well for a while, but then I had much worse problems with my Motorbike which, despite two new batteries, went low enough to fail to start after only 10 days. I spent a long time trying to sort out the parasitic drain, but the general advice was “They all do that”. So I got a Optimate battery tender that trickle-charges it. The only problem was remembering to plug the thing in! So I moved my widget across to the bike shed and connected it directly to the 12v feed on the tender. Now, if I forget to plug it back in and the voltage drops below 12.6v, I get a SMS telling me I’ve been forgetful.</description>
     </item>
     <item>
       <title>Measuring Wind With Esphome</title>
-      <link>https://digdilem.org/home-automation/esphome/measuring-wind-with-esphome/index.html</link>
+      <link>http://localhost:1313/home-automation/esphome/measuring-wind-with-esphome/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:18:14 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/esphome/measuring-wind-with-esphome/index.html</guid>
+      <guid>http://localhost:1313/home-automation/esphome/measuring-wind-with-esphome/index.html</guid>
       <description>One very windy Autumn night, I wondered just how hard was the wind blowing? Spotting a cheap anenometer on Ebay, I figured it was worth trying to add this to my HA setup. It turned out to be surprisingly easy and in just an afternoon, things were up and working beautifully.&#xA;The WH1090 in-situ and working&#xA;The Physical Bits One Anenemeter, a HADEX WH1080. Although pretty much any pulse-based meter will work. It has two wires and putting a multimeter across them, I saw that one full revolution opens and closes these wires three times. Considering how fast these things can spin, that’s going to take a lot of counting! I extended the wiring by soldering and heat-shrinking a 5 meter length of bell wire onto it, then tested again. I mounted it on a shelf bracket with a suitable sized bolt that neatly screws into the mount, as i don’t have the full weather-station kit this unit comes with. This sits near my garage, although it’s not a great position since it’s quite sheltered. However, this is just a fun little project and I’m not too worried about its accuracy, and I won’t be sharing speeds with anyone else. One ESP8266 or ESP32 or similar chip. I’ve used a Nodemcu chip without any additional backboarding or hats. I put it in an old light-switch box just for some protection from knocks. Inside this scruffy thing lies the ESP8266, honest! Next time I’ll take better photos</description>
     </item>
   </channel>

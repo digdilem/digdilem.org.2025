@@ -9,5 +9,5 @@ git commit -am "Updating to reflect development"
 
 hugo --cleanDestinationDir
 
-npx wrangler pages deploy c:\hugo\digdilem\public --project-name=digdilem25
+npx wrangler pages deploy c:\hugo\digdilem\public --project-name=digdilem25  --commit-dirty=true
 
