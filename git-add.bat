@@ -9,5 +9,5 @@ rem npx wrangler pages deploy c:\hugo\digdilem\public --project-name=digdilem25 
 
 git add .
 git commit -am "Updating to reflect development"
-git push -f origin master
+git push -f origin main
 
