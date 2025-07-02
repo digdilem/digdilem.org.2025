@@ -7,7 +7,7 @@ categories:
   - misc
   - linux
   - gps
-
+weight: 26
 ---
 
 *Making two excellent pieces of free software talk to each other*

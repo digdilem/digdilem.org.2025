@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://digdilem.org/misc/ut/ut-bible/menu/index.html</link>
+    <description>UT BIBLE by ocr*flocutus&#xD;Contents     1.   News&#xD;2.   Info&#xD;3.   Controls&#xD;4.   Graphics&#xD;5.   Dodging&#xD;6.   Weapons&#xD;a)&#xD;Impact Hammer&#xD;b)&#xD;Enforcer&#xD;c)&#xD;Double Enforcer&#xD;d)&#xD;Bio Rifle&#xD;e)&#xD;Shock Rifle&#xD;f)&#xD;Pulse Gun&#xD;g)&#xD;Ripper&#xD;h)&#xD;Minigun&#xD;i)&#xD;Flak Cannon&#xD;j)&#xD;Rocket Launcher&#xD;k)&#xD;Sniper Rifle&#xD;7.    Map Control&#xD;8.    Underdog&#xD;9.    Timing&#xD;10.  Lead&#xD;11.  Sounds&#xD;12.  Respawning&#xD;13.  Prediction&#xD;14.  Surprise&#xD;14.  Shield Bug&#xD;15.  Tricks&#xD;15.  Feign death&#xD;16.  General&#xD;17.  Ocrana Mainpage&#xD;18.  Downloads&#xD;19.  Links&#xD;20.  Forum&#xD;21.  Credits&#xD;Unreal Tournament and the stylized &#34;U&#34; are&#xD;trademarks of Epic Games, Inc.&#xA;All other tradmarks are the property of&#xD;their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://digdilem.org/misc/ut/ut-bible/menu/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

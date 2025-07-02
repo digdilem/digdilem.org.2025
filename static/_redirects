@@ -1,16 +1,22 @@
-/2025/03/containers-for-esp-projects/   /home-automation/esphome/esp-containers/
-/the-online-dartmoor-archive/           /dartmoor/
-/category/ha/                           /home-automation/
-/category/land-rover/                   /vehicles/land-rover/
-/land-rovers/                           /vehicles/land-rover/
-/category/motorbikes/                   /vehicles/motorbikes/ 
-/category/mariadb-mysql/                /sysadmin/mariadb/
-/category/linux-sysadmin/               /sysadmin/
-/2025/03/solving-excess-memory-usage-in-mariadb/   /sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/
-/2025/03/migrating-from-prtg-to-zabbix-one-teams-journey/   /sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/
-/2025/02/zabbix-how-to-monitor-ssl-website-certificates/ /sysadmin/zabbix/zabbix-monitor-ssl/
-/2024/10/mariadb-improving-memory-management-and-performance/      /sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/
-/2024/10/solution-docker-networking-fails-after-iptables-service-is-restarted/     /sysadmin/docker/docker-network-fails-after-iptables-restarts/
-/2024/09/improving-or-ruining-a-himalayan-motorbike-seat/      /vehicles/motorbikes/improving-a-himalayan-seat/
-/2024/09/how-to-do-backups-of-important-data/      /sysadmin/backing-up-data/
+/2025/03/containers-for-esp-projects/   /home-automation/esphome/esp-containers/  302
+/the-online-dartmoor-archive/           /dartmoor/  302
+/category/ha/                           /home-automation/  302
+/category/land-rover/                   /vehicles/land-rover/  302
+/land-rovers/                           /vehicles/land-rover/  302
+/category/motorbikes/                   /vehicles/motorbikes/   302
+/category/mariadb-mysql/                /sysadmin/mariadb/  302
+/category/linux-sysadmin/               /sysadmin/  302
+/2025/03/solving-excess-memory-usage-in-mariadb/   /sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/  302
+/2025/03/migrating-from-prtg-to-zabbix-one-teams-journey/   /sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/  302
+/2025/02/zabbix-how-to-monitor-ssl-website-certificates/ /sysadmin/zabbix/zabbix-monitor-ssl/  302
+/2024/10/mariadb-improving-memory-management-and-performance/      /sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/     302
+/2024/10/solution-docker-networking-fails-after-iptables-service-is-restarted/     /sysadmin/docker/docker-network-fails-after-iptables-restarts/   302
+/2024/09/improving-or-ruining-a-himalayan-motorbike-seat/      /vehicles/motorbikes/improving-a-himalayan-seat/  302
+/2024/09/how-to-do-backups-of-important-data/       /sysadmin/backing-up-data/  302
+/2023/08/himalayan-new-front-sprocket/              /vehicles/motorbikes/fitting-16t-sprocket/  302
+/archive/irc_scripts/index.cgi    https://github.com/digdilem/irc-scripts  302
+/ut/aimbot.php      /misc/ut/aimbot-faq/  302
+/ut/aimbot.html      /misc/ut/aimbot-faq/  302
+/ut/aimbot      /misc/ut/aimbot-faq/  302
+/ut/utbible/    /ut-bible/  302
 

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project :: Tag :: Digital Dilemma</title>
-    <link>http://localhost:1313/tags/project/index.html</link>
+    <link>https://digdilem.org/tags/project/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Jun 2025 22:18:04 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cool Automation Projects</title>
-      <link>http://localhost:1313/home-automation/cool-automation-projects/index.html</link>
+      <link>https://digdilem.org/home-automation/cool-automation-projects/index.html</link>
       <pubDate>Sun, 15 Jun 2025 22:18:04 +0100</pubDate>
-      <guid>http://localhost:1313/home-automation/cool-automation-projects/index.html</guid>
+      <guid>https://digdilem.org/home-automation/cool-automation-projects/index.html</guid>
       <description>Just some cool ideas for automation if you’re looking for inspiration, or justifying why Home Automation can be useful.&#xA;Automatic Night Lights Problem: Like many people into their middle age, I sometimes need to visit the toilet at night. Turning on lights and remembering to turn them off wasn’t the biggest deal in the world, but I thought it woke my brain up just a little bit more than it needed.</description>
     </item>
     <item>
       <title>Containers for ESP Projects</title>
-      <link>http://localhost:1313/home-automation/esphome/esp-containers/index.html</link>
+      <link>https://digdilem.org/home-automation/esphome/esp-containers/index.html</link>
       <pubDate>Wed, 11 Jun 2025 19:07:03 +0000</pubDate>
-      <guid>http://localhost:1313/home-automation/esphome/esp-containers/index.html</guid>
+      <guid>https://digdilem.org/home-automation/esphome/esp-containers/index.html</guid>
       <description>A selection of random containers I&#39;ve used for Home Automation projects</description>
     </item>
   </channel>

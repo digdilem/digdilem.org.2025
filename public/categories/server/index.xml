@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server :: Category :: Digital Dilemma</title>
-    <link>http://localhost:1313/categories/server/index.html</link>
+    <link>https://digdilem.org/categories/server/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Jun 2025 15:44:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/categories/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redneck PC Water Cooling</title>
-      <link>http://localhost:1313/misc/redneck-water-cooling/index.html</link>
+      <link>https://digdilem.org/misc/redneck-water-cooling/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
-      <guid>http://localhost:1313/misc/redneck-water-cooling/index.html</guid>
+      <guid>https://digdilem.org/misc/redneck-water-cooling/index.html</guid>
       <description>Cooling servers using household plumbing&#xA;“How to water cool computers using household plumbing equipment”&#xA;I like peace and quiet. Most water cooling rigs available for home PCs are anything but – they only use water to move the heat away from the CPU and GPU to a finned radiator, then blast it with fans. I thought that radiant cooling would work and not need any fans, so I built a water cooling system. It worked perfectly for a linux server and my gaming windows PC for three years, until I had to free up space and instead focussed on sound proofing a cupboard and using air cooling. This was back in 2010 but there’s no reason why it wouldn’t work today.</description>
     </item>
   </channel>

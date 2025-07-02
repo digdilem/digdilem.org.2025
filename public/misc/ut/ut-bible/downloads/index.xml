@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://digdilem.org/misc/ut/ut-bible/downloads/index.html</link>
+    <description>UT BIBLE by ocr*flocutus - News&#xD;Downloads&#xD;Here you can find all the downloads that i talked about in the bible and for the ones who&#xD;want to read the bible offline, i made a compressed file named utbible.zip.&#xD;It contains all the html pages and the graphics but not the zipped files. You will have to&#xD;download them separatelly.&#xA;&lt;&lt;&lt; back&#xD;| top | next &gt;&gt;&gt;&#xD;       Unreal&#xD;Tournament and the stylized &#34;U&#34; are trademarks of Epic Games, Inc.&#xA;All other&#xD;tradmarks are the property of their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://digdilem.org/misc/ut/ut-bible/downloads/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

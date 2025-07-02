@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://digdilem.org/misc/ut/ut-bible/weapons_ripper/index.html</link>
+    <description>UT BIBLE by ocr*flocutus - News&#xD;Weapons - Ripper&#xD;Damage/hit:   45h&#xD;primary&#xD;157h headshot&#xD;52h&#xD;secondary&#xD;Rate:&#xD;2.9/s   primary&#xD;1.5/s   secondary&#xD;Splash Radius:    180uu   secondary&#xD;Damage/s:&#xD;130h&#xD;primary&#xD;455h&#xD;headshot&#xD;78h&#xD;secondary&#xD;The Ripper is mainly a weapon for spamming. In primary mode it shoots projectiles, that&#xD;are reflected from floor and walls 6 times, so you can shoot around corners. If they hit a&#xD;player in the upper third of the playermodel the hit is counted as a headshot inflicting&#xD;more than 3 times the normal damage, so you should always aim for the head. The ripper&#xD;headshot has the biggest damage/second potential, but it�s mainly a matter of luck if you&#xD;manage to hit.&#xA;The secondary fire mode shoots explosive projectiles, just like the rockets. Their big&#xD;advantage is, that they are much faster than rockets, but with almost the same splash&#xD;radius and a faster rate of fire, so this mode is best used to knock a player around by&#xD;shooting at their feets. The ripper secondary only inflicts less than half the damage of a&#xD;rocket though, so you should only use the ripper in this mode if there are no other&#xD;weapons available.&#xA;All in all the Ripper is mainly a weapon, for FFA where you can make lots of frags by just&#xD;spamming with the Razor Blades. It�s rarely used in duel.&#xA;&lt;&lt;&lt; back&#xD;| top | next &gt;&gt;&gt;&#xD;       Unreal&#xD;Tournament and the stylized &#34;U&#34; are trademarks of Epic Games, Inc.&#xA;All other&#xD;tradmarks are the property of their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://digdilem.org/misc/ut/ut-bible/weapons_ripper/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

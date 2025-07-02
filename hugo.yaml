@@ -22,6 +22,9 @@ params:
   disableSourceButton: false
   disableNextPrev: false
 
+# Hugo generics
+enableRobotsTXT: true  
+
 #  imageEffects:
 #    bg-white: false
 #    border: true

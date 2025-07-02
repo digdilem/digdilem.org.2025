@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vehicles :: Digital Dilemma</title>
-    <link>http://localhost:1313/vehicles/index.html</link>
+    <link>https://digdilem.org/vehicles/index.html</link>
     <description>Some things I’ve done with Land-Rovers and Motorbikes&#xA;Land-Rover Motorbikes Others</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Jun 2025 15:38:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/vehicles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/vehicles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Land-Rover</title>
-      <link>http://localhost:1313/vehicles/land-rover/index.html</link>
+      <link>https://digdilem.org/vehicles/land-rover/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:38:07 +0100</pubDate>
-      <guid>http://localhost:1313/vehicles/land-rover/index.html</guid>
+      <guid>https://digdilem.org/vehicles/land-rover/index.html</guid>
       <description>Best of British. (At least up until 2018 when the last ‘Proper’ Land Rover rolled off the production line at Solihull. I’m no fan of the modern cars.)&#xA;Why do I like Land Rovers? Teenage boys usually have posters on their wall. Nothing unusual about, I did too. Except mine weren’t of glamour models or music bands. My 1980’s bedroom walls were covered by pictures I’d cut out of 4x4 Magazines. Mostly Land-Rovers.</description>
     </item>
     <item>
       <title>Motorbikes</title>
-      <link>http://localhost:1313/vehicles/motorbikes/index.html</link>
+      <link>https://digdilem.org/vehicles/motorbikes/index.html</link>
       <pubDate>Mon, 16 Jun 2025 18:08:29 +0100</pubDate>
-      <guid>http://localhost:1313/vehicles/motorbikes/index.html</guid>
+      <guid>https://digdilem.org/vehicles/motorbikes/index.html</guid>
       <description>A late biker, I love exploring Devon and its surrounds on my 2023 Royal Enfield Himalayan&#xA;Himalayan St Davidstowe</description>
     </item>
     <item>
       <title>Others</title>
-      <link>http://localhost:1313/vehicles/others/index.html</link>
+      <link>https://digdilem.org/vehicles/others/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/vehicles/others/index.html</guid>
+      <guid>https://digdilem.org/vehicles/others/index.html</guid>
       <description>I’ve owned a lot of vehicles over the years. Being poor but needing to be mobile, “bangernomics” meant buying cheap and buying often…&#xA;Here’s some of them.&#xA;My first car. A 1974 Toyota 1000. Lasted me for many years&#xA;Mini. Bought for £50 in Plymouth. Started to restore it, but found it was totally rotten with newspaper stuffed into the roof corners as a base for filler. Was towed to a scrap yard</description>
     </item>
   </channel>

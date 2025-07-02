@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog :: Category :: Digital Dilemma</title>
-    <link>http://localhost:1313/categories/blog/index.html</link>
+    <link>https://digdilem.org/categories/blog/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Jun 2025 17:54:45 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selling My Dream Motorbike</title>
-      <link>http://localhost:1313/vehicles/motorbikes/selling-dream-motorbike/index.html</link>
+      <link>https://digdilem.org/vehicles/motorbikes/selling-dream-motorbike/index.html</link>
       <pubDate>Mon, 16 Jun 2025 17:54:45 +0100</pubDate>
-      <guid>http://localhost:1313/vehicles/motorbikes/selling-dream-motorbike/index.html</guid>
+      <guid>https://digdilem.org/vehicles/motorbikes/selling-dream-motorbike/index.html</guid>
       <description>The TV Program, Long Way Round was what made me want a motorbike, and specifically a BMW GS. In my mid 40s and facing a mid life crisis, I decided to do bikes. I wanted to travel the world too. It looked cool, it looked fun, it looked interesting.&#xA;So I did my CBT (Uk basic test), bought a £300 Chinese 125 and rode through the winter to get some miles in. Then booked the DAS test (same as the EU bike test – it’s tough) and then went to a bike showroom and ended up buying a high-mileage 2004 BMW R1200GS with full luggage – even before I passed my test. Luckily I did pass and loved riding it.</description>
     </item>
   </channel>

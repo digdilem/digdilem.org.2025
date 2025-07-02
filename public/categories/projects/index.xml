@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects :: Category :: Digital Dilemma</title>
-    <link>http://localhost:1313/categories/projects/index.html</link>
+    <link>https://digdilem.org/categories/projects/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shawn</title>
-      <link>http://localhost:1313/shawn/index.html</link>
+      <link>https://digdilem.org/shawn/index.html</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/shawn/index.html</guid>
+      <guid>https://digdilem.org/shawn/index.html</guid>
       <description>Meet Shawn, my Remote Controlled Lawn Mower.&#xA;Shawn, 2025&#xA;More pictures and videos down below About Shawn We own this steep 5-acre field on Dartmoor where we graze our horses. As horses are not very good at grazing off weeds, it needs topping twice a year to keep the grass in good condition. When we bought the land, it was very neglected, with a lot of high bramble growth and bracken which took weeks to clear. As it’s too steep for tractors (Most of it is about 30’, with parts up to 45’) my wife and I did this ourselves using petrol strimmers. It took months of work to get it in a state good enough to call the fencers in, and they too struggled with the grade.</description>
     </item>
     <item>
       <title>How Home Assistant is helping heat my water for free (With help from the sun)</title>
-      <link>http://localhost:1313/home-automation/heating-water-with-ha/index.html</link>
+      <link>https://digdilem.org/home-automation/heating-water-with-ha/index.html</link>
       <pubDate>Fri, 20 Jun 2025 20:08:45 +0100</pubDate>
-      <guid>http://localhost:1313/home-automation/heating-water-with-ha/index.html</guid>
+      <guid>https://digdilem.org/home-automation/heating-water-with-ha/index.html</guid>
       <description>(Free in third party energy costs, anyway)&#xA;Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85</description>
     </item>
   </channel>

@@ -8,7 +8,7 @@ categories:
   - cooling
   - pc
   - server
-
+weight: 18
 ---
 
 *Cooling servers using household plumbing*

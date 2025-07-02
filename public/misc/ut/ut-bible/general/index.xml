@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://digdilem.org/misc/ut/ut-bible/general/index.html</link>
+    <description>UT BIBLE by ocr*flocutus - News&#xD;General&#xD;Some general information about Unreal Tournament. Nothing you will need to play the game,&#xD;but nice to know.&#xA;air acceleration:    35%&#xD;air control:&#xD;  no&#xD;player height:&#xD;  78uu&#xD;player width:&#xD;  38uu&#xD;size of the headshotzone:    26 x 38uu (upper third of the player)&#xD;walking speed:&#xD;  160uu&#xD;running speed:&#xD;  400uu&#xD;dodging speed:&#xD;  600uu&#xD;jump height:&#xD;  67uu&#xD;jumping height when walking:    56uu&#xD;jumping height with boots:&#xD;  605uu&#xD;jumping height when dodging:    32uu&#xD;all jumping heights are taken from hardcore mode, which are 1.21 times&#xD;higher than those in normal mode.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://digdilem.org/misc/ut/ut-bible/general/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

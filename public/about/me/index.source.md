@@ -8,7 +8,7 @@ categories:
 ---
 
 
-### Digital Dilemma / digdilem / Simon Avery
+### Digital Dilemma / digdilem / Flash / Flasheart / Simon Avery
 
  {{< figure src="simon.jpg" alt="Simon" width="100px" >}}  *An old geek from Dartmoor* 
 

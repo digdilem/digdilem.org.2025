@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags :: Digital Dilemma</title>
-    <link>http://localhost:1313/tags/index.html</link>
+    <link>https://digdilem.org/tags/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Jun 2025 22:18:04 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag :: Home-Automation</title>
-      <link>http://localhost:1313/tags/home-automation/index.html</link>
+      <link>https://digdilem.org/tags/home-automation/index.html</link>
       <pubDate>Sun, 15 Jun 2025 22:18:04 +0100</pubDate>
-      <guid>http://localhost:1313/tags/home-automation/index.html</guid>
+      <guid>https://digdilem.org/tags/home-automation/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Project</title>
-      <link>http://localhost:1313/tags/project/index.html</link>
+      <link>https://digdilem.org/tags/project/index.html</link>
       <pubDate>Sun, 15 Jun 2025 22:18:04 +0100</pubDate>
-      <guid>http://localhost:1313/tags/project/index.html</guid>
+      <guid>https://digdilem.org/tags/project/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Linux</title>
-      <link>http://localhost:1313/tags/linux/index.html</link>
+      <link>https://digdilem.org/tags/linux/index.html</link>
       <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
-      <guid>http://localhost:1313/tags/linux/index.html</guid>
+      <guid>https://digdilem.org/tags/linux/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Ssl</title>
-      <link>http://localhost:1313/tags/ssl/index.html</link>
+      <link>https://digdilem.org/tags/ssl/index.html</link>
       <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
-      <guid>http://localhost:1313/tags/ssl/index.html</guid>
+      <guid>https://digdilem.org/tags/ssl/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Sysadmin</title>
-      <link>http://localhost:1313/tags/sysadmin/index.html</link>
+      <link>https://digdilem.org/tags/sysadmin/index.html</link>
       <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
-      <guid>http://localhost:1313/tags/sysadmin/index.html</guid>
+      <guid>https://digdilem.org/tags/sysadmin/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Zabbix</title>
-      <link>http://localhost:1313/tags/zabbix/index.html</link>
+      <link>https://digdilem.org/tags/zabbix/index.html</link>
       <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
-      <guid>http://localhost:1313/tags/zabbix/index.html</guid>
+      <guid>https://digdilem.org/tags/zabbix/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Esp</title>
-      <link>http://localhost:1313/tags/esp/index.html</link>
+      <link>https://digdilem.org/tags/esp/index.html</link>
       <pubDate>Wed, 11 Jun 2025 19:07:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/esp/index.html</guid>
+      <guid>https://digdilem.org/tags/esp/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Land-Rovers</title>
-      <link>http://localhost:1313/tags/land-rovers/index.html</link>
+      <link>https://digdilem.org/tags/land-rovers/index.html</link>
       <pubDate>Wed, 11 Jun 2025 19:07:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/land-rovers/index.html</guid>
+      <guid>https://digdilem.org/tags/land-rovers/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Restoration</title>
-      <link>http://localhost:1313/tags/restoration/index.html</link>
+      <link>https://digdilem.org/tags/restoration/index.html</link>
       <pubDate>Wed, 11 Jun 2025 19:07:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/restoration/index.html</guid>
+      <guid>https://digdilem.org/tags/restoration/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Vehicles</title>
-      <link>http://localhost:1313/tags/vehicles/index.html</link>
+      <link>https://digdilem.org/tags/vehicles/index.html</link>
       <pubDate>Wed, 11 Jun 2025 19:07:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vehicles/index.html</guid>
+      <guid>https://digdilem.org/tags/vehicles/index.html</guid>
       <description></description>
     </item>
   </channel>
