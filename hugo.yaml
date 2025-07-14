@@ -65,16 +65,16 @@ outputs:
   home:
   - html
   - rss
-  - print
+#  - print
   - source
   page:
   - html
   - rss
-  - print
+#  - print
   - source
   section:
   - html
   - rss
-  - print
+#  - print
   - source
 

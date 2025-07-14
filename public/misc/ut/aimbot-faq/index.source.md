@@ -408,7 +408,7 @@ Another recent one. Note score. Ok, fair enough, mostly newbies on that server, 
 Clanbase catches a high-profile cheater, [ID:Pain](http://www.clanbase.com/news_league.php?lid=671&mid=0&nid=68256)  
 Clanbase catches another cheater, [BB:Satan](http://www.clanbase.com/warrep_show.php?wid=1399435&cid=216760)
 
-Comments, bitches, corrections, additions etc - (Guestbook disabled due to muppets)[](/code/gb/ardguest.php)  
+Comments, bitches, corrections, additions etc - (Guestbook disabled due to muppets)
 Contact me via the forum please, I don't want to continue getting aimbot requests via email.
 
 Inspired by Money for Nothing, Dire Straits, /Brothers in arms/ 1985  

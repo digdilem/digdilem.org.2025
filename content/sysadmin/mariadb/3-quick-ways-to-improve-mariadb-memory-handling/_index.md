@@ -36,7 +36,7 @@ These changes are intended for servers where MariaDb is the primary application.
     We use jemalloc most commonly, but also had some success with tcmalloc. Both ship with Rocky Linux and Debian and are quick and easy to install and then enable via systemd.
 
 * [MariaDb’s guide to using tcmalloc or jemalloc](https://mariadb.com/kb/en/using-mariadb-with-tcmalloc-or-jemalloc/)
-* I've also written about this in [another post here](/p/solving-excess-memory-usage-in-mariadb/)
+* I've also written about this in [another post here](/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/)
 
 ## Conclusion 
 
