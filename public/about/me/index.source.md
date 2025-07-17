@@ -21,7 +21,7 @@ I have always been a geek, and fairly recently self-diagnosed as Autistic. This 
 #### Programming and computer experience
 * 1980s: **BASIC, Quill, Adlan, GAC** *A fun time and the 8-bit Text Adventure scene in Britain at that time was lively and exciting. I sold several games, mostly through WoW Software. (RIP Joan)*
 * 1990s: **TADS, Borland Turbo-C**  *I ran a BBS for over a decade, and much of my C coding was developing tools for that.*
-* 2000s: **Perl, PHP, Bootstrap, SQL** *At this point I was asked to write a database to manage the horses for our family's equine charity. This evolved into a major CRM that grew with the charity until it was managing close to a thousand horses, 150 staff and all the inter-relationships. This was written entirely in Perl CGI, using MySql as a backend*
+* 2000s: **Perl, PHP, Bootstrap, SQL** *At this point I was asked to write a database to manage the horses for an equine charity. This evolved into a major CRM that grew with the charity until it was managing close to a thousand horses, 150 staff and all the inter-relationships. This was written entirely in Perl CGI, using MySql as a backend*
 * 2010s: **Bash, Python, lots more perl and SQL**
 
 In the late 90s, I made a major career change and was lucky enough to get a job with a great employer as a Linux Sysadmin. All my adult life I'd lived in awe of these super beings, and suddenly I was one. Imposter syndrome was huge and the learning curve was steep!
