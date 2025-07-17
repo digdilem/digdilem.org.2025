@@ -47,7 +47,7 @@ The method has changed, such as;
 * Wordpress on a VPS
 * Jekyll hosted on Github
 * Wordpress hosted via Cloudflare Tunnel on my home server
-* In this latest iteration, Hugo hosted by Cloudflare pages
+* In this latest iteration, Hugo hosted by Cloudflare pages. The source for this website is [available on Github](https://github.com/digdilem/digdilem.org.2025)
 
 There's no formal company, product or service attached to Digital Dilemma. I use digdilem as a nick in a great many places and I've generally provided this site, in some form or another, mostly to house a few projects and share some information. 
 
