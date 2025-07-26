@@ -36,7 +36,17 @@ Eventually, Fidonet throughput trickled away as people moved onto the internet a
 
 The first Digital Dilemma website appeared on the internet around 1995 as a free btinternet site. I didn't register the `digdilem.org` domain until 2001.(Verifiable by Whois)
 
-### Then to now
+### This Website
+
+This iteration of Digital Dilemma is built using:
+
+* [Hugo](https://gohugo.io/)
+* [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html)
+* Hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
+
+Process: I write the site locally using VSCode, using `hugo serve` to review a local version and when I'm happy, deploy it to Cloudflare Pages using Wrangler. Immediately after, a copy is also deployed to [Github](https://github.com/digdilem/digdilem.org.2025) for posterity.
+
+### Digital Dilemma in the past
 
 It's 2025 and there's been a website here for around thirty years. 
 
@@ -47,7 +57,6 @@ The method has changed, such as;
 * Wordpress on a VPS
 * Jekyll hosted on Github
 * Wordpress hosted via Cloudflare Tunnel on my home server
-* In this latest iteration, Hugo hosted by Cloudflare pages. The source for this website is [available on Github](https://github.com/digdilem/digdilem.org.2025)
 
 There's no formal company, product or service attached to Digital Dilemma. I use digdilem as a nick in a great many places and I've generally provided this site, in some form or another, mostly to house a few projects and share some information. 
 

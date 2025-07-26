@@ -6,7 +6,6 @@ author: Simon Avery
 categories:
   - motorbikes
   - blog
-
 ---
 
 The TV Program, `Long Way Round` was what made me want a motorbike, and specifically a BMW GS. In my mid 40s and facing a mid life crisis, I decided to do bikes. I wanted to travel the world too. It looked cool, it looked fun, it looked interesting.
