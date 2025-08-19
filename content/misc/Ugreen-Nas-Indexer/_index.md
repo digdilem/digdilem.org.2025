@@ -35,7 +35,8 @@ The indexer cannot be disabled through the otherwise very useful web interface, 
 
 
 ```
-sudo systemctl disable --now index_serv thumb_serv
+sudo systemctl disable --now index_serv 
+sudo systemctl disable --now thumb_serv
 ```
 
 *You will be prompted for a password, use the same one you logged in with*
@@ -75,6 +76,17 @@ e) Save and quit the editor.
 
 #### This may still get overwritten by a firmware update of the NAS, in which case you'll have to start over. 
 
+### Being even more persistent
+
+If that doesn't work, then you can mask the services instead. 
+
+```
+systemctl mask index_serv thumb_serv
+```
+
+This tells systemd to symlink the service's unit file to `/dev/null` and this makes it harder for it to be automatically re-enabled. An `enable` won't work on a masked service. 
+
+However, you can reverse this with `systemctl unmask index_serv thumb_serv` and you will then be allowed to enable and start the services again if you wish.
 
 
 
