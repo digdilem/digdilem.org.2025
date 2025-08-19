@@ -113,8 +113,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Digital Dilemma",
-    "content": "Things that don’t fit elsewhere.\nRedneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
-    "description": "Things that don’t fit elsewhere.\nRedneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
+    "content": "Things that don’t fit elsewhere.\nDisabling the Ugreen Nas Indexer Redneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
+    "description": "Things that don’t fit elsewhere.\nDisabling the Ugreen Nas Indexer Redneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
     "tags": [],
     "title": "Misc",
     "uri": "/misc/index.html"
@@ -176,20 +176,60 @@ var relearn_searchindex = [
     "uri": "/sysadmin/zabbix/index.html"
   },
   {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Blog",
-    "uri": "/categories/blog/index.html"
-  },
-  {
     "breadcrumb": "Digital Dilemma",
     "content": "",
     "description": "",
     "tags": [],
     "title": "Categories",
     "uri": "/categories/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Misc",
+    "content": "I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.\nBut one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.\nThe problem with this is if your NAS uses hard drives, then it will cause a lot of activity going on for many hours or days after changes. This causes unneccessary wear on the drives and wastes power when they could have spun down, as well as being annoyingly noisy as the drives click and whirr for ages.\nThe indexer cannot be disabled through the otherwise very useful web interface, but can be disabled via ssh. Fortunately these Nas’s run Linux and the indexing service is a controlled by Systemctl, so can be turned off and disabled like any other linux service.\nCredit to /uZealousidealTax8340 for the original method.\nEnter the webui for your nas: IP-ADDRESS:9999 In Control Panel, under Connections \u0026 Access, select Terminal Tick Enable under SSH with a Shut Down automatically of something like 30 minutes. Click Apply. alt text\nNow connect to your NAS by SSH. This requires a SSH client like Putty (for Windows) or just “ssh” for linux. (And perhaps Windows CMD).\nLog in via SSH using the same username and password you use to log into its Webui\nOnce connected, enter this command.\nsudo systemctl disable --now index_serv thumb_serv You will be prompted for a password, use the same one you logged in with\nThis stops the two services, index_serv and thumb_serv, and stops them automatically restarting.\nNote: After a system update, it is likely this service will be re-enabled, so you will need to repeat the above. Being more persistent If you want a more permanent solution, you can also automatically repeat this command every hour. Because this is a linux computer, it comes with cron, the scheduler.\nTo do this;\na) SSH into your nas as above. b) Become root (we need to run the command as the root user)\nsudo su - Enter your password\nc) crontab -e\nYou may be prompted to choose an editor, either nano or vi. nano is generally considered easier to use if you’re unfamiliar, choose whichever you like. If it doesn’t prompt, then it will use Vi\nd) Enter a new line containing this;\n0 * * * * systemctl disable --now index_serv thumb_serv This repeats the command at 0 minutes on every hour of every day\ne) Save and quit the editor.\nThis may still get overwritten by a firmware update of the NAS, in which case you’ll have to start over.",
+    "description": "I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.\nBut one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.",
+    "tags": [],
+    "title": "Disabling the Ugreen Nas Indexer",
+    "uri": "/misc/ugreen-nas-indexer/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Homelab",
+    "uri": "/categories/homelab/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Misc",
+    "uri": "/categories/misc/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Nas",
+    "uri": "/categories/nas/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Ugreen",
+    "uri": "/categories/ugreen/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Blog",
+    "uri": "/categories/blog/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",
@@ -510,14 +550,6 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Category :: Linux",
     "uri": "/categories/linux/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Misc",
-    "uri": "/categories/misc/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Home Automation \u003e  Esphome",
