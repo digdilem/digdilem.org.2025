@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.
+But one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Disabling the Ugreen Nas Indexer :: Digital Dilemma">
+    <meta name="twitter:description" content="I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.
+But one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.">
+    <meta property="og:url" content="https://digdilem.org/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Disabling the Ugreen Nas Indexer :: Digital Dilemma">
+    <meta property="og:description" content="I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.
+But one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Disabling the Ugreen Nas Indexer :: Digital Dilemma">
+    <meta itemprop="description" content="I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.
+But one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.">
+    <meta itemprop="datePublished" content="2025-08-19T21:03:01+01:00">
+    <meta itemprop="dateModified" content="2025-08-19T21:03:01+01:00">
+    <meta itemprop="wordCount" content="565">
+    <meta itemprop="keywords" content="Sysadmin,Zabbix,Ugreen,Nas,Homelab">
+    <title>Disabling the Ugreen Nas Indexer :: Digital Dilemma</title>
+    <link href="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.xml" rel="alternate" type="application/rss+xml" title="Disabling the Ugreen Nas Indexer :: Digital Dilemma">
+    <link href="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.source.md" rel="alternate" type="text/markdown" title="Disabling the Ugreen Nas Indexer :: Digital Dilemma">
+    <link href="/images/favicon.png?1756931173" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1756931173" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1756931173" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1756931173" rel="stylesheet">
+    <link href="/css/theme.min.css?1756931173" rel="stylesheet">
+    <link href="/css/format-html.min.css?1756931173" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1756931173" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1756931173" defer></script>
+    <script src="/js/lunr/lunr.min.js?1756931173" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1756931173" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1756931173" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1756931173" defer></script>
+    <script src="/js/search.min.js?1756931173" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/sysadmin\/ugreen-nas\/ugreen-nas-indexer\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1756931173";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support html" data-url="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li><a href="#being-more-persistent">Being more persistent</a></li>
+        <li><a href="#being-even-more-persistent">Being even more persistent</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/index.html"><span itemprop="name">Sysadmin</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/ugreen-nas/index.html"><span itemprop="name">UGreen NAS DXP2800</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Disabling the Ugreen Nas Indexer</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-source" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.source.md" title="Show source code"><i class="fa-fw fas fa-code"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html" title="Zabbix Agent2 on Ugreen Dxp2800 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/mariadb/index.html" title="Mariadb (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable sysadmin" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="disabling-the-ugreen-nas-indexer">Disabling the Ugreen Nas Indexer</h1>
+
+<p>I have a UGREEN NASync DXP2800 NAS. It&rsquo;s very good with some lovely design touches like the toolless caddies that are amongst the best I&rsquo;ve ever used, including many enterprise systems.</p>
+<p>But one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.</p>
+<p>The problem with this is if your NAS uses hard drives, then it will cause a lot of activity going on for many hours or days after changes. This causes unneccessary wear on the drives and wastes power when they could have spun down, as well as being annoyingly noisy as the drives click and whirr for ages.</p>
+<p>The indexer cannot be disabled through the otherwise very useful web interface, but can be disabled via ssh. Fortunately these Nas&rsquo;s run Linux and the indexing service is a controlled by Systemctl, so can be turned off and disabled like any other linux service.</p>
+<blockquote>
+<p>Credit to <a href="https://www.reddit.com/r/UgreenNASync/comments/1dv6wv3/turn_off_indexing_thumbnails/lc0r7it/" rel="external" target="_blank">/uZealousidealTax8340</a> for the original method.</p></blockquote>
+<ol>
+<li>Enter the webui for your nas: <code>IP-ADDRESS:9999</code></li>
+<li>In Control Panel, under <code>Connections &amp; Access</code>, select <code>Terminal</code></li>
+<li>Tick <code>Enable</code> under SSH with a <code>Shut Down automatically</code> of something like 30 minutes.</li>
+<li>Click Apply.</li>
+</ol>
+<p>
+
+  
+
+
+<figure>
+  <img src="image.png"
+       alt="alt text"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>alt text</b></i></p></figcaption>
+  
+</figure>
+</p>
+<ol start="5">
+<li>
+<p>Now connect to your NAS by SSH. This requires a SSH client like Putty (for Windows) or just &ldquo;ssh&rdquo; for linux. (And perhaps Windows CMD).</p>
+</li>
+<li>
+<p>Log in via SSH using the same username and password you use to log into its Webui</p>
+</li>
+<li>
+<p>Once connected, enter this command.</p>
+</li>
+</ol>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>sudo systemctl disable --now index_serv 
+sudo systemctl disable --now thumb_serv</code></pre></div>
+<p><em>You will be prompted for a password, use the same one you logged in with</em></p>
+<p>This stops the two services, <code>index_serv</code> and <code>thumb_serv</code>, and stops them automatically restarting.</p>
+<h4 id="note-after-a-system-update-it-is-likely-this-service-will-be-re-enabled-so-you-will-need-to-repeat-the-above">Note: After a system update, it is likely this service will be re-enabled, so you will need to repeat the above.</h4>
+<h3 id="being-more-persistent">Being more persistent</h3>
+<p>If you want a more permanent solution, you can also automatically repeat this command every hour. Because this is a linux computer, it comes with cron, the scheduler.</p>
+<p>To do this;</p>
+<p>a) SSH into your nas as above.
+b) Become root (we need to run the command as the root user)</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>sudo su -</code></pre></div>
+<p><em>Enter your password</em></p>
+<p>c) <code>crontab -e</code></p>
+<p><em>You may be prompted to choose an editor, either nano or vi. nano is generally considered easier to use if you&rsquo;re unfamiliar, choose whichever you like. If it doesn&rsquo;t prompt, then it will use Vi</em></p>
+<p>d) Enter a new line containing this;</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>0 * * * * systemctl disable --now index_serv thumb_serv</code></pre></div>
+<p><em>This repeats the command at 0 minutes on every hour of every day</em></p>
+<p>e) Save and quit the editor.</p>
+<h4 id="this-may-still-get-overwritten-by-a-firmware-update-of-the-nas-in-which-case-youll-have-to-start-over">This may still get overwritten by a firmware update of the NAS, in which case you&rsquo;ll have to start over.</h4>
+<h3 id="being-even-more-persistent">Being even more persistent</h3>
+<p>If that doesn&rsquo;t work, then you can mask the services instead.</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>systemctl mask index_serv thumb_serv</code></pre></div>
+<p>This tells systemd to symlink the service&rsquo;s unit file to <code>/dev/null</code> and this makes it harder for it to be automatically re-enabled. An <code>enable</code> won&rsquo;t work on a masked service.</p>
+<p>However, you can reverse this with <code>systemctl unmask index_serv thumb_serv</code> and you will then be allowed to enable and start the services again if you wish.</p>
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Aug 19, 2025
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/homelab/index.html">Homelab</a></li>
+    <li><a class="term-link" href="/categories/nas/index.html">Nas</a></li>
+    <li><a class="term-link" href="/categories/sysadmin/index.html">Sysadmin</a></li>
+    <li><a class="term-link" href="/categories/ugreen/index.html">Ugreen</a></li>
+    <li><a class="term-link" href="/categories/zabbix/index.html">Zabbix</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+            <div class="logo-title">Digital Dilemma</div>
+          </a>
+        </div>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/about/index.html"><a class="padding" href="/about/index.html">About<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-77102f70526b1c2db0eced54632dc618" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/dartmoor/index.html"><a class="padding" href="/dartmoor/index.html">Dartmoor<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/home-automation/index.html"><a class="padding" href="/home-automation/index.html">Home Automation<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-5414c68938d2d977e695711a62c241e2" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/misc/index.html"><a class="padding" href="/misc/index.html">Misc<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-f243eab41fb28f51378992bf36c41035" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/shawn/index.html"><a class="padding" href="/shawn/index.html">Remote Controlled Lawnmower<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/software/index.html"><a class="padding" href="/software/index.html">Software<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="parent " data-nav-id="/sysadmin/index.html"><a class="padding" href="/sysadmin/index.html">Sysadmin<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-40737dc2a8a1439ce96242bc284e17bf" class="collapsible-menu">
+            <li class="" data-nav-id="/sysadmin/docker/index.html"><a class="padding" href="/sysadmin/docker/index.html">Docker<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-d62cf93067a0c358dd7f7f29b0175b6f" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/sysadmin/ugreen-nas/index.html"><a class="padding" href="/sysadmin/ugreen-nas/index.html">UGreen NAS DXP2800<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-2858c2d9be26e26508c6136daea5315d" class="collapsible-menu">
+            <li class="" data-nav-id="/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html"><a class="padding" href="/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html">Zabbix Agent2 on Ugreen Dxp2800<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="active " data-nav-id="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html"><a class="padding" href="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html">Disabling the Ugreen Nas Indexer<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+            <li class="" data-nav-id="/sysadmin/mariadb/index.html"><a class="padding" href="/sysadmin/mariadb/index.html">Mariadb<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-20c4ec8b56f40f5cdc5ced0fd6f1fe9d" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sysadmin/zabbix/index.html"><a class="padding" href="/sysadmin/zabbix/index.html">Zabbix<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b475e8919aecc12318fd1ab81e30fbcd" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sysadmin/backing-up-data/index.html"><a class="padding" href="/sysadmin/backing-up-data/index.html">Backing Up Important Data<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+            <li class="" data-nav-id="/thoughts/index.html"><a class="padding" href="/thoughts/index.html">Thoughts<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-6520c659975ef8a296a067b97df65739" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/vehicles/index.html"><a class="padding" href="/vehicles/index.html">Vehicles<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-77d72abac0d5f3866605d48ffe77e064" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-historyclearer">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-history"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <button>Clear History</button>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+
+ <a href='https://www.free-counters.org/'>Get free Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f354b4b44cb54faf0f1cd960c8deb49d17a67710'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1353957/t/0"></script>
+</div>
+      </div>
+    </aside>
+    <script src="/js/clipboard/clipboard.min.js?1756931173" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1756931173" defer></script>
+    <script src="/js/theme.min.js?1756931173" defer></script>
+  </body>
+</html>

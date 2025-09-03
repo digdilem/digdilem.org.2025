@@ -136,20 +136,28 @@ var relearn_searchindex = [
     "uri": "/software/index.html"
   },
   {
+    "breadcrumb": "Digital Dilemma",
+    "content": "These are things that may be useful to Sysadmins, or just technical people who like playing with computers.\nBacking Up Important Data Docker Mariadb UGreen NAS DXP2800 Zabbix",
+    "description": "These are things that may be useful to Sysadmins, or just technical people who like playing with computers.\nBacking Up Important Data Docker Mariadb UGreen NAS DXP2800 Zabbix",
+    "tags": [],
+    "title": "Sysadmin",
+    "uri": "/sysadmin/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Sysadmin",
+    "content": "Things relating to my UGreen DXP2800 NAS\nThe Ugreen DXP 2800\nUGreen Articles Disabling the Ugreen Nas Indexer Zabbix Agent2 on Ugreen Dxp2800",
+    "description": "Things relating to my UGreen DXP2800 NAS\nThe Ugreen DXP 2800\nUGreen Articles Disabling the Ugreen Nas Indexer Zabbix Agent2 on Ugreen Dxp2800",
+    "tags": [],
+    "title": "UGreen NAS DXP2800",
+    "uri": "/sysadmin/ugreen-nas/index.html"
+  },
+  {
     "breadcrumb": "Digital Dilemma \u003e  Sysadmin",
     "content": "Things relating to MariaDb, a widespread and very good SQL Database Server\nMariaDb Official Website My MariaDb Articles 3 Quick Ways to Improve Mariadb Memory Handling Finding User Defines Solving Excess Memory Usage in Mariadb",
     "description": "Things relating to MariaDb, a widespread and very good SQL Database Server\nMariaDb Official Website My MariaDb Articles 3 Quick Ways to Improve Mariadb Memory Handling Finding User Defines Solving Excess Memory Usage in Mariadb",
     "tags": [],
     "title": "Mariadb",
     "uri": "/sysadmin/mariadb/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma",
-    "content": "These are things that may be useful to Sysadmins, or just technical people who like playing with computers.\nBacking Up Important Data Docker Mariadb Zabbix",
-    "description": "These are things that may be useful to Sysadmins, or just technical people who like playing with computers.\nBacking Up Important Data Docker Mariadb Zabbix",
-    "tags": [],
-    "title": "Sysadmin",
-    "uri": "/sysadmin/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma",
@@ -176,20 +184,84 @@ var relearn_searchindex = [
     "uri": "/sysadmin/zabbix/index.html"
   },
   {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Blog",
-    "uri": "/categories/blog/index.html"
-  },
-  {
     "breadcrumb": "Digital Dilemma",
     "content": "",
     "description": "",
     "tags": [],
     "title": "Categories",
     "uri": "/categories/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Homelab",
+    "uri": "/categories/homelab/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Monitoring",
+    "uri": "/categories/monitoring/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Nas",
+    "uri": "/categories/nas/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Sysadmin",
+    "uri": "/categories/sysadmin/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Ugreen",
+    "uri": "/categories/ugreen/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Zabbix",
+    "uri": "/categories/zabbix/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Sysadmin \u003e  UGreen NAS DXP2800",
+    "content": "I recently got a new NAS, a UGreen DXP2800, and wanted to add it to me existing Zabbix Server to monitor disk space and get alerts when I was running low. I couldn’t find much information about how to do this, so I wrote this for those who follow after.\nThe Ugreen DXP 2800\nWhilst you can mount in each network share into an existing machine that already has a Zabbix Agent running, I wanted to run the agent on the NAS itself - it is just a linux server, after all.\nThere are probably several ways to do this, but I did it by installing docker, then using that to create a container running Zabbix-Agent2. Here’s how.\nDifficulty: Medium Time: 20-40 minutes You will need an existing Zabbix Server set up Installing Docker and Zabbix Agent 2 Visit your NAS’s web interface - usually at http://IP-ADDRESS:9999/ and log in\nOpen the App Center Open the App Center\nLocate the Docker app and install it. The Docker app\nYou should now have a new Docker icon on the desktop. Open it. Docker\nClick on Image and then choose the Image Database tab.\nType in ZABBIX in the search box and hit enter.\nThe image you probably want is zabbix/zabbix-agent2. Click on the Download icon on the right as you hover over it.\nalt text\nOnce the image has downloaded you are ready to create the container with Zabbix-agent2 inside it.\nClick on Container in the menu and then New Container - you should be able to select zabbix-agent2 like so\nalt text\nHere’s where you configure the container. Most of the values have sensible defaults and you don’t need to change them, but feel free to if you wish. alt text\nYou will need to add one environment variable:\nZBX_SERVER_HOST which contains the IP address of your Zabbix server.\nMy zabbix server’s IP\nFor each disk/volume of your Nas you want to monitor, under Volume Add them to a descripting Container/Directory. This mounts them inside the container that the agent runs in, and it can then find them during discovery and ready their sizes. Here’s one of mine.\nMount each volume to a mount point like so\nSet the Network configuration -\u003e Network Mode to Host which allows Zabbix server to reach the agent. Alternatively, you can do some Port mapping in this section - just make a note what external port maps to 10050, as that’s what the server needs to connect to.\nYou might also want to change some other optional values. I like to limit the CPUs and Ram, change the Container Name and enable Auto Restart\nWhen you’re happy, click Confirm and leave the tickbox ticked.\nCreating the container\nHopefully this will build your container, and pretty quickly it will be running. You can click the 3-dots here The 3 dots above the cursor\nAnd get a useful context menu.\nClicking Settings on that menu brings you here, where you can monitor it, open a terminal inside the container and so on. It should look something like so\nThe container Settings menu\nConfiguring Zabbix Server This is very similar to adding any normal linux host.\na. Data Collect -\u003e Hosts -\u003e Create Hosts\nb. Enter in the Hostname (Cosmetic only)\nc. Add the Linux by Zabbix Agent template.\nd. Assign to whatever Hostgroups you think appropriate.\ne. Interfaces should contain the IP address of your NAS, and either 10050 (if you chose Host mode networking), or the NAS mapped port for 10050 if you didn’t. See point 13 above\nMy Zabbix server host entry for my NAS\nf) Creating this server should now allow Zabbix server to find the Agent running on the NAS and start its Discovery search. It should automatically find the volumes you mounted back in step 12 and start recording their size, along with the container’s memory, cpu usage and so on.\nAfter some time, Clicking on Monitoring -\u003e Hosts -\u003e YourNas -\u003e Dashboards should give you some useful information.\nZabbix should now alert you when the disks get up using the default 80% and 90% trigger limits for the Linux by Agent template, or however you’ve configured these triggers to be. You will need to have set up notifications in Zabbix to know about it though!\nNAS System Stats\nDisk information",
+    "description": "I recently got a new NAS, a UGreen DXP2800, and wanted to add it to me existing Zabbix Server to monitor disk space and get alerts when I was running low. I couldn’t find much information about how to do this, so I wrote this for those who follow after.\nThe Ugreen DXP 2800\nWhilst you can mount in each network share into an existing machine that already has a Zabbix Agent running, I wanted to run the agent on the NAS itself - it is just a linux server, after all.",
+    "tags": [],
+    "title": "Zabbix Agent2 on Ugreen Dxp2800",
+    "uri": "/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Sysadmin \u003e  UGreen NAS DXP2800",
+    "content": "I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.\nBut one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.\nThe problem with this is if your NAS uses hard drives, then it will cause a lot of activity going on for many hours or days after changes. This causes unneccessary wear on the drives and wastes power when they could have spun down, as well as being annoyingly noisy as the drives click and whirr for ages.\nThe indexer cannot be disabled through the otherwise very useful web interface, but can be disabled via ssh. Fortunately these Nas’s run Linux and the indexing service is a controlled by Systemctl, so can be turned off and disabled like any other linux service.\nCredit to /uZealousidealTax8340 for the original method.\nEnter the webui for your nas: IP-ADDRESS:9999 In Control Panel, under Connections \u0026 Access, select Terminal Tick Enable under SSH with a Shut Down automatically of something like 30 minutes. Click Apply. alt text\nNow connect to your NAS by SSH. This requires a SSH client like Putty (for Windows) or just “ssh” for linux. (And perhaps Windows CMD).\nLog in via SSH using the same username and password you use to log into its Webui\nOnce connected, enter this command.\nsudo systemctl disable --now index_serv sudo systemctl disable --now thumb_serv You will be prompted for a password, use the same one you logged in with\nThis stops the two services, index_serv and thumb_serv, and stops them automatically restarting.\nNote: After a system update, it is likely this service will be re-enabled, so you will need to repeat the above. Being more persistent If you want a more permanent solution, you can also automatically repeat this command every hour. Because this is a linux computer, it comes with cron, the scheduler.\nTo do this;\na) SSH into your nas as above. b) Become root (we need to run the command as the root user)\nsudo su - Enter your password\nc) crontab -e\nYou may be prompted to choose an editor, either nano or vi. nano is generally considered easier to use if you’re unfamiliar, choose whichever you like. If it doesn’t prompt, then it will use Vi\nd) Enter a new line containing this;\n0 * * * * systemctl disable --now index_serv thumb_serv This repeats the command at 0 minutes on every hour of every day\ne) Save and quit the editor.\nThis may still get overwritten by a firmware update of the NAS, in which case you’ll have to start over. Being even more persistent If that doesn’t work, then you can mask the services instead.\nsystemctl mask index_serv thumb_serv This tells systemd to symlink the service’s unit file to /dev/null and this makes it harder for it to be automatically re-enabled. An enable won’t work on a masked service.\nHowever, you can reverse this with systemctl unmask index_serv thumb_serv and you will then be allowed to enable and start the services again if you wish.",
+    "description": "I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.\nBut one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.",
+    "tags": [],
+    "title": "Disabling the Ugreen Nas Indexer",
+    "uri": "/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Blog",
+    "uri": "/categories/blog/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",
@@ -636,14 +708,6 @@ var relearn_searchindex = [
     "content": "",
     "description": "",
     "tags": [],
-    "title": "Category :: Sysadmin",
-    "uri": "/categories/sysadmin/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
     "title": "Category :: Himalayan",
     "uri": "/categories/himalayan/index.html"
   },
@@ -825,14 +889,6 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Tag :: Sysadmin",
     "uri": "/tags/sysadmin/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Zabbix",
-    "uri": "/categories/zabbix/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Tags",

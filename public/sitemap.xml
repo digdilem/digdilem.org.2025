@@ -66,11 +66,15 @@
     <loc>https://digdilem.org/software/index.html</loc>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/mariadb/index.html</loc>
-    <lastmod>2025-06-16T13:33:46+01:00</lastmod>
+    <loc>https://digdilem.org/sysadmin/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/sysadmin/index.html</loc>
+    <loc>https://digdilem.org/sysadmin/ugreen-nas/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/sysadmin/mariadb/index.html</loc>
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
@@ -86,11 +90,43 @@
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/blog/index.html</loc>
-    <lastmod>2025-07-26T20:04:43+01:00</lastmod>
+    <loc>https://digdilem.org/categories/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/index.html</loc>
+    <loc>https://digdilem.org/categories/homelab/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/monitoring/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/nas/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/sysadmin/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/ugreen/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/zabbix/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html</loc>
+    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html</loc>
+    <lastmod>2025-08-19T21:03:01+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/blog/index.html</loc>
     <lastmod>2025-07-26T20:04:43+01:00</lastmod>
   </url>
   <url>
@@ -314,10 +350,6 @@
     <lastmod>2025-06-16T13:33:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/sysadmin/index.html</loc>
-    <lastmod>2025-06-16T13:33:46+01:00</lastmod>
-  </url>
-  <url>
     <loc>https://digdilem.org/categories/himalayan/index.html</loc>
     <lastmod>2025-06-16T13:24:14+01:00</lastmod>
   </url>
@@ -407,10 +439,6 @@
   </url>
   <url>
     <loc>https://digdilem.org/tags/sysadmin/index.html</loc>
-    <lastmod>2025-06-13T21:43:19+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://digdilem.org/categories/zabbix/index.html</loc>
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>

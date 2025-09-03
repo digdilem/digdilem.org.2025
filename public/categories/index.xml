@@ -6,8 +6,50 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Jul 2025 20:04:43 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 20:41:13 +0100</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Category :: Homelab</title>
+      <link>https://digdilem.org/categories/homelab/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <guid>https://digdilem.org/categories/homelab/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Monitoring</title>
+      <link>https://digdilem.org/categories/monitoring/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <guid>https://digdilem.org/categories/monitoring/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Nas</title>
+      <link>https://digdilem.org/categories/nas/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <guid>https://digdilem.org/categories/nas/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Sysadmin</title>
+      <link>https://digdilem.org/categories/sysadmin/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <guid>https://digdilem.org/categories/sysadmin/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Ugreen</title>
+      <link>https://digdilem.org/categories/ugreen/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <guid>https://digdilem.org/categories/ugreen/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Zabbix</title>
+      <link>https://digdilem.org/categories/zabbix/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <guid>https://digdilem.org/categories/zabbix/index.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>Category :: Blog</title>
       <link>https://digdilem.org/categories/blog/index.html</link>
@@ -296,13 +338,6 @@
       <description></description>
     </item>
     <item>
-      <title>Category :: Sysadmin</title>
-      <link>https://digdilem.org/categories/sysadmin/index.html</link>
-      <pubDate>Mon, 16 Jun 2025 13:33:46 +0100</pubDate>
-      <guid>https://digdilem.org/categories/sysadmin/index.html</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Category :: Himalayan</title>
       <link>https://digdilem.org/categories/himalayan/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:24:14 +0100</pubDate>
@@ -349,13 +384,6 @@
       <link>https://digdilem.org/categories/memory/index.html</link>
       <pubDate>Mon, 16 Jun 2025 09:09:50 +0100</pubDate>
       <guid>https://digdilem.org/categories/memory/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Zabbix</title>
-      <link>https://digdilem.org/categories/zabbix/index.html</link>
-      <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
-      <guid>https://digdilem.org/categories/zabbix/index.html</guid>
       <description></description>
     </item>
     <item>
