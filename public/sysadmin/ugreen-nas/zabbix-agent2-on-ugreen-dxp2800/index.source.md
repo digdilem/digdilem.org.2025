@@ -10,9 +10,6 @@ categories:
   - ugreen
   - nas
   - homelab
-
-
-
 ---
 
 I recently got a new NAS, a UGreen DXP2800, and wanted to add it to me existing Zabbix Server to monitor disk space and get alerts when I was running low.   I couldn't find much information about how to do this, so I wrote this for those who follow after.

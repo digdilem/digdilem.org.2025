@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="I’m a recent convert to Proxmox, the Virtualisation Environment. I’m running it on my homelab and find it excellent.
+Although Proxmox comes with its own backup system that is perfectly functional and reliably makes backups of my virtual machines on any schedule you like, I wanted to explore the free partner to it, Proxmox Backup Server And, having a new NAS that can run things on, I thought I’d try to get PBS running on there. Although I was already saving my backups to the NAS via a normal file share, it made sense to have PBS running directly on it rather than on the machine that might fail in the name of separation in case of hardware failure or disaster.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker :: Digital Dilemma">
+    <meta name="twitter:description" content="I’m a recent convert to Proxmox, the Virtualisation Environment. I’m running it on my homelab and find it excellent.
+Although Proxmox comes with its own backup system that is perfectly functional and reliably makes backups of my virtual machines on any schedule you like, I wanted to explore the free partner to it, Proxmox Backup Server And, having a new NAS that can run things on, I thought I’d try to get PBS running on there. Although I was already saving my backups to the NAS via a normal file share, it made sense to have PBS running directly on it rather than on the machine that might fail in the name of separation in case of hardware failure or disaster.">
+    <meta property="og:url" content="https://digdilem.org/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker :: Digital Dilemma">
+    <meta property="og:description" content="I’m a recent convert to Proxmox, the Virtualisation Environment. I’m running it on my homelab and find it excellent.
+Although Proxmox comes with its own backup system that is perfectly functional and reliably makes backups of my virtual machines on any schedule you like, I wanted to explore the free partner to it, Proxmox Backup Server And, having a new NAS that can run things on, I thought I’d try to get PBS running on there. Although I was already saving my backups to the NAS via a normal file share, it made sense to have PBS running directly on it rather than on the machine that might fail in the name of separation in case of hardware failure or disaster.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker :: Digital Dilemma">
+    <meta itemprop="description" content="I’m a recent convert to Proxmox, the Virtualisation Environment. I’m running it on my homelab and find it excellent.
+Although Proxmox comes with its own backup system that is perfectly functional and reliably makes backups of my virtual machines on any schedule you like, I wanted to explore the free partner to it, Proxmox Backup Server And, having a new NAS that can run things on, I thought I’d try to get PBS running on there. Although I was already saving my backups to the NAS via a normal file share, it made sense to have PBS running directly on it rather than on the machine that might fail in the name of separation in case of hardware failure or disaster.">
+    <meta itemprop="datePublished" content="2025-09-06T15:45:50+01:00">
+    <meta itemprop="dateModified" content="2025-09-06T15:45:50+01:00">
+    <meta itemprop="wordCount" content="1682">
+    <meta itemprop="keywords" content="Sysadmin,Proxmox,Backups,Ugreen,Nas,Homelab">
+    <title>Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker :: Digital Dilemma</title>
+    <link href="/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.xml" rel="alternate" type="application/rss+xml" title="Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker :: Digital Dilemma">
+    <link href="/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.source.md" rel="alternate" type="text/markdown" title="Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker :: Digital Dilemma">
+    <link href="/images/favicon.png?1757173586" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757173586" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757173586" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757173586" rel="stylesheet">
+    <link href="/css/theme.min.css?1757173586" rel="stylesheet">
+    <link href="/css/format-html.min.css?1757173586" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1757173586" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1757173586" defer></script>
+    <script src="/js/lunr/lunr.min.js?1757173586" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1757173586" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1757173586" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1757173586" defer></script>
+    <script src="/js/search.min.js?1757173586" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/sysadmin\/ugreen-nas\/proxmox-backup-server-on-nas\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1757173586";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support html" data-url="/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li><a href="#installing-pbs">Installing PBS</a></li>
+        <li><a href="#configuring-proxmox-backup-server">Configuring Proxmox Backup Server</a></li>
+        <li><a href="#connecting-proxmox-to-pbs">Connecting Proxmox to PBS</a></li>
+        <li><a href="#scheduling-a-backup">Scheduling a backup</a></li>
+        <li><a href="#restoring-a-backup">Restoring a backup</a></li>
+        <li><a href="#problems">Problems</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/index.html"><span itemprop="name">Sysadmin</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/sysadmin/ugreen-nas/index.html"><span itemprop="name">UGreen NAS DXP2800</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-source" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.source.md" title="Show source code"><i class="fa-fw fas fa-code"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/ugreen-nas/index.html" title="UGreen NAS DXP2800 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html" title="Zabbix Agent2 on Ugreen Dxp2800 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable sysadmin" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="proxmox-backup-server-on-a-ugreen-dxp2800-nas-in-docker">Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker</h1>
+
+<p>I&rsquo;m a recent convert to <a href="https://www.proxmox.com/en/" rel="external" target="_blank">Proxmox</a>, the Virtualisation Environment. I&rsquo;m running it on my homelab and find it excellent.</p>
+<p>Although Proxmox comes with its own backup system that is perfectly functional and reliably makes backups of my virtual machines on any schedule you like, I wanted to explore the free partner to it, <a href="https://www.proxmox.com/en/products/proxmox-backup-server/overview" rel="external" target="_blank">Proxmox Backup Server</a>  And, having a new NAS that can run things on, I thought I&rsquo;d try to get PBS running on there. Although I was already saving my backups to the NAS via a normal file share, it made sense to have PBS running directly on it rather than on the machine that might fail in the name of separation in case of hardware failure or disaster.</p>
+<p>This is how I did it, and I&rsquo;m very pleased I did. I now have enterprise level backups for my homelab at a grand cost of £0.00</p>
+<ul>
+<li><em>Why not just continue to use Proxmox to save its own backups?</em></li>
+</ul>
+<p>Although Proxmox&rsquo;s internal backups are good, they&rsquo;re not particular <em>smart</em>. PBS has a number of advantages that make taking backups faster and quicker and allow things like instant file recovery without needing to recover the entire VM. Also, backups are fast and take up a <strong>lot</strong> less disk space.</p>
+<h4 id="heres-some-key-advantages-of-pbs">Here&rsquo;s some key advantages of PBS</h4>
+<ol>
+<li>Global Deduplication</li>
+</ol>
+<p>This is the single most significant advantage of PBS. Proxmox VE&rsquo;s built-in backup creates a new, complete backup file for each job. PBS, on the other hand, performs global deduplication across all backups stored in a datastore. This means that if you have multiple virtual machines (VMs) or containers with the same operating system files, PBS only stores those identical data chunks once. This drastically reduces the amount of disk space required for your backups.</p>
+<ol start="2">
+<li>Incremental Backups</li>
+</ol>
+<p>PBS uses a &ldquo;forever-incremental&rdquo; backup model. After the initial full backup, all subsequent backups only transfer and store the new or changed data blocks. This makes your daily backup jobs much faster and less resource-intensive, both on the source PVE host and on the network.</p>
+<ol start="3">
+<li>Data Integrity and Security</li>
+</ol>
+<p>PBS includes several features to ensure your backup data is safe and consistent.</p>
+<ul>
+<li>
+<p>Built-in Checksums: It uses SHA-256 checksums to verify the integrity of every data chunk. This helps to detect silent data corruption, also known as &ldquo;bit rot,&rdquo; a major risk for long-term data storage.</p>
+</li>
+<li>
+<p>Client-Side Encryption: Data is encrypted on the source Proxmox VE host before it&rsquo;s sent to the PBS, ensuring your data is secure during transit and at rest on the backup server.</p>
+</li>
+</ul>
+<ol start="4">
+<li>Advanced Features and Management</li>
+</ol>
+<p>PBS provides a centralized, dedicated interface for managing all your backup jobs, with features that PVE&rsquo;s basic backup utility lacks.</p>
+<ul>
+<li>
+<p>File-Level Restore: You can browse the contents of a backup and restore individual files directly from the PBS, without having to restore the entire VM.</p>
+</li>
+<li>
+<p>Live-Restore: This feature allows you to start a VM from a backup almost instantly. The VM can boot while the data is still being restored in the background, minimizing downtime.</p>
+</li>
+<li>
+<p>Remote Synchronization: PBS can synchronize datastores to a secondary, remote PBS instance, providing an easy and efficient way to create off-site backup copies for disaster recovery.Built-in Checksums: It uses SHA-256 checksums to verify the integrity of every data chunk. This helps to detect silent data corruption, also known as &ldquo;bit rot,&rdquo; a major risk for long-term data storage.</p>
+</li>
+</ul>
+<p>Client-Side Encryption: Data is encrypted on the source Proxmox VE host before it&rsquo;s sent to the PBS, ensuring your data is secure during transit and at rest on the backup server.</p>
+<ol start="4">
+<li>Advanced Features and Management</li>
+</ol>
+<ul>
+<li>
+<p>PBS provides a centralized, dedicated interface for managing all your backup jobs, with features that PVE&rsquo;s basic backup utility lacks.</p>
+</li>
+<li>
+<p>File-Level Restore: You can browse the contents of a backup and restore individual files directly from the PBS, without having to restore the entire VM.</p>
+</li>
+<li>
+<p>Live-Restore: This feature allows you to start a VM from a backup almost instantly. The VM can boot while the data is still being restored in the background, minimizing downtime.</p>
+</li>
+<li>
+<p>Remote Synchronization: PBS can synchronize datastores to a secondary, remote PBS instance, providing an easy and efficient way to create off-site backup copies for disaster recovery.</p>
+</li>
+</ul>
+<hr>
+<h3 id="installing-pbs">Installing PBS</h3>
+<p><em>If you&rsquo;re not using a Ugreen NAS, most of these functions will also apply to any system that uses Docker compose</em></p>
+<ul>
+<li>Create a new <code>Shared Folder</code> in the <code>Files</code> app for your Proxmox backups. This has to be large enough to hold your expected backups for obvious reasons.  When you&rsquo;ve created it, right-click the folder and copy down the <code>location</code> by clicking the copy symbol. We&rsquo;ll need this later.</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="image-1.png"
+       alt="Make a note of this Location"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Make a note of this Location</b></i></p></figcaption>
+  
+</figure>
+</p>
+<ul>
+<li>Start by going to your Ugreen NAS and use the <code>App Center</code> to install <code>Docker</code>. This will create a new icon on your NAS&rsquo; desktop called Docker.</li>
+</ul>
+<p>When Docker is installed, open it.</p>
+<ul>
+<li>Go to <code>Project</code> and click <code>Create</code></li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="image.png"
+       alt="Creating a new project for PBS"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Creating a new project for PBS</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>Name: Something like &lsquo;proxmox-backup-server&rsquo;</p>
+<p>Storage Path: This is where the Docker project stores its information for the container, not the where the backups are - but they can be the same if you wish.</p>
+<p>Compose Configuration: This is where you paste your <code>docker-compose.yml</code> file.</p>
+<h4 id="the-docker-composeyml-file">The docker-compose.yml file</h4>
+<p>I used the image and compose file created by <code>ayufan</code> <a href="https://github.com/ayufan/pve-backup-server-dockerfiles/blob/main/docker-compose.yml" rel="external" target="_blank">here</a></p>
+<p>This is my version. There&rsquo;s a few changes:</p>
+<ul>
+<li>We need to replace the variables in the image. I replaced them with those given by ayufan elsewhere in his <a href="https://github.com/ayufan/pve-backup-server-dockerfiles/tree/main" rel="external" target="_blank">documentation</a></li>
+<li>The volumes are different, and start with a <code>./</code> to keep them relative to the above <code>Storage Path</code></li>
+<li>I removed the separate Volumes below, and I added a <strong>new</strong> volume which connects the <code>Shared Folder</code> we created</li>
+</ul>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>services:
+  pbs:
+    image: ayufan/proxmox-backup-server:latest
+    container_name: proxmox_backup_server
+    ports:
+      - 8007:8007
+    volumes:
+      - ./pbs_etc:/etc/proxmox-backup
+      - ./pbs_logs:/var/log/proxmox-backup
+      - ./pbs_lib:/var/lib/proxmox-backup
+      - /volume1/pbs_backups:/pbs_backups
+    restart: unless-stopped
+    tmpfs:
+      - /run
+    stop_signal: SIGHUP
+    cap_add:
+      - SYS_RAWIO # smartctl support    
+    mem_limit: 2G      </code></pre></div>
+<p>When ready, go ahead and click <code>Deploy</code>. If all goes well, Docker will download the PBS image and create the container and launch PBS!</p>
+<p>When it completes, you&rsquo;ll find it running in the <code>Container</code> tab in Docker&rsquo;s menu.</p>
+<h3 id="configuring-proxmox-backup-server">Configuring Proxmox Backup Server</h3>
+<p>PBS should now be available on port 8007 of your NAS&rsquo;s ip. Go open it at <code>https://IP_ADDRESS:8007</code></p>
+<p>The initial credentials are: <code>user</code> <strong>admin@pbs</strong> and <code>password</code> <strong>pbspbs</strong> and chang the <code>Realm</code> to <strong>Proxmox Backup authentication Server</strong></p>
+<p>Once in PBS, the first thing you&rsquo;ll want to do is add the storage to it.</p>
+<ul>
+<li>In the PBS menu, select <code>+ Add Datastore</code></li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="image-3.png"
+       alt="Creating the datastore"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Creating the datastore</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>Name: Something useful, but note that it will only accept certain characters.</p>
+<p>Datastore Type: Local   (Because we&rsquo;ve mounted the Location into the container as a volume)</p>
+<p>Backing Path:  Enter in <code>/pbs_backups</code> or whatever name you used in the right-hand (local) side of the volume in your <code>docker-compose.yml</code></p>
+<p>You can also set the <em>Global</em> defaults for the <code>Prune Options</code> tab here, although you can change those later, or by job, if you wish.</p>
+<p>Once you&rsquo;re happy, click Add and PBS will connect to the Datastore and start creating its file structure.</p>
+<h3 id="connecting-proxmox-to-pbs">Connecting Proxmox to PBS</h3>
+<p>The backup schedules and jobs are controlled, not on PBS, but on the Proxmox Server or Cluster itself, so we&rsquo;ve some work to do there too.</p>
+<ul>
+<li>
+<p>Open up your Proxmox Server and visit <code>Datacenter</code> then <code>Storage</code></p>
+</li>
+<li>
+<p>Click on <code>Add</code> and choose <code>Proxmox Backup Server</code></p>
+</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="image-2.png"
+       alt="Creating a new PBS storage"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Creating a new PBS storage</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p>Enter in the details of your new PBS server something like this;</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="image-4.png"
+       alt="Connecting PBS to Proxmox"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Connecting PBS to Proxmox</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p><strong>Note!</strong>  The first time you connect, it will fail with an error about fingerprints;</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>create storage failed: pbs_nas: error fetching datastores - fingerprint &#39;8A:7B:19:A6:7C:2C:F4:BB:48:64:1B:3D:&lt;redacted&gt;&#39;&#39; not verified, abort! (500)</code></pre></div>
+<p>The fix for this is fairly straightforward. Copy the long STRING between the &rsquo; quotes and paste it into the Fingerprints field, and retry. This time it should be happier, and the new storage will show up in Proxmox.</p>
+<h3 id="scheduling-a-backup">Scheduling a backup</h3>
+<p>Once the storage is showing up, you can create a new Backup schedule</p>
+<ul>
+<li><code>Datacenter</code> then <code>Backup</code> and <code>Add</code></li>
+</ul>
+<p>Fill this up as you would for a normal backup job, but change <code>Storage</code> to your new <code>pbs_nas</code> storage (Or whatever you named it above).</p>
+<p>
+
+  
+
+
+<figure>
+  <img src="image-5.png"
+       alt="Creating a new backup schedule"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Creating a new backup schedule</b></i></p></figcaption>
+  
+</figure>
+</p>
+<p><em>Info: If you have an existing backup job, you can just change the Storage to this without recreating everything</em></p>
+<p>Complete your new schedule and test it by clicking <code>Run Now</code> with it selected.</p>
+<p>All going well, Proxmox should connect to PBS and start the job. The first time will take around the same time as a normal Proxmox vm backup, but subsequent ones will be much faster as it will only copy the changes to each vm.</p>
+<p>As well as seeing the backup job in Proxmox, it will also show up in PBS&rsquo;s Dashboard - useful if you&rsquo;re backing up from multiple sources.</p>
+<h3 id="restoring-a-backup">Restoring a backup</h3>
+<p>This is done from your Proxmox server - in fact, you won&rsquo;t need to revisit PBS again unless you need to change any settings as all management is done from Proxmox.</p>
+<ul>
+<li>In the left menu, select your <code>Proxmox Node</code> and then your new <code>pbs_nas</code> Storage. Select <code>Backups</code> from there and you should see all the backups that now reside on your NAS.</li>
+<li>Note that as well as your usual <code>Restore</code> button, there is a <code>File Restore</code> button too. This allows you to download <em>individual files</em> from a backup nearly instantly.</li>
+</ul>
+<p>
+
+  
+
+
+<figure>
+  <img src="image-6.png"
+       alt="Restoring an individual file from a vm backup"
+       
+       loading="lazy"
+       decoding="async"
+  >
+  
+    <figcaption><p><b><i>Restoring an individual file from a vm backup</b></i></p></figcaption>
+  
+</figure>
+</p>
+<h3 id="problems">Problems</h3>
+<p>If PBS isn&rsquo;t working right, the first thing to do is to read the container logs. Do this by clicking on <code>Docker</code> -&gt; <code>Container</code> and <code>proxmox_basic_server</code>. Then click the <code>Log</code> tab.</p>
+<ul>
+<li>
+<p>If you get permission problems when PBS first tries to create chunks, then the Shared folder likely needs less restrictive permissions. This can&rsquo;t be done through the web apps, only through the Docker container&rsquo;s terminal.</p>
+<ul>
+<li>
+<p>In the <code>Docker App</code>, click the <code>Container</code> menu item, then the <code>proxmox_backup_server</code> entry and then the <code>Terminal</code> tab.</p>
+</li>
+<li>
+<p>If prompted, create a new shell using <code>/bin/bash/</code> (As it suggests)</p>
+</li>
+<li>
+<p>Give the <em>backup directory</em> full write permissions.</p>
+</li>
+</ul>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>chmod 777 /backups</code></pre></div>
+<ul>
+<li>Stop the container (<code>Basic Information</code> tab, then the stop/start button) and then after a few seconds, start it again.</li>
+</ul>
+</li>
+</ul>
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Sep 6, 2025
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/backups/index.html">Backups</a></li>
+    <li><a class="term-link" href="/categories/homelab/index.html">Homelab</a></li>
+    <li><a class="term-link" href="/categories/nas/index.html">Nas</a></li>
+    <li><a class="term-link" href="/categories/proxmox/index.html">Proxmox</a></li>
+    <li><a class="term-link" href="/categories/sysadmin/index.html">Sysadmin</a></li>
+    <li><a class="term-link" href="/categories/ugreen/index.html">Ugreen</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+            <div class="logo-title">Digital Dilemma</div>
+          </a>
+        </div>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/about/index.html"><a class="padding" href="/about/index.html">About<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-77102f70526b1c2db0eced54632dc618" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/dartmoor/index.html"><a class="padding" href="/dartmoor/index.html">Dartmoor<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/home-automation/index.html"><a class="padding" href="/home-automation/index.html">Home Automation<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-5414c68938d2d977e695711a62c241e2" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/misc/index.html"><a class="padding" href="/misc/index.html">Misc<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-f243eab41fb28f51378992bf36c41035" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/shawn/index.html"><a class="padding" href="/shawn/index.html">Remote Controlled Lawnmower<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/software/index.html"><a class="padding" href="/software/index.html">Software<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="parent " data-nav-id="/sysadmin/index.html"><a class="padding" href="/sysadmin/index.html">Sysadmin<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-40737dc2a8a1439ce96242bc284e17bf" class="collapsible-menu">
+            <li class="" data-nav-id="/sysadmin/docker/index.html"><a class="padding" href="/sysadmin/docker/index.html">Docker<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-d62cf93067a0c358dd7f7f29b0175b6f" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/sysadmin/ugreen-nas/index.html"><a class="padding" href="/sysadmin/ugreen-nas/index.html">UGreen NAS DXP2800<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-2858c2d9be26e26508c6136daea5315d" class="collapsible-menu">
+            <li class="active " data-nav-id="/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.html"><a class="padding" href="/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.html">Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html"><a class="padding" href="/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html">Zabbix Agent2 on Ugreen Dxp2800<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html"><a class="padding" href="/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html">Disabling the Ugreen Nas Indexer<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+            <li class="" data-nav-id="/sysadmin/mariadb/index.html"><a class="padding" href="/sysadmin/mariadb/index.html">Mariadb<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-20c4ec8b56f40f5cdc5ced0fd6f1fe9d" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sysadmin/zabbix/index.html"><a class="padding" href="/sysadmin/zabbix/index.html">Zabbix<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b475e8919aecc12318fd1ab81e30fbcd" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sysadmin/backing-up-data/index.html"><a class="padding" href="/sysadmin/backing-up-data/index.html">Backing Up Important Data<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+            <li class="" data-nav-id="/thoughts/index.html"><a class="padding" href="/thoughts/index.html">Thoughts<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-6520c659975ef8a296a067b97df65739" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/vehicles/index.html"><a class="padding" href="/vehicles/index.html">Vehicles<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-77d72abac0d5f3866605d48ffe77e064" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-historyclearer">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-history"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <button>Clear History</button>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+
+ <a href='https://www.free-counters.org/'>Get free Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f354b4b44cb54faf0f1cd960c8deb49d17a67710'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1353957/t/0"></script>
+</div>
+      </div>
+    </aside>
+    <script src="/js/clipboard/clipboard.min.js?1757173586" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757173586" defer></script>
+    <script src="/js/theme.min.js?1757173586" defer></script>
+  </body>
+</html>

@@ -67,11 +67,11 @@
   </url>
   <url>
     <loc>https://digdilem.org/sysadmin/index.html</loc>
-    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/sysadmin/ugreen-nas/index.html</loc>
-    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/sysadmin/mariadb/index.html</loc>
@@ -90,27 +90,39 @@
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
+    <loc>https://digdilem.org/categories/backups/index.html</loc>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
+  </url>
+  <url>
     <loc>https://digdilem.org/categories/index.html</loc>
-    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/categories/homelab/index.html</loc>
-    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://digdilem.org/categories/monitoring/index.html</loc>
-    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/categories/nas/index.html</loc>
-    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/proxmox/index.html</loc>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.html</loc>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/categories/sysadmin/index.html</loc>
-    <lastmod>2025-09-03T20:41:13+01:00</lastmod>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/categories/ugreen/index.html</loc>
+    <lastmod>2025-09-06T15:45:50+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/monitoring/index.html</loc>
     <lastmod>2025-09-03T20:41:13+01:00</lastmod>
   </url>
   <url>
@@ -359,10 +371,6 @@
   </url>
   <url>
     <loc>https://digdilem.org/sysadmin/backing-up-data/index.html</loc>
-    <lastmod>2025-06-16T12:53:19+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://digdilem.org/categories/backups/index.html</loc>
     <lastmod>2025-06-16T12:53:19+01:00</lastmod>
   </url>
   <url>

@@ -6,7 +6,7 @@
     <description>Welcome to Digital Dilemma&#xA;A small place on the internet that’s been around for a long time and serves as a place for me to put stuff.&#xA;I hope you find something here of interest.&#xA;About Dartmoor Home Automation Misc Remote Controlled Lawnmower Software Sysadmin Thoughts Vehicles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Sep 2025 20:41:13 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 15:45:50 +0100</lastBuildDate>
     <atom:link href="https://digdilem.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
@@ -53,7 +53,7 @@
     <item>
       <title>Sysadmin</title>
       <link>https://digdilem.org/sysadmin/index.html</link>
-      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
       <guid>https://digdilem.org/sysadmin/index.html</guid>
       <description>These are things that may be useful to Sysadmins, or just technical people who like playing with computers.&#xA;Backing Up Important Data Docker Mariadb UGreen NAS DXP2800 Zabbix</description>
     </item>

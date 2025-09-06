@@ -6,13 +6,48 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Sep 2025 20:41:13 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 15:45:50 +0100</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Category :: Backups</title>
+      <link>https://digdilem.org/categories/backups/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
+      <guid>https://digdilem.org/categories/backups/index.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>Category :: Homelab</title>
       <link>https://digdilem.org/categories/homelab/index.html</link>
-      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
       <guid>https://digdilem.org/categories/homelab/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Nas</title>
+      <link>https://digdilem.org/categories/nas/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
+      <guid>https://digdilem.org/categories/nas/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Proxmox</title>
+      <link>https://digdilem.org/categories/proxmox/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
+      <guid>https://digdilem.org/categories/proxmox/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Sysadmin</title>
+      <link>https://digdilem.org/categories/sysadmin/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
+      <guid>https://digdilem.org/categories/sysadmin/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Ugreen</title>
+      <link>https://digdilem.org/categories/ugreen/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
+      <guid>https://digdilem.org/categories/ugreen/index.html</guid>
       <description></description>
     </item>
     <item>
@@ -20,27 +55,6 @@
       <link>https://digdilem.org/categories/monitoring/index.html</link>
       <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
       <guid>https://digdilem.org/categories/monitoring/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Nas</title>
-      <link>https://digdilem.org/categories/nas/index.html</link>
-      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
-      <guid>https://digdilem.org/categories/nas/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Sysadmin</title>
-      <link>https://digdilem.org/categories/sysadmin/index.html</link>
-      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
-      <guid>https://digdilem.org/categories/sysadmin/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Ugreen</title>
-      <link>https://digdilem.org/categories/ugreen/index.html</link>
-      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
-      <guid>https://digdilem.org/categories/ugreen/index.html</guid>
       <description></description>
     </item>
     <item>
@@ -342,13 +356,6 @@
       <link>https://digdilem.org/categories/himalayan/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:24:14 +0100</pubDate>
       <guid>https://digdilem.org/categories/himalayan/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Backups</title>
-      <link>https://digdilem.org/categories/backups/index.html</link>
-      <pubDate>Mon, 16 Jun 2025 12:53:19 +0100</pubDate>
-      <guid>https://digdilem.org/categories/backups/index.html</guid>
       <description></description>
     </item>
     <item>
