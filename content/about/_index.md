@@ -40,8 +40,9 @@ The first Digital Dilemma website appeared on the internet around 1995 as a free
 
 This iteration of Digital Dilemma is built using:
 
-* [Hugo](https://gohugo.io/)
+* [Hugo](https://gohugo.io/) - Static Site Generator
 * [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html)
+* [Umami](https://github.com/umami-software/umami) - Simple and GDPR compliant web counter.
 * Hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
 
 Process: I write the site locally using VSCode, using `hugo serve` to review a local version and when I'm happy, deploy it to Cloudflare Pages using Wrangler. Immediately after, a copy is also deployed to [Github](https://github.com/digdilem/digdilem.org.2025) for posterity.
@@ -69,5 +70,7 @@ I hope this site is useful in some small way.
 ### Cookie Policy
 
 There is no explicit cookie opt-in page. Awful things. I'm not commercially exploiting this information and there is no tracking necessary for the website to work. 
+
+Simple web stats are collected using [Umami](https://github.com/umami-software/umami) which has a [GDPR Statement](https://umami.is/docs/faq) stating that opt-in is not required.
 
 Thus, these pages are considered to fall under the exception clause in [DIRECTIVE 2002/58/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL, Art. 5(3)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02002L0058-20091219#id-8b90d9c9-eb09-44f5-a58d-51d9cb3a50cd)
