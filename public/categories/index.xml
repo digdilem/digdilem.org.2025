@@ -6,8 +6,22 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Sep 2025 15:45:50 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 11:25:20 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Category :: Pc</title>
+      <link>https://digdilem.org/categories/pc/index.html</link>
+      <pubDate>Thu, 30 Oct 2025 11:25:20 +0000</pubDate>
+      <guid>https://digdilem.org/categories/pc/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Server</title>
+      <link>https://digdilem.org/categories/server/index.html</link>
+      <pubDate>Thu, 30 Oct 2025 11:25:20 +0000</pubDate>
+      <guid>https://digdilem.org/categories/server/index.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>Category :: Backups</title>
       <link>https://digdilem.org/categories/backups/index.html</link>
@@ -184,24 +198,10 @@
       <description></description>
     </item>
     <item>
-      <title>Category :: Pc</title>
-      <link>https://digdilem.org/categories/pc/index.html</link>
-      <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
-      <guid>https://digdilem.org/categories/pc/index.html</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Category :: Project</title>
       <link>https://digdilem.org/categories/project/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
       <guid>https://digdilem.org/categories/project/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Server</title>
-      <link>https://digdilem.org/categories/server/index.html</link>
-      <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
-      <guid>https://digdilem.org/categories/server/index.html</guid>
       <description></description>
     </item>
     <item>

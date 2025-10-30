@@ -64,6 +64,14 @@ var relearn_searchindex = [
     "uri": "/misc/redneck-water-cooling/index.html"
   },
   {
+    "breadcrumb": "Digital Dilemma \u003e  Misc",
+    "content": "Expanding UPS runtimes on the cheap Despite what some manufacturers would have you believe, the battery packs for nearly all Uninterruptable Power Supplies are not magical, they’re just 12 volt Sealed Lead Acid batteries.\nThis means that, if you don’t mind a little bit of basic wiring, you can use any 12v lead acid type battery with them. If you happen to have an old car or tractor battery lying around that’s no longer quite good enough to turn an engine over in a cold winter, it would still have enough capacity to run a UPS.\nI’ve done this several times and it’s always worked out well for almost no money.\nNote: Car batteries do emit more hydrogen when charging than SLAs, so only do this in a well ventilated space.\nWhat do you need? A UPS. We’ll restrict ourselves to lower powered consumer UPS’ that use a single 12v SLA battery, although the principles work just as well for larger packs that have 2 or more in serial - just use the equivalent number of 12v batteries, but do make sure they’re close to each other in terms of their own capacity and starting voltage. A 12v lead acid battery. This can be almost anything. The larger the better, and you could add a similar bunch together in parallel to further increase capacity 2x battery clamps or crocodile clips to connect to the car battery. Some thick-guage wire to extend the wiring outside of the UPS to the car battery. Connecting How it goes together\nEnsure your car battery is charged up to at least 12.2v. Resting voltage for a fully charged 12v battery is around 12.6 to 12.8v. Disconnect the UPS from the mains and open it up. Stay away from the circuitry - there’ll be some capacitors in there that can still give a painful and dangerous shock. Disconnect and remove the old SLA battery Extend the positive lead that used to go to the positive terminal on the old battery. This should be of a similar guaged wire and be long enough to reach the positive terminal of the car battery. You may wish to fit an in-line fuse to this, although the UPS will probably already have one. Repeat for the negative lead. Replace UPS covers. You may need to cut a hole in the UPS case, or tail the leads out of the front. When connected, the UPS should go into mains-lost mode and perhaps start beeping.\nAt this point, it should be safe to connect the UPS back into the mains and it should behave exactly as it did with an internal battery.\nIt might look something like this\nVoltage The voltages should be identical to SLA and any diagnostics the UPS may have should look the same for this, once the battery has recharged.\nRuntimes The UPS will probably report disappointing runtimes at first. Once the battery is charged, it’s worth triggering a full calibration. On most UPS’, this disconnects the mains supply and runs the load off the battery until the voltage drops to a specific figure. Then it calculates the load and the duration this took and establishes a new estimated runtime figure. This is something most UPS’ do anyway to remain accurate as the original batteries deteriorate with age. Once that’s complete, the new runtime figure it reports should be longer if the larger battery is in good condition.\nRecharging After being depleted, UPS’ will recharge their battery and this will obviously take longer than a smaller one. They often condition the battery also, so it’s not unusual to see fluctuations of the battery’s voltage as it floats a small charge. Again, this voltage should be similar to the original battery.\nConsiderations Lead acid batteries emit more hydrogen when charging than SLA batteries do, which is explosive. Ensure your space is well ventilated. (I run my server in a garage, which was perfect) If the wiring extension is long, increase guage to avoid voltage drop. (There are various formulas for this)",
+    "description": "Expanding UPS runtimes on the cheap Despite what some manufacturers would have you believe, the battery packs for nearly all Uninterruptable Power Supplies are not magical, they’re just 12 volt Sealed Lead Acid batteries.\nThis means that, if you don’t mind a little bit of basic wiring, you can use any 12v lead acid type battery with them. If you happen to have an old car or tractor battery lying around that’s no longer quite good enough to turn an engine over in a cold winter, it would still have enough capacity to run a UPS.",
+    "tags": [],
+    "title": "Extending UPS runtimes",
+    "uri": "/misc/ups-expansion/index.html"
+  },
+  {
     "breadcrumb": "Digital Dilemma \u003e  Sysadmin",
     "content": "Things relating to Docker.\nMy Docker Articles Docker Network Fails After Iptables Restarts",
     "description": "Things relating to Docker.\nMy Docker Articles Docker Network Fails After Iptables Restarts",
@@ -113,8 +121,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Digital Dilemma",
-    "content": "Things that don’t fit elsewhere.\nRedneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
-    "description": "Things that don’t fit elsewhere.\nRedneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
+    "content": "Things that don’t fit elsewhere.\nExtending UPS runtimes Redneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
+    "description": "Things that don’t fit elsewhere.\nExtending UPS runtimes Redneck PC Water Cooling Unreal Tournament Using Gpslogger With Traccar",
     "tags": [],
     "title": "Misc",
     "uri": "/misc/index.html"
@@ -184,20 +192,36 @@ var relearn_searchindex = [
     "uri": "/sysadmin/zabbix/index.html"
   },
   {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Backups",
-    "uri": "/categories/backups/index.html"
-  },
-  {
     "breadcrumb": "Digital Dilemma",
     "content": "",
     "description": "",
     "tags": [],
     "title": "Categories",
     "uri": "/categories/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Pc",
+    "uri": "/categories/pc/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Server",
+    "uri": "/categories/server/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Backups",
+    "uri": "/categories/backups/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",
@@ -428,24 +452,8 @@ var relearn_searchindex = [
     "content": "",
     "description": "",
     "tags": [],
-    "title": "Category :: Pc",
-    "uri": "/categories/pc/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
     "title": "Category :: Project",
     "uri": "/categories/project/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Server",
-    "uri": "/categories/server/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",

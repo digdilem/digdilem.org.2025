@@ -6,7 +6,7 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jun 2025 15:44:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 11:25:20 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redneck PC Water Cooling</title>
@@ -14,6 +14,13 @@
       <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
       <guid>https://digdilem.org/misc/redneck-water-cooling/index.html</guid>
       <description>Cooling servers using household plumbing&#xA;“How to water cool computers using household plumbing equipment”&#xA;I like peace and quiet. Most water cooling rigs available for home PCs are anything but – they only use water to move the heat away from the CPU and GPU to a finned radiator, then blast it with fans. I thought that radiant cooling would work and not need any fans, so I built a water cooling system. It worked perfectly for a linux server and my gaming windows PC for three years, until I had to free up space and instead focussed on sound proofing a cupboard and using air cooling. This was back in 2010 but there’s no reason why it wouldn’t work today.</description>
+    </item>
+    <item>
+      <title>Extending UPS runtimes</title>
+      <link>https://digdilem.org/misc/ups-expansion/index.html</link>
+      <pubDate>Thu, 30 Oct 2025 11:25:20 +0000</pubDate>
+      <guid>https://digdilem.org/misc/ups-expansion/index.html</guid>
+      <description>Expanding UPS runtimes on the cheap Despite what some manufacturers would have you believe, the battery packs for nearly all Uninterruptable Power Supplies are not magical, they’re just 12 volt Sealed Lead Acid batteries.&#xA;This means that, if you don’t mind a little bit of basic wiring, you can use any 12v lead acid type battery with them. If you happen to have an old car or tractor battery lying around that’s no longer quite good enough to turn an engine over in a cold winter, it would still have enough capacity to run a UPS.</description>
     </item>
   </channel>
 </rss>
