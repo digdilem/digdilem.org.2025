@@ -22,6 +22,11 @@ params:
   disableSourceButton: false
   disableNextPrev: false
 
+  relearn:
+  dependencies:
+    myspeccyshortcode:
+      name: MySpeccyShortcode
+
 # Hugo generics
 enableRobotsTXT: true  
 

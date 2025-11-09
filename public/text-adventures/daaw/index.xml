@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Danger! Adventurer At Work! :: Digital Dilemma</title>
+    <link>https://digdilem.org/text-adventures/daaw/index.html</link>
+    <description>Solution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)&#xA;Your quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://digdilem.org/text-adventures/daaw/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

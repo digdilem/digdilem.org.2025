@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adventure :: Category :: Digital Dilemma</title>
+    <link>https://digdilem.org/categories/adventure/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Aug 2025 21:03:01 +0100</lastBuildDate>
+    <atom:link href="https://digdilem.org/categories/adventure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text Adventures</title>
+      <link>https://digdilem.org/text-adventures/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/text-adventures/index.html</guid>
+      <description>Text Adventures&#xA;During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.&#xA;A collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!</description>
+    </item>
+    <item>
+      <title>Danger! Adventurer At Work!</title>
+      <link>https://digdilem.org/text-adventures/daaw/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/text-adventures/daaw/index.html</guid>
+      <description>Solution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)&#xA;Your quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.</description>
+    </item>
+  </channel>
+</rss>

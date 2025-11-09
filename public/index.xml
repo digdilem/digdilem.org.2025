@@ -3,7 +3,7 @@
   <channel>
     <title>Digital Dilemma</title>
     <link>https://digdilem.org/index.html</link>
-    <description>Welcome to Digital Dilemma&#xA;A small place on the internet that’s been around for a long time and serves as a place for me to put stuff.&#xA;I hope you find something here of interest.&#xA;About Dartmoor Home Automation Misc Remote Controlled Lawnmower Software Sysadmin Thoughts Vehicles</description>
+    <description>Welcome to Digital Dilemma&#xA;A small place on the internet that’s been around for a long time and serves as a place for me to put stuff.&#xA;I hope you find something here of interest.&#xA;About Dartmoor Home Automation Misc Remote Controlled Lawnmower Software Sysadmin text-adventures Thoughts Vehicles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 11:25:20 +0000</lastBuildDate>
@@ -56,6 +56,13 @@
       <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
       <guid>https://digdilem.org/sysadmin/index.html</guid>
       <description>These are things that may be useful to Sysadmins, or just technical people who like playing with computers.&#xA;Backing Up Important Data Docker Mariadb UGreen NAS DXP2800 Zabbix</description>
+    </item>
+    <item>
+      <title>Text Adventures</title>
+      <link>https://digdilem.org/text-adventures/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/text-adventures/index.html</guid>
+      <description>Text Adventures&#xA;During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.&#xA;A collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!</description>
     </item>
     <item>
       <title>Thoughts</title>

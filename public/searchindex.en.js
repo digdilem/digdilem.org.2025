@@ -169,6 +169,14 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Digital Dilemma",
+    "content": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.\nA collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!\nDanger! Adventurer At Work!",
+    "description": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.\nA collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!",
+    "tags": [],
+    "title": "Text Adventures",
+    "uri": "/text-adventures/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma",
     "content": "Why Free Software is better for your company",
     "description": "Why Free Software is better for your company",
     "tags": [],
@@ -296,12 +304,52 @@ var relearn_searchindex = [
     "uri": "/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html"
   },
   {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Adventure",
+    "uri": "/categories/adventure/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  text-adventures",
+    "content": "Solution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)\nYour quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.\nWalk Through EXAMINE WINDOW, EXAMINE DOOR (locked), GET STOOL, EXAMINE STOOL, THROW STOOL (through the window), EXAMINE WINDOW, CLIMB WINDOW (through window to street), GET HEAD, E, IN (telephone booth), GET ROPE, EXAMINE ROPE, OUT, N, E (field), GET TORSO, EXAMINE TORSO, EXAMINE BULL, TALK BULL, GET BULL (you tie the rope around the ring in his nose), W, S, E, IN (china shop - the shopkeeper drops some boltcutters and runs after the bull), GET BOLTCUTTERS, EXAMINE BOLTCUTTERS, N, W, IN (telephone booth), EXAMINE TELEPHONE, EXAMINE RECEIVER, CUT WIRE (the receiver falls to the floor), GET RECEIVER, EXAMINE RECEIVER, OUT.\nE, E, S (dead end), EXAMINE WITCH, TALK WITCH, GIVE RECEIVER (she wanders off and leaves the broom behind), GET BROOM, EXAMINE BROOM, N, W, W, W, W, W, EXAMINE HEDEGPIG, TALK HEDGEPIG, GIVE BROOM (he walks off arm in arm with the broom), LOOK, GET NEEDLE, EXAMINE NEEDLE, E, E, E, N (farm), EXAMINE CAMEL, TALK CAMEL, GIVE NEEDLE (it disappears leaving something on the ground), LOOK, EXAMINE DUNG, GET COIN, EXAMINE COIN), N (farm track), GET LEAFLET, READ LEAFLET, S, S, E, E, GET LLEG, EXAMINE FENCE (one of the slats is loose), KICK FENCE, LOOK, GET bird SEED, EXAMINE SEED, E, D (beach), EXAMINE LADY (she is wearing a tube), TALK LADY, GET TUBE, EXAMINE TUBE (inflated), EXAMINE KIPPER (leave it!).\nW, W, W, W, W, W, N (cul-de-sac), GET RLEG, S, W (end of street), GET BUCKET, E, E, E, E, E, E, E, D (beach), FILL BUCKET (with sand), U, W, W, W, W, S (small building), EXAMINE ENGINEER (explosives), TALK ENGINEER, GIVE BUCKET (he puts out the fire and gives you a stick of dynamite), EXAMINE DYNAMITE (fused and ready to light), N, W, W, S, GET RARM, IN (cave), GET ROCK, EXAMINE ROCK (it has jagged edges), GET GOLD, EXAMINE GOLD, EXAMINE DRAGON, TALK DRAGON (he is dejected), LOBE DRAGON (you look behind him and find something), LOOK, GET GAME (adventure), EXAMINE GAME, OUT.\nS, IN (hut), GET LARM, EXAMINE BOD, TALK BOD, GIVE LEAFLET (you have now been blessed with sharp wit), INVENTORY (you now have a wit sharp enough to cut with), OUT, N, N, E, E, E, E, N, N, E (poultry farm), EXAMINE HUMPTY, TALK HUMPTY, PUSH HUMPTY (he just rolls back), DROP ROCK, PUSH HUMPTY (he hits the rock and cracks open… a little bird flies out), EXAMINE BIRD (perches on your shoulder and is convinced you are it’s mother), LOOK, GET EGGSHELLS, EXAMINE EGGSHELLS, W, S, S, W, W, N (alley), IN (night school), EXAMINE TEACHER, TALK TEACHER, GIVE GOLD (she instructs you in the art of making bodies), OUT, S, W, N (cul-de-sac), EXAMINE MAN (strange), TALK MAN, GIVE EGGSHELLS (he passed you a hammer).\nS, W, EXAMINE SQUIRREL, TALK SQUIRREL (leave it alone), N (castle entrance), N (Angus the tollkeeper stops you), EXAMINE ANGUS, TALK ANGUS, GIVE COIN (he walks off), N, N (laboratory), EXAMINE BENCH (steel), LOUN BENCH (you look underneath and find something), LOOK, GET PILLS (travel sickness), EXAMINE PILLS, MAKE BODY (you create a body on the steel bench), LOOK (you now see a monster lying on the bench), EXAMINE MONSTER, EXAMINE ELECTRODES, ATTACH ELECTRODES, PRESS SWITCH (the monster comes to life and walks through the north wall).\nN (west side of chasm), EXAMINE BRICK (loose), PULL BRICK, LOOK, GET MATCHES, EXAMINE MATCHES (only one left), EXAMINE CHASM (far on the other side you see a button next to an open doorway), THROW SEED (you throw it at the button and some sticks… the bird pecks at the seed… a bridge slides out of the rock and crosses the chasm, but something appears on the bridge before you), LOOK, EXAMINE BALROG, TALK BALROG, GIVE GAME (he goes off to see if he can make any money out of it), E (east side of chasm), E (circular room), READ SIGN, EXAMINE ROPE (under tremendous strain), CUT ROPE (using your sharp wit… the floor falls and so do you… you find yourself in a cellar).\nN, EXAMINE RUG, GET RUG (nailed to the floor), PULL NAILS (using the hammer), LOOK, GET FLASHLIGHT, EXAMINE FLASHLIGHT, E (it’s dark), LIGHT FLASHLIGHT, E (western bank of river), EXAMINE RIVER, WEAR TUBE, SWIM RIVER (east bank), E (high cavern), READ SIGN (“The No Way INN” - the door is locked), DROP DYNAMITE, LIGHT DYNAMITE, W, WAIT, WAIT, E (the door has been blown off its hinges), S (into underground tavern), EXAMINE FIREPLACE, TURN BRACKET (a hole opens in the east wall), E (you are crawling along a low tunnel), E (glade), EXAMINE PONY, TALK PONY, EAT PILLS (travel sickness), RIDE PONY (eventually the pony deposits you on a cloud surrounded by numerous computers and a vast collection of all the adventures ever released).\nHooray! You’ve done it! Congratulations! You have scored 100%\nTaken from Dorothy Irene’s site: http://dorothyirene.fateback.com/",
+    "description": "Solution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)\nYour quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.",
+    "tags": [],
+    "title": "Danger! Adventurer At Work!",
+    "uri": "/text-adventures/daaw/index.html"
+  },
+  {
     "breadcrumb": "Digital Dilemma \u003e  Sysadmin \u003e  UGreen NAS DXP2800",
     "content": "I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.\nBut one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.\nThe problem with this is if your NAS uses hard drives, then it will cause a lot of activity going on for many hours or days after changes. This causes unneccessary wear on the drives and wastes power when they could have spun down, as well as being annoyingly noisy as the drives click and whirr for ages.\nThe indexer cannot be disabled through the otherwise very useful web interface, but can be disabled via ssh. Fortunately these Nas’s run Linux and the indexing service is a controlled by Systemctl, so can be turned off and disabled like any other linux service.\nCredit to /uZealousidealTax8340 for the original method.\nEnter the webui for your nas: IP-ADDRESS:9999 In Control Panel, under Connections \u0026 Access, select Terminal Tick Enable under SSH with a Shut Down automatically of something like 30 minutes. Click Apply. alt text\nNow connect to your NAS by SSH. This requires a SSH client like Putty (for Windows) or just “ssh” for linux. (And perhaps Windows CMD).\nLog in via SSH using the same username and password you use to log into its Webui\nOnce connected, enter this command.\nsudo systemctl disable --now index_serv sudo systemctl disable --now thumb_serv You will be prompted for a password, use the same one you logged in with\nThis stops the two services, index_serv and thumb_serv, and stops them automatically restarting.\nNote: After a system update, it is likely this service will be re-enabled, so you will need to repeat the above. Being more persistent If you want a more permanent solution, you can also automatically repeat this command every hour. Because this is a linux computer, it comes with cron, the scheduler.\nTo do this;\na) SSH into your nas as above. b) Become root (we need to run the command as the root user)\nsudo su - Enter your password\nc) crontab -e\nYou may be prompted to choose an editor, either nano or vi. nano is generally considered easier to use if you’re unfamiliar, choose whichever you like. If it doesn’t prompt, then it will use Vi\nd) Enter a new line containing this;\n0 * * * * systemctl disable --now index_serv thumb_serv This repeats the command at 0 minutes on every hour of every day\ne) Save and quit the editor.\nThis may still get overwritten by a firmware update of the NAS, in which case you’ll have to start over. Being even more persistent If that doesn’t work, then you can mask the services instead.\nsystemctl mask index_serv thumb_serv This tells systemd to symlink the service’s unit file to /dev/null and this makes it harder for it to be automatically re-enabled. An enable won’t work on a masked service.\nHowever, you can reverse this with systemctl unmask index_serv thumb_serv and you will then be allowed to enable and start the services again if you wish.",
     "description": "I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.\nBut one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.",
     "tags": [],
     "title": "Disabling the Ugreen Nas Indexer",
     "uri": "/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Software",
+    "uri": "/categories/software/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Spectrum",
+    "uri": "/categories/spectrum/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Text",
+    "uri": "/categories/text/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",
