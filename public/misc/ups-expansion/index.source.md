@@ -17,7 +17,7 @@ This means that, if you don't mind a little bit of basic wiring, you can use any
 
 I've done this several times and it's always worked out well for almost no money. 
 
-Note: Car batteries do emit more hydrogen when charging than SLAs, so only do this in a well ventilated space.
+Note: Car batteries emit more hydrogen when charging than SLAs, so only do this in a well ventilated space.
 
 ## What do you need?
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Play My Text Adventures</title>
+
+    <!-- Correct JS path -->
+    <script src="/jsspeccy/jsspeccy.js"></script>
+
+    <!-- Optional but recommended: simple style -->
+    <style>
+      body {
+        background: #111;
+        color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      #jsspeccy {
+        width: 640px;
+        height: 480px;
+        border: 2px solid #555;
+        box-shadow: 0 0 20px #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="jsspeccy"></div>
+
+    <script>
+      // Wait until DOM is ready
+      document.addEventListener("DOMContentLoaded", function() {
+        const container = document.getElementById("jsspeccy");
+
+        JSSpeccy.load({
+          parentElement: container,
+          autoStart: true,
+          // Path to your .tzx file (make sure it’s accessible!)
+          url: "/textadv/daaw/daaw.tzx"
+        });
+      });
+    </script>
+  </body>
+</html>
