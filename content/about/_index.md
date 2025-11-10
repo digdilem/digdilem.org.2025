@@ -7,7 +7,6 @@ categories:
   - about
 ---
 
-
 ### About this Website
 
 ## History
@@ -42,8 +41,9 @@ This iteration of Digital Dilemma is built using:
 
 * [Hugo](https://gohugo.io/) - Static Site Generator
 * [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html)
-* [Umami](https://github.com/umami-software/umami) - Simple and GDPR compliant web counter.
+* [Umami](https://github.com/umami-software/umami) - Simple and GDPR compliant web counter
 * Hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
+* [Playable text adventures](https://digdilem.org/text-adventures/) made possible by [JSSpeccy](https://jsspeccy.gasman.org.uk/)
 
 Process: I write the site locally using VSCode, using `hugo serve` to review a local version and when I'm happy, deploy it to Cloudflare Pages using Wrangler. Immediately after, a copy is also deployed to [Github](https://github.com/digdilem/digdilem.org.2025) for posterity.
 
@@ -53,7 +53,7 @@ It's 2025 and there's been a website here for around thirty years.
 
 The method has changed, such as;
 
-* Hand written HTML
+* Hand written HTML hosted on BTInterenet home pages
 * Dreamweaver HTML
 * Wordpress on a VPS
 * Jekyll hosted on Github
@@ -61,7 +61,7 @@ The method has changed, such as;
 
 There's no formal company, product or service attached to Digital Dilemma. I use digdilem as a nick in a great many places and I've generally provided this site, in some form or another, mostly to house a few projects and share some information. 
 
-I hope this site is useful in some small way. 
+I hope this is useful in some small way. 
 
 {{% children sort="title" %}}
 

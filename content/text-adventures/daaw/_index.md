@@ -17,6 +17,8 @@ categories:
   allowfullscreen>
 </iframe>
 
+*With thanks to Matt Westcott for [JSSpeccy](https://jsspeccy.gasman.org.uk/), an open-source ZX Spectrum emulator written in JavaScript*
+
 > [!transparent]- Solution
 > DANGER: ADVENTURER AT WORK
 > Written by Simon Avery
