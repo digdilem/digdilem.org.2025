@@ -17,7 +17,7 @@ categories:
   allowfullscreen>
 </iframe>
 
-*With thanks to Matt Westcott for [JSSpeccy](https://jsspeccy.gasman.org.uk/), an open-source ZX Spectrum emulator written in JavaScript*
+*With thanks to Matt Westcott for [JSSpeccy](https://github.com/gasman/jsspeccy3), an open-source ZX Spectrum emulator written in JavaScript*
 
 > [!transparent]- Solution
 > PRISON BLUES

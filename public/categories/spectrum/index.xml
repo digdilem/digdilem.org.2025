@@ -9,13 +9,6 @@
     <lastBuildDate>Mon, 10 Nov 2025 10:55:05 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/spectrum/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Magician&#39;s Apprentice</title>
-      <link>https://digdilem.org/text-adventures/themagiciansapprentice/index.html</link>
-      <pubDate>Mon, 10 Nov 2025 10:55:05 +0000</pubDate>
-      <guid>https://digdilem.org/text-adventures/themagiciansapprentice/index.html</guid>
-      <description>With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript&#xA;Solution You begin in your hut. TAKE BACKPACK, EXAM BACKPACK, LOOK, TAKE MAP, EXAM MAP, DROP BACKPACK, TAKE STAFF, EXAM STAFF, S, E, SAY SQUIRREL, S, E, EXAM MAP, S, S, EXAM NORI, SAY NORI, U, EXAM GRAN, SAY GRAN, EXAM BED, LOOK, TAKE HAT, EXAM HAT, D, N, N, N, EXAM SIGN, N, EXAM HOVEL, N, EXAM PUDDLE, EAT PUDDLE, S, U (avoid the room to the west), N, EXAM WARRIOR, SAY DOOM, EXAM CLUB, S, D, S, W, W, W, N, W, EXAM DEMON, SAY DEMON, HIT DEMON, W, N, EXAM MOAT, EXAM CASTLE, N, EXAM DRAGON, EXAM MAIDEN, SAY DRAGON, SAY MAIDEN, GIVE HAT, LOOK, TAKE BROWNIE, EXAM BROWNIE, S, S, E, E, S, E, E, S, E, EXAM MAP, N, E, E, N, EXAM EBEN, SAY EBEN, LOOK, GIVE BROWNIE, N, N, EXAM MONSTER, HIT MONSTER, N, W, EXAM SHOE, W, SAY EBEN, W, W, N, W, EXAM RUINS, W, EXAM TROLLS, SNEEZE, W, W, N, W, S, W, S, W, W, N, EXAM TREE, SAY TREE, SAY TREE, UP TREE, TAKE BOOK, EXAM BOOK, SAY HOME. That’s it.</description>
-    </item>
-    <item>
       <title>Total Reality Delusion</title>
       <link>https://digdilem.org/text-adventures/totalrealitydelusion/index.html</link>
       <pubDate>Mon, 10 Nov 2025 10:55:05 +0000</pubDate>

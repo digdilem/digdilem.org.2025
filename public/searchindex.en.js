@@ -169,7 +169,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Digital Dilemma",
-    "content": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.\nA collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!\nDanger! Adventurer At Work! Prison Blues The Gerbil Riot of '67 The Magician's Apprentice Total Reality Delusion",
+    "content": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.\nA collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!\nDanger! Adventurer At Work! Prison Blues The Gerbil Riot of '67 Total Reality Delusion",
     "description": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.",
     "tags": [],
     "title": "Text Adventures",
@@ -230,14 +230,6 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Category :: Spectrum",
     "uri": "/categories/spectrum/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma \u003e  Text Adventures",
-    "content": "With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript\nSolution You begin in your hut. TAKE BACKPACK, EXAM BACKPACK, LOOK, TAKE MAP, EXAM MAP, DROP BACKPACK, TAKE STAFF, EXAM STAFF, S, E, SAY SQUIRREL, S, E, EXAM MAP, S, S, EXAM NORI, SAY NORI, U, EXAM GRAN, SAY GRAN, EXAM BED, LOOK, TAKE HAT, EXAM HAT, D, N, N, N, EXAM SIGN, N, EXAM HOVEL, N, EXAM PUDDLE, EAT PUDDLE, S, U (avoid the room to the west), N, EXAM WARRIOR, SAY DOOM, EXAM CLUB, S, D, S, W, W, W, N, W, EXAM DEMON, SAY DEMON, HIT DEMON, W, N, EXAM MOAT, EXAM CASTLE, N, EXAM DRAGON, EXAM MAIDEN, SAY DRAGON, SAY MAIDEN, GIVE HAT, LOOK, TAKE BROWNIE, EXAM BROWNIE, S, S, E, E, S, E, E, S, E, EXAM MAP, N, E, E, N, EXAM EBEN, SAY EBEN, LOOK, GIVE BROWNIE, N, N, EXAM MONSTER, HIT MONSTER, N, W, EXAM SHOE, W, SAY EBEN, W, W, N, W, EXAM RUINS, W, EXAM TROLLS, SNEEZE, W, W, N, W, S, W, S, W, W, N, EXAM TREE, SAY TREE, SAY TREE, UP TREE, TAKE BOOK, EXAM BOOK, SAY HOME. That’s it.\nTerri Sheehan\nDisplayed on the Classic Adventures Solution Archive: solutionarchive.com",
-    "description": "With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript\nSolution You begin in your hut. TAKE BACKPACK, EXAM BACKPACK, LOOK, TAKE MAP, EXAM MAP, DROP BACKPACK, TAKE STAFF, EXAM STAFF, S, E, SAY SQUIRREL, S, E, EXAM MAP, S, S, EXAM NORI, SAY NORI, U, EXAM GRAN, SAY GRAN, EXAM BED, LOOK, TAKE HAT, EXAM HAT, D, N, N, N, EXAM SIGN, N, EXAM HOVEL, N, EXAM PUDDLE, EAT PUDDLE, S, U (avoid the room to the west), N, EXAM WARRIOR, SAY DOOM, EXAM CLUB, S, D, S, W, W, W, N, W, EXAM DEMON, SAY DEMON, HIT DEMON, W, N, EXAM MOAT, EXAM CASTLE, N, EXAM DRAGON, EXAM MAIDEN, SAY DRAGON, SAY MAIDEN, GIVE HAT, LOOK, TAKE BROWNIE, EXAM BROWNIE, S, S, E, E, S, E, E, S, E, EXAM MAP, N, E, E, N, EXAM EBEN, SAY EBEN, LOOK, GIVE BROWNIE, N, N, EXAM MONSTER, HIT MONSTER, N, W, EXAM SHOE, W, SAY EBEN, W, W, N, W, EXAM RUINS, W, EXAM TROLLS, SNEEZE, W, W, N, W, S, W, S, W, W, N, EXAM TREE, SAY TREE, SAY TREE, UP TREE, TAKE BOOK, EXAM BOOK, SAY HOME. That’s it.",
-    "tags": [],
-    "title": "The Magician's Apprentice",
-    "uri": "/text-adventures/themagiciansapprentice/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Text Adventures",
