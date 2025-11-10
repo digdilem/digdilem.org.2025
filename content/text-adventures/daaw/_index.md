@@ -12,7 +12,7 @@ categories:
 <iframe
   src="https://digdilem.org/textadv/daaw.html"
   width="1024"
-  height="768"
+  height="850"
   frameborder="0"
   allowfullscreen>
 </iframe>

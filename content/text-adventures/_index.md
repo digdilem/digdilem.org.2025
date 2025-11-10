@@ -18,5 +18,3 @@ You can play some these adventures directly from your browser here!
 
 {{% children sort="title" %}}
 
-
-
