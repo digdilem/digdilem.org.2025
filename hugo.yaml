@@ -22,11 +22,6 @@ params:
   disableSourceButton: false
   disableNextPrev: false
 
-  relearn:
-  dependencies:
-    myspeccyshortcode:
-      name: MySpeccyShortcode
-
 # Hugo generics
 enableRobotsTXT: true  
 
@@ -38,8 +33,6 @@ enableRobotsTXT: true
 #    lazy: true
 #    lightbox: true
 #    shadow: true
-
-
 
 markup:
   goldmark:

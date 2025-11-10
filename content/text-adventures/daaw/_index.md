@@ -10,27 +10,13 @@ categories:
   - spectrum
 ---
  
-
-
-<script src="/jsspeccy/jsspeccy.js"></script>
-
-<div id="jsspeccy" style="width:640px; height:480px;"></div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const container = document.getElementById("daaw");
-  JSSpeccy.load({
-    parentElement: container,
-    autoStart: true,
-    zoom: 2,    
-    machine: 48,
-    openUrl: "https://digdilem.org/textadv/daaw.tzx"
-  });
-});
-</script>
-
-
-
+<iframe
+  src="https://digdilem.org/textadv/daaw.html"
+  width="800"
+  height="640"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 > [!transparent]- Solution
 > DANGER: ADVENTURER AT WORK
