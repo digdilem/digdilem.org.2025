@@ -6,8 +6,22 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 11:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 10:55:15 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Category :: Adventure</title>
+      <link>https://digdilem.org/categories/adventure/index.html</link>
+      <pubDate>Mon, 10 Nov 2025 10:55:15 +0000</pubDate>
+      <guid>https://digdilem.org/categories/adventure/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Software</title>
+      <link>https://digdilem.org/categories/software/index.html</link>
+      <pubDate>Mon, 10 Nov 2025 10:55:15 +0000</pubDate>
+      <guid>https://digdilem.org/categories/software/index.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>Category :: Pc</title>
       <link>https://digdilem.org/categories/pc/index.html</link>
@@ -76,20 +90,6 @@
       <link>https://digdilem.org/categories/zabbix/index.html</link>
       <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
       <guid>https://digdilem.org/categories/zabbix/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Adventure</title>
-      <link>https://digdilem.org/categories/adventure/index.html</link>
-      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
-      <guid>https://digdilem.org/categories/adventure/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Software</title>
-      <link>https://digdilem.org/categories/software/index.html</link>
-      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
-      <guid>https://digdilem.org/categories/software/index.html</guid>
       <description></description>
     </item>
     <item>

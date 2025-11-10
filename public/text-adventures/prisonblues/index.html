@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript
+Solution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)
+(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Prison Blues :: Digital Dilemma">
+    <meta name="twitter:description" content="With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript
+Solution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)
+(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).">
+    <meta property="og:url" content="https://digdilem.org/text-adventures/prisonblues/index.html">
+    <meta property="og:site_name" content="Digital Dilemma">
+    <meta property="og:title" content="Prison Blues :: Digital Dilemma">
+    <meta property="og:description" content="With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript
+Solution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)
+(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Prison Blues :: Digital Dilemma">
+    <meta itemprop="description" content="With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript
+Solution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)
+(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).">
+    <meta itemprop="datePublished" content="2025-08-19T21:03:01+01:00">
+    <meta itemprop="dateModified" content="2025-08-19T21:03:01+01:00">
+    <meta itemprop="wordCount" content="638">
+    <meta itemprop="keywords" content="Adventure,Software,Spectrum">
+    <title>Prison Blues :: Digital Dilemma</title>
+    <link href="/text-adventures/prisonblues/index.xml" rel="alternate" type="application/rss+xml" title="Prison Blues :: Digital Dilemma">
+    <link href="/text-adventures/prisonblues/index.source.md" rel="alternate" type="text/markdown" title="Prison Blues :: Digital Dilemma">
+    <link href="/images/favicon.png?1762772625" rel="icon" type="image/png">
+    <link href="/images/favicon.ico?1762772625" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1762772625" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1762772625" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1762772625" rel="stylesheet">
+    <link href="/css/theme.min.css?1762772625" rel="stylesheet">
+    <link href="/css/format-html.min.css?1762772625" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1762772625" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1762772625" defer></script>
+    <script src="/js/lunr/lunr.min.js?1762772625" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1762772625" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1762772625" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1762772625" defer></script>
+    <script src="/js/search.min.js?1762772625" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/text-adventures\/prisonblues\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/digdilem.org';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1762772625";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script><style>
+:root {
+    --MAIN-WIDTH-MAX: 1000rem;
+}
+</style>
+
+
+  </head>
+  <body class="mobile-support html" data-url="/text-adventures/prisonblues/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Digital Dilemma</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/text-adventures/index.html"><span itemprop="name">Text Adventures</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Prison Blues</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-source" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/text-adventures/prisonblues/index.source.md" title="Show source code"><i class="fa-fw fas fa-code"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/text-adventures/daaw/index.html" title="Danger! Adventurer At Work! (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/thoughts/index.html" title="Thoughts (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable text-adventures" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="prison-blues">Prison Blues</h1>
+
+<iframe
+  src="https://digdilem.org/textadv/prisonblues.html"
+  width="1024"
+  height="850"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+<p><em>With thanks to Matt Westcott for <a href="https://jsspeccy.gasman.org.uk/" rel="external" target="_blank">JSSpeccy</a>, an open-source ZX Spectrum emulator written in JavaScript</em></p>
+
+<details class=" box cstyle notices transparent expand">
+  <summary class="box-label">
+    <i class="expander-icon fa-fw fas fa-chevron-right"></i> 
+    Solution
+  </summary>
+  <div class="box-content">
+<p>PRISON BLUES
+Written by Simon Avery
+Walk Through by Dorothy Millard (C64 Version)</p>
+<p>(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).</p>
+<p>N, N, EXAMINE DOOR (see button), PUSH BUTTON (door slides open), W (inside another cell), EXAMINE PRISONER, TALK PRISONER, HIT PRISONER (using iron bar), EXAMINE PRISONER (wearing the clothes of a trusty), UNDRESS PRISONER, GET CLOTHES, WEAR CLOTHES, EXAMINE BED, GET PILLS (pink), EXAMINE PILLS, E, S, S, S, S, S (small room), GET BROOM, N, E (guard&rsquo;s rest room - must be wearing trusty&rsquo;s clothes), EXAMINE GUARD (wearing a pistol), SWEEP ROOM (the guard relaxes slightly and takes his eyes off you), DRUG COFFEE (with pink pills while he isn&rsquo;t looking&hellip; after a while he falls asleep), EXAMINE GUARD, GET KEYS (bunch), EXAMINE KEYS, W.</p>
+<p>UNLOCK DOOR (the keys jam in the lock), OPEN DOOR, W (corridor), W (prison hospital), READ SIGN, READ MESSAGE, EXAMINE BED, GET SHEETS, EXAMINE SHEETS, W (cubicle), EXAMINE DRIP, GET HOSE (rubber), EXAMINE HOSE, E, E, N, N, W (your cell), TIE SHEETS (to form a short rope), EXAMINE WINDOW (there&rsquo;s a gap where the bar was), TIE ROPE (to the remaining bars), CLIMB ROPE (you squeeze through the window and down the rope), D (exercise yard).</p>
+<p>EXAMINE TRASH, GET STRING, EXAMINE STRING, S, S (chapel), READ SIGN, READ MESSAGE, EXAMINE ORGAN, EXAMINE PANEL (thin), HIT PANEL (with iron bar), GET CANISTER (of helium), EXAMINE CANISTER, N, N, N, W, EXAMINE BIN, GET BAG (bin), EXAMINE BAG, N, N (canteen), READ SIGN, GET SIGN, N (canteen stores), EXAMINE SHELF, GET POWDER (curry), S, W, N, W (laundry), WASH CLOTHES, EXAMINE BASKET, OPEN
+BASKET (there&rsquo;s someone in there), E, N, E (toilets), EXAMINE URINAL, EXAMINE TOILETS, EXAMINE FLOOR, PULL TILE, GET TILE, EXAMINE TILE (black and white check), W, W (recreation room), EXAMINE PRISONER (he has half a draughtboard), TALK PRISONER (asks if you want a game), PLAY PRISONER (using the tile - you win and he gives you a pack of cigarettes), EXAMINE CIGARETTES, E, N, W (small room), EXAMINE MR BIG, TALK MR BIG, GIVE CIGARETTES (he swaps it for a small key), EXAMINE KEY.</p>
+<p>E, S, S, S, E, S, UNLOCK DOOR, OPEN DOOR, DROP KEY, W (cloakroom), EXAMINE PEGS, REMOVE CLOTHES, HANG CLOTHES (a door to the west opens), W (small room), GET TAPE (sticky), E, GET CLOTHES, WEAR CLOTHES, E, S, S, S (by wall), EXAMINE WALL (too high to climb), MAKE BALLOON (with string, sticky tape and bin bag), EXAMINE BALLOON, INFLATE BALLOON (with helium and hose), JUMP (the balloon carries you over the wall&hellip; you are outside an inner wall of the prison), EXAMINE WALL.</p>
+<p>W (woodland path), W (a snarling dog blocks the western path), EXAMINE DOG, TALK DOG, STROKE DOG, GIVE POWDER (curry - the dog sniffs it an leaves), W (junction), N, N (patrol kennel), EXAMINE KENNEL, GO KENNEL, GET STRAW, EXAMINE STRAW, OUT, S, S, W (fence), EXAMINE FENCE, THROW BAR (at the wire - it is now safe to cross), GO FENCE (you continue west and come to another fence of razor wire), EXAMINE FENCE, DIG (you dig a tunnel under the fence), GO TUNNEL (by river), EXAMINE RIVER (full of crocodiles), EXAMINE TREE, CLIMB TREE, PLAIT STRAW (makes a long rope), TIE ROPE, D, SWING ROPE (you swing across to the other side).</p>
+<p>CONGRATULATIONS
+SCORE 100%</p>
+<p>Taken from Dorothy Irene&rsquo;s site: <a href="http://dorothyirene.fateback.com/" rel="external" target="_blank">http://dorothyirene.fateback.com/</a></p>
+  </div>
+</details>
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Aug 19, 2025
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/adventure/index.html">Adventure</a></li>
+    <li><a class="term-link" href="/categories/software/index.html">Software</a></li>
+    <li><a class="term-link" href="/categories/spectrum/index.html">Spectrum</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+            <div class="logo-title">Digital Dilemma</div>
+          </a>
+        </div>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/about/index.html"><a class="padding" href="/about/index.html">About<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-77102f70526b1c2db0eced54632dc618" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/dartmoor/index.html"><a class="padding" href="/dartmoor/index.html">Dartmoor<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/home-automation/index.html"><a class="padding" href="/home-automation/index.html">Home Automation<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-5414c68938d2d977e695711a62c241e2" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/misc/index.html"><a class="padding" href="/misc/index.html">Misc<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-f243eab41fb28f51378992bf36c41035" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/shawn/index.html"><a class="padding" href="/shawn/index.html">Remote Controlled Lawnmower<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/software/index.html"><a class="padding" href="/software/index.html">Software<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/sysadmin/index.html"><a class="padding" href="/sysadmin/index.html">Sysadmin<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-40737dc2a8a1439ce96242bc284e17bf" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/text-adventures/index.html"><a class="padding" href="/text-adventures/index.html">Text Adventures<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b8682231e4a25192a398ef39466f74f9" class="collapsible-menu">
+            <li class="" data-nav-id="/text-adventures/totalrealitydelusion/index.html"><a class="padding" href="/text-adventures/totalrealitydelusion/index.html">TotalRealityDelusion<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/text-adventures/themagiciansapprentice/index.html"><a class="padding" href="/text-adventures/themagiciansapprentice/index.html">TheMagiciansApprentice<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/text-adventures/thegerbilriotof67/index.html"><a class="padding" href="/text-adventures/thegerbilriotof67/index.html">TheGerbilRiotOf67<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-id="/text-adventures/daaw/index.html"><a class="padding" href="/text-adventures/daaw/index.html">Danger! Adventurer At Work!<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="active " data-nav-id="/text-adventures/prisonblues/index.html"><a class="padding" href="/text-adventures/prisonblues/index.html">Prison Blues<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+            <li class="" data-nav-id="/thoughts/index.html"><a class="padding" href="/thoughts/index.html">Thoughts<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-6520c659975ef8a296a067b97df65739" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/vehicles/index.html"><a class="padding" href="/vehicles/index.html">Vehicles<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-77d72abac0d5f3866605d48ffe77e064" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-historyclearer">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-history"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <button>Clear History</button>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+
+<script defer src="https://stats99.digdilem.org/script.js" data-website-id="fb31ac8c-8b3f-4b39-ad89-aac6afc9ac4f"></script>
+
+</div>
+      </div>
+    </aside>
+    <script src="/js/clipboard/clipboard.min.js?1762772625" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1762772625" defer></script>
+    <script src="/js/theme.min.js?1762772625" defer></script>
+  </body>
+</html>

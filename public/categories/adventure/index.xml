@@ -6,12 +6,12 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Aug 2025 21:03:01 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 10:55:15 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/adventure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text Adventures</title>
       <link>https://digdilem.org/text-adventures/index.html</link>
-      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <pubDate>Mon, 10 Nov 2025 10:55:15 +0000</pubDate>
       <guid>https://digdilem.org/text-adventures/index.html</guid>
       <description>Text Adventures&#xA;During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.</description>
     </item>
@@ -21,6 +21,13 @@
       <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
       <guid>https://digdilem.org/text-adventures/daaw/index.html</guid>
       <description>With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript&#xA;Solution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)&#xA;Your quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.&#xA;Walk Through EXAMINE WINDOW, EXAMINE DOOR (locked), GET STOOL, EXAMINE STOOL, THROW STOOL (through the window), EXAMINE WINDOW, CLIMB WINDOW (through window to street), GET HEAD, E, IN (telephone booth), GET ROPE, EXAMINE ROPE, OUT, N, E (field), GET TORSO, EXAMINE TORSO, EXAMINE BULL, TALK BULL, GET BULL (you tie the rope around the ring in his nose), W, S, E, IN (china shop - the shopkeeper drops some boltcutters and runs after the bull), GET BOLTCUTTERS, EXAMINE BOLTCUTTERS, N, W, IN (telephone booth), EXAMINE TELEPHONE, EXAMINE RECEIVER, CUT WIRE (the receiver falls to the floor), GET RECEIVER, EXAMINE RECEIVER, OUT.</description>
+    </item>
+    <item>
+      <title>Prison Blues</title>
+      <link>https://digdilem.org/text-adventures/prisonblues/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/text-adventures/prisonblues/index.html</guid>
+      <description>With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript&#xA;Solution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)&#xA;(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).</description>
     </item>
   </channel>
 </rss>

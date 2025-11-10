@@ -169,7 +169,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Digital Dilemma",
-    "content": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.\nA collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!\nDanger! Adventurer At Work!",
+    "content": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.\nA collection of my Text Adventures for various formats can be found on my github page You can play some these adventures directly from your browser here!\nDanger! Adventurer At Work! Prison Blues TheGerbilRiotOf67 TheMagiciansApprentice TotalRealityDelusion",
     "description": "Text Adventures\nDuring the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.",
     "tags": [],
     "title": "Text Adventures",
@@ -200,12 +200,52 @@ var relearn_searchindex = [
     "uri": "/sysadmin/zabbix/index.html"
   },
   {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Adventure",
+    "uri": "/categories/adventure/index.html"
+  },
+  {
     "breadcrumb": "Digital Dilemma",
     "content": "",
     "description": "",
     "tags": [],
     "title": "Categories",
     "uri": "/categories/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Software",
+    "uri": "/categories/software/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Text Adventures",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "TotalRealityDelusion",
+    "uri": "/text-adventures/totalrealitydelusion/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Text Adventures",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "TheMagiciansApprentice",
+    "uri": "/text-adventures/themagiciansapprentice/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Text Adventures",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "TheGerbilRiotOf67",
+    "uri": "/text-adventures/thegerbilriotof67/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",
@@ -304,14 +344,6 @@ var relearn_searchindex = [
     "uri": "/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html"
   },
   {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Adventure",
-    "uri": "/categories/adventure/index.html"
-  },
-  {
     "breadcrumb": "Digital Dilemma \u003e  Text Adventures",
     "content": "With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript\nSolution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)\nYour quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.\nWalk Through EXAMINE WINDOW, EXAMINE DOOR (locked), GET STOOL, EXAMINE STOOL, THROW STOOL (through the window), EXAMINE WINDOW, CLIMB WINDOW (through window to street), GET HEAD, E, IN (telephone booth), GET ROPE, EXAMINE ROPE, OUT, N, E (field), GET TORSO, EXAMINE TORSO, EXAMINE BULL, TALK BULL, GET BULL (you tie the rope around the ring in his nose), W, S, E, IN (china shop - the shopkeeper drops some boltcutters and runs after the bull), GET BOLTCUTTERS, EXAMINE BOLTCUTTERS, N, W, IN (telephone booth), EXAMINE TELEPHONE, EXAMINE RECEIVER, CUT WIRE (the receiver falls to the floor), GET RECEIVER, EXAMINE RECEIVER, OUT.\nE, E, S (dead end), EXAMINE WITCH, TALK WITCH, GIVE RECEIVER (she wanders off and leaves the broom behind), GET BROOM, EXAMINE BROOM, N, W, W, W, W, W, EXAMINE HEDEGPIG, TALK HEDGEPIG, GIVE BROOM (he walks off arm in arm with the broom), LOOK, GET NEEDLE, EXAMINE NEEDLE, E, E, E, N (farm), EXAMINE CAMEL, TALK CAMEL, GIVE NEEDLE (it disappears leaving something on the ground), LOOK, EXAMINE DUNG, GET COIN, EXAMINE COIN), N (farm track), GET LEAFLET, READ LEAFLET, S, S, E, E, GET LLEG, EXAMINE FENCE (one of the slats is loose), KICK FENCE, LOOK, GET bird SEED, EXAMINE SEED, E, D (beach), EXAMINE LADY (she is wearing a tube), TALK LADY, GET TUBE, EXAMINE TUBE (inflated), EXAMINE KIPPER (leave it!).\nW, W, W, W, W, W, N (cul-de-sac), GET RLEG, S, W (end of street), GET BUCKET, E, E, E, E, E, E, E, D (beach), FILL BUCKET (with sand), U, W, W, W, W, S (small building), EXAMINE ENGINEER (explosives), TALK ENGINEER, GIVE BUCKET (he puts out the fire and gives you a stick of dynamite), EXAMINE DYNAMITE (fused and ready to light), N, W, W, S, GET RARM, IN (cave), GET ROCK, EXAMINE ROCK (it has jagged edges), GET GOLD, EXAMINE GOLD, EXAMINE DRAGON, TALK DRAGON (he is dejected), LOBE DRAGON (you look behind him and find something), LOOK, GET GAME (adventure), EXAMINE GAME, OUT.\nS, IN (hut), GET LARM, EXAMINE BOD, TALK BOD, GIVE LEAFLET (you have now been blessed with sharp wit), INVENTORY (you now have a wit sharp enough to cut with), OUT, N, N, E, E, E, E, N, N, E (poultry farm), EXAMINE HUMPTY, TALK HUMPTY, PUSH HUMPTY (he just rolls back), DROP ROCK, PUSH HUMPTY (he hits the rock and cracks open… a little bird flies out), EXAMINE BIRD (perches on your shoulder and is convinced you are it’s mother), LOOK, GET EGGSHELLS, EXAMINE EGGSHELLS, W, S, S, W, W, N (alley), IN (night school), EXAMINE TEACHER, TALK TEACHER, GIVE GOLD (she instructs you in the art of making bodies), OUT, S, W, N (cul-de-sac), EXAMINE MAN (strange), TALK MAN, GIVE EGGSHELLS (he passed you a hammer).\nS, W, EXAMINE SQUIRREL, TALK SQUIRREL (leave it alone), N (castle entrance), N (Angus the tollkeeper stops you), EXAMINE ANGUS, TALK ANGUS, GIVE COIN (he walks off), N, N (laboratory), EXAMINE BENCH (steel), LOUN BENCH (you look underneath and find something), LOOK, GET PILLS (travel sickness), EXAMINE PILLS, MAKE BODY (you create a body on the steel bench), LOOK (you now see a monster lying on the bench), EXAMINE MONSTER, EXAMINE ELECTRODES, ATTACH ELECTRODES, PRESS SWITCH (the monster comes to life and walks through the north wall).\nN (west side of chasm), EXAMINE BRICK (loose), PULL BRICK, LOOK, GET MATCHES, EXAMINE MATCHES (only one left), EXAMINE CHASM (far on the other side you see a button next to an open doorway), THROW SEED (you throw it at the button and some sticks… the bird pecks at the seed… a bridge slides out of the rock and crosses the chasm, but something appears on the bridge before you), LOOK, EXAMINE BALROG, TALK BALROG, GIVE GAME (he goes off to see if he can make any money out of it), E (east side of chasm), E (circular room), READ SIGN, EXAMINE ROPE (under tremendous strain), CUT ROPE (using your sharp wit… the floor falls and so do you… you find yourself in a cellar).\nN, EXAMINE RUG, GET RUG (nailed to the floor), PULL NAILS (using the hammer), LOOK, GET FLASHLIGHT, EXAMINE FLASHLIGHT, E (it’s dark), LIGHT FLASHLIGHT, E (western bank of river), EXAMINE RIVER, WEAR TUBE, SWIM RIVER (east bank), E (high cavern), READ SIGN (“The No Way INN” - the door is locked), DROP DYNAMITE, LIGHT DYNAMITE, W, WAIT, WAIT, E (the door has been blown off its hinges), S (into underground tavern), EXAMINE FIREPLACE, TURN BRACKET (a hole opens in the east wall), E (you are crawling along a low tunnel), E (glade), EXAMINE PONY, TALK PONY, EAT PILLS (travel sickness), RIDE PONY (eventually the pony deposits you on a cloud surrounded by numerous computers and a vast collection of all the adventures ever released).\nHooray! You’ve done it! Congratulations! You have scored 100%\nTaken from Dorothy Irene’s site: http://dorothyirene.fateback.com/",
     "description": "With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript\nSolution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)\nYour quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.\nWalk Through EXAMINE WINDOW, EXAMINE DOOR (locked), GET STOOL, EXAMINE STOOL, THROW STOOL (through the window), EXAMINE WINDOW, CLIMB WINDOW (through window to street), GET HEAD, E, IN (telephone booth), GET ROPE, EXAMINE ROPE, OUT, N, E (field), GET TORSO, EXAMINE TORSO, EXAMINE BULL, TALK BULL, GET BULL (you tie the rope around the ring in his nose), W, S, E, IN (china shop - the shopkeeper drops some boltcutters and runs after the bull), GET BOLTCUTTERS, EXAMINE BOLTCUTTERS, N, W, IN (telephone booth), EXAMINE TELEPHONE, EXAMINE RECEIVER, CUT WIRE (the receiver falls to the floor), GET RECEIVER, EXAMINE RECEIVER, OUT.",
@@ -328,12 +360,12 @@ var relearn_searchindex = [
     "uri": "/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html"
   },
   {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
+    "breadcrumb": "Digital Dilemma \u003e  Text Adventures",
+    "content": "With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript\nSolution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)\n(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).\nN, N, EXAMINE DOOR (see button), PUSH BUTTON (door slides open), W (inside another cell), EXAMINE PRISONER, TALK PRISONER, HIT PRISONER (using iron bar), EXAMINE PRISONER (wearing the clothes of a trusty), UNDRESS PRISONER, GET CLOTHES, WEAR CLOTHES, EXAMINE BED, GET PILLS (pink), EXAMINE PILLS, E, S, S, S, S, S (small room), GET BROOM, N, E (guard’s rest room - must be wearing trusty’s clothes), EXAMINE GUARD (wearing a pistol), SWEEP ROOM (the guard relaxes slightly and takes his eyes off you), DRUG COFFEE (with pink pills while he isn’t looking… after a while he falls asleep), EXAMINE GUARD, GET KEYS (bunch), EXAMINE KEYS, W.\nUNLOCK DOOR (the keys jam in the lock), OPEN DOOR, W (corridor), W (prison hospital), READ SIGN, READ MESSAGE, EXAMINE BED, GET SHEETS, EXAMINE SHEETS, W (cubicle), EXAMINE DRIP, GET HOSE (rubber), EXAMINE HOSE, E, E, N, N, W (your cell), TIE SHEETS (to form a short rope), EXAMINE WINDOW (there’s a gap where the bar was), TIE ROPE (to the remaining bars), CLIMB ROPE (you squeeze through the window and down the rope), D (exercise yard).\nEXAMINE TRASH, GET STRING, EXAMINE STRING, S, S (chapel), READ SIGN, READ MESSAGE, EXAMINE ORGAN, EXAMINE PANEL (thin), HIT PANEL (with iron bar), GET CANISTER (of helium), EXAMINE CANISTER, N, N, N, W, EXAMINE BIN, GET BAG (bin), EXAMINE BAG, N, N (canteen), READ SIGN, GET SIGN, N (canteen stores), EXAMINE SHELF, GET POWDER (curry), S, W, N, W (laundry), WASH CLOTHES, EXAMINE BASKET, OPEN BASKET (there’s someone in there), E, N, E (toilets), EXAMINE URINAL, EXAMINE TOILETS, EXAMINE FLOOR, PULL TILE, GET TILE, EXAMINE TILE (black and white check), W, W (recreation room), EXAMINE PRISONER (he has half a draughtboard), TALK PRISONER (asks if you want a game), PLAY PRISONER (using the tile - you win and he gives you a pack of cigarettes), EXAMINE CIGARETTES, E, N, W (small room), EXAMINE MR BIG, TALK MR BIG, GIVE CIGARETTES (he swaps it for a small key), EXAMINE KEY.\nE, S, S, S, E, S, UNLOCK DOOR, OPEN DOOR, DROP KEY, W (cloakroom), EXAMINE PEGS, REMOVE CLOTHES, HANG CLOTHES (a door to the west opens), W (small room), GET TAPE (sticky), E, GET CLOTHES, WEAR CLOTHES, E, S, S, S (by wall), EXAMINE WALL (too high to climb), MAKE BALLOON (with string, sticky tape and bin bag), EXAMINE BALLOON, INFLATE BALLOON (with helium and hose), JUMP (the balloon carries you over the wall… you are outside an inner wall of the prison), EXAMINE WALL.\nW (woodland path), W (a snarling dog blocks the western path), EXAMINE DOG, TALK DOG, STROKE DOG, GIVE POWDER (curry - the dog sniffs it an leaves), W (junction), N, N (patrol kennel), EXAMINE KENNEL, GO KENNEL, GET STRAW, EXAMINE STRAW, OUT, S, S, W (fence), EXAMINE FENCE, THROW BAR (at the wire - it is now safe to cross), GO FENCE (you continue west and come to another fence of razor wire), EXAMINE FENCE, DIG (you dig a tunnel under the fence), GO TUNNEL (by river), EXAMINE RIVER (full of crocodiles), EXAMINE TREE, CLIMB TREE, PLAIT STRAW (makes a long rope), TIE ROPE, D, SWING ROPE (you swing across to the other side).\nCONGRATULATIONS SCORE 100%\nTaken from Dorothy Irene’s site: http://dorothyirene.fateback.com/",
+    "description": "With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript\nSolution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)\n(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).",
     "tags": [],
-    "title": "Category :: Software",
-    "uri": "/categories/software/index.html"
+    "title": "Prison Blues",
+    "uri": "/text-adventures/prisonblues/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",
