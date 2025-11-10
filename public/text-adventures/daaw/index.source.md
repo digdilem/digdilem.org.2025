@@ -4,7 +4,6 @@ draft: false
 title: 'Danger! Adventurer At Work!'
 author: Simon Avery
 categories: 
-  - text
   - adventure
   - software
   - spectrum
@@ -12,8 +11,8 @@ categories:
  
 <iframe
   src="https://digdilem.org/textadv/daaw.html"
-  width="800"
-  height="640"
+  width="1024"
+  height="768"
   frameborder="0"
   allowfullscreen>
 </iframe>

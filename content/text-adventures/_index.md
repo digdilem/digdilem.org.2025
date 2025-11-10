@@ -1,11 +1,10 @@
 ---
 title: "Text Adventures"
-linktitle: "text-adventures"
+linktitle: "Text Adventures"
 type: "chapter"
 weight: 53
 categories:
-  - software  
-  - text
+  - software
   - adventure
 ---
 
