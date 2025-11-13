@@ -21,6 +21,7 @@ params:
   disableBreadcrumb: false
   disableSourceButton: false
   disableNextPrev: false
+  ordersectionsby: linktitle
 
 # Hugo generics
 enableRobotsTXT: true  
