@@ -1,3 +1,4 @@
+# Create a new post 
 c:
 cd \code\digdilem
 set arg1=%1
