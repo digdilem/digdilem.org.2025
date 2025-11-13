@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssl :: Tag :: Digital Dilemma</title>
+    <link>https://digdilem.org/tags/ssl/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jun 2025 21:43:19 +0100</lastBuildDate>
+    <atom:link href="https://digdilem.org/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zabbix - How to monitor SSL Website Certificates</title>
+      <link>https://digdilem.org/sysadmin/zabbix/zabbix-monitor-ssl/index.html</link>
+      <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/zabbix/zabbix-monitor-ssl/index.html</guid>
+      <description>Alerting when SSL certificates are about to expire</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software :: Category :: Digital Dilemma</title>
+    <link>https://digdilem.org/categories/software/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Nov 2025 10:55:05 +0000</lastBuildDate>
+    <atom:link href="https://digdilem.org/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text Adventures</title>
+      <link>https://digdilem.org/text-adventures/index.html</link>
+      <pubDate>Mon, 10 Nov 2025 10:55:05 +0000</pubDate>
+      <guid>https://digdilem.org/text-adventures/index.html</guid>
+      <description>Text Adventures&#xA;During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.</description>
+    </item>
+    <item>
+      <title>Total Reality Delusion</title>
+      <link>https://digdilem.org/text-adventures/totalrealitydelusion/index.html</link>
+      <pubDate>Mon, 10 Nov 2025 10:55:05 +0000</pubDate>
+      <guid>https://digdilem.org/text-adventures/totalrealitydelusion/index.html</guid>
+      <description>With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript&#xA;Solution Walk Through by Dorothy Millard (C64 Version)&#xA;(Start in a clearing in a strange wood), EXAMINE WOOD, N, N, EXAMINE TREES (dancing), DANCE (a slightly startled starling falls out of a tree), GET STARLING, EXAMINE STARLING, EXAMINE BLASTER (ghetto), UNPLUG BLASTER (the music stops and something pops out of the stereo), GET TAPE, EXAMINE TAPE, S, S, E (field), DIG (you dig a small hole), PLANT TAPE, FILL HOLE (a chainsaw pops up out of the ground!), GET SAW, EXAMINE SAW, START SAW (first you need safety equipment), EXAMINE SCARECROW, GET TROUSERS, EXAMINE TROUSERS, WEAR TROUSERS, W, S, S (well), EXAMINE WELL, EXAMINE ROPE, PULL ROPE (you find a bucket at the end), GET BUCKET, EXAMINE BUCKET (it has two holes in it’s side), N, E, IN (shed), EXAMINE SHED, GET WOODLOUSE, EXAMINE WOODLOUSE (note the sharp teeth), TALK WOODLOUSE, OUT, W, N, W (dead end - an impenetrable wall of trees are west), WEAR BUCKET (makes a good helmet), START SAW (the trees lift their roots and hurry off), DROP SAW, DROP TROUSERS, DROP BUCKET.</description>
+    </item>
+    <item>
+      <title>Danger! Adventurer At Work!</title>
+      <link>https://digdilem.org/text-adventures/dangeradventureratwork/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/text-adventures/dangeradventureratwork/index.html</guid>
+      <description>With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript&#xA;Solution DANGER: ADVENTURER AT WORK Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)&#xA;Your quest is to find a quiet room where all time stops so you can play adventures as long as you like with no interruptions.&#xA;Walk Through EXAMINE WINDOW, EXAMINE DOOR (locked), GET STOOL, EXAMINE STOOL, THROW STOOL (through the window), EXAMINE WINDOW, CLIMB WINDOW (through window to street), GET HEAD, E, IN (telephone booth), GET ROPE, EXAMINE ROPE, OUT, N, E (field), GET TORSO, EXAMINE TORSO, EXAMINE BULL, TALK BULL, GET BULL (you tie the rope around the ring in his nose), W, S, E, IN (china shop - the shopkeeper drops some boltcutters and runs after the bull), GET BOLTCUTTERS, EXAMINE BOLTCUTTERS, N, W, IN (telephone booth), EXAMINE TELEPHONE, EXAMINE RECEIVER, CUT WIRE (the receiver falls to the floor), GET RECEIVER, EXAMINE RECEIVER, OUT.</description>
+    </item>
+    <item>
+      <title>Prison Blues</title>
+      <link>https://digdilem.org/text-adventures/prisonblues/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/text-adventures/prisonblues/index.html</guid>
+      <description>With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript&#xA;Solution PRISON BLUES Written by Simon Avery Walk Through by Dorothy Millard (C64 Version)&#xA;(Start inside cell), EXAMINE WINDOW (a bar is loose), PULL BAR (it clatters to the floor), GET BAR, EXAMINE BAR, EXAMINE WALLS, EXAMINE BED, GET BOOK, READ BOOK, OPEN BOOK (something falls out), GET CARD (credit), EXAMINE CARD, DROP BOOK, EXAMINE ME, EXAMINE DOOR (there is a small gap on one side), INSERT CARD (you slip the catch on the cell door), DROP CARD, OPEN DOOR, GO DOOR (corridor).</description>
+    </item>
+    <item>
+      <title>The Gerbil Riot of &#39;67</title>
+      <link>https://digdilem.org/text-adventures/thegerbilriotof67/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/text-adventures/thegerbilriotof67/index.html</guid>
+      <description>With thanks to Matt Westcott for JSSpeccy, an open-source ZX Spectrum emulator written in JavaScript&#xA;Solution Complete Solution by Duncan Cross (duncan_cross@abelgratis.com)&#xA;Stuff in (brackets) is not essential.&#xA;Examine body. Take syringe. South. East. (Go south and watch the film for a hint) North. Take picture. (Examine picture.) South. East. East. North. Take top. Open fridge. Get garlic. North. Get blanket. Wear it. South. South. West. North. (Examine Johnson.) Push north wall. North. Get all. South. South. West. West. West. North. (Examine Oswald.) Get fire bucket. South. West. North. Get the horn. South. South. Show picture to Ralph. South. Get acid. North. North. East. South. Down. Throw bucket on fire. Down. LoIn crates. Get zinc. East. Eat garlic. Examine shadows. Get glands. East. East. East. Pull rope. (Examine plug. Read it.) East. Examine mud. East. (Examine tree. Listen. Talk to tree. Hug tree. Get acorn. Eat it.) West. West. South. [If there is nobody here, you have release 1, you fool. You can still complete the game, however. Those of you with release 2, Blow horn.] (South. Take a leek/leak. Examine it. North.) North. Whistle. South. West. West. West. Up. Up. North. East. North. Unlock cupboard with key. LoIn cupboard. Take copper. Make battery. Tie wires to battery. South. West. South. Down. Down. East. East. East. East. Get rope. East. East. Throw rope. (Climb rope.) Drink monkey glands. Climb rope. In. (Talk to squirrel.) Give battery to squirrel. Out. Down. West. West. West. West. West. West. Up. Up. North. West. North. Spill ink on tissue. Give tissue to shrink. Inject fudge. South. East. East. East. East. South. Give sweetie to Harry. Take jacket. (Wear it.) North. West. West. West. South. Down. Down. East. East. East. South. South. East. Give jacket to Arnold. East. North. Get matches. South. West. West. North. North. North. North. Burn bush. East. East. North. Examine pit. Examine hub. Push button. Give top to Tony. South. South. Show tattoo to crazy people. East. Get wad. West. North. West. West. South. South. West. West. West. Up. Up. North. East. East. East. East. East. Give wad to guard. East.</description>
+    </item>
+  </channel>
+</rss>

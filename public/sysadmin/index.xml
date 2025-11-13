@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin :: Digital Dilemma</title>
+    <link>https://digdilem.org/sysadmin/index.html</link>
+    <description>These are things that may be useful to Sysadmins, or just technical people who like playing with computers.&#xA;Backing Up Important Data Docker Mariadb UGreen NAS DXP2800 Zabbix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Sep 2025 15:45:50 +0100</lastBuildDate>
+    <atom:link href="https://digdilem.org/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://digdilem.org/sysadmin/docker/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 12:40:58 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/docker/index.html</guid>
+      <description>Things relating to Docker.&#xA;My Docker Articles Docker Network Fails After Iptables Restarts</description>
+    </item>
+    <item>
+      <title>UGreen NAS DXP2800</title>
+      <link>https://digdilem.org/sysadmin/ugreen-nas/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/ugreen-nas/index.html</guid>
+      <description>Things relating to my UGreen DXP2800 NAS&#xA;The Ugreen DXP 2800&#xA;UGreen Articles Disabling the Ugreen Nas Indexer Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker Zabbix Agent2 on Ugreen Dxp2800</description>
+    </item>
+    <item>
+      <title>Mariadb</title>
+      <link>https://digdilem.org/sysadmin/mariadb/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 13:33:46 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/mariadb/index.html</guid>
+      <description>Things relating to MariaDb, a widespread and very good SQL Database Server&#xA;MariaDb Official Website My MariaDb Articles 3 Quick Ways to Improve Mariadb Memory Handling Finding User Defines Solving Excess Memory Usage in Mariadb</description>
+    </item>
+    <item>
+      <title>Zabbix</title>
+      <link>https://digdilem.org/sysadmin/zabbix/index.html</link>
+      <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/zabbix/index.html</guid>
+      <description>Things relating to the excellent monitoring tool, Zabbix.&#xA;Zabbix official Website My Zabbix Articles Migrating from PRTG to Zabbix – one team&#39;s journey. Zabbix - How to monitor SSL Website Certificates</description>
+    </item>
+    <item>
+      <title>Backing Up Important Data</title>
+      <link>https://digdilem.org/sysadmin/backing-up-data/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 12:53:19 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/backing-up-data/index.html</guid>
+      <description>Backing up your important data is essential. I’ve built many systems over the years, and this is one system that I’m currently using, having thought a great deal about it. It may not be what you need, but this may be worth reading as the core concepts are pretty sound, I think.&#xA;*What to back up? This is a core question to ask when you start planning. I think it’s quite simply answered by asking the secondary question: “Can I get the data again?” Don’t back up stuff you downloaded from the public internet unless it’s particularly rare. No TV, no Movies, no software installers. Don’t hoard data you can replace.</description>
+    </item>
+  </channel>
+</rss>

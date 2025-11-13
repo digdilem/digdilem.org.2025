@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zabbix - How to monitor SSL Website Certificates :: Digital Dilemma</title>
+    <link>https://digdilem.org/sysadmin/zabbix/zabbix-monitor-ssl/index.html</link>
+    <description>Alerting when SSL certificates are about to expire</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://digdilem.org/sysadmin/zabbix/zabbix-monitor-ssl/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

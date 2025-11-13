@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin :: Category :: Digital Dilemma</title>
+    <link>https://digdilem.org/categories/sysadmin/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Sep 2025 15:45:50 +0100</lastBuildDate>
+    <atom:link href="https://digdilem.org/categories/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker</title>
+      <link>https://digdilem.org/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/ugreen-nas/proxmox-backup-server-on-nas/index.html</guid>
+      <description>I’m a recent convert to Proxmox, the Virtualisation Environment. I’m running it on my homelab and find it excellent.&#xA;Although Proxmox comes with its own backup system that is perfectly functional and reliably makes backups of my virtual machines on any schedule you like, I wanted to explore the free partner to it, Proxmox Backup Server And, having a new NAS that can run things on, I thought I’d try to get PBS running on there. Although I was already saving my backups to the NAS via a normal file share, it made sense to have PBS running directly on it rather than on the machine that might fail in the name of separation in case of hardware failure or disaster.</description>
+    </item>
+    <item>
+      <title>Zabbix Agent2 on Ugreen Dxp2800</title>
+      <link>https://digdilem.org/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html</guid>
+      <description>I recently got a new NAS, a UGreen DXP2800, and wanted to add it to me existing Zabbix Server to monitor disk space and get alerts when I was running low. I couldn’t find much information about how to do this, so I wrote this for those who follow after.&#xA;The Ugreen DXP 2800&#xA;Whilst you can mount in each network share into an existing machine that already has a Zabbix Agent running, I wanted to run the agent on the NAS itself - it is just a linux server, after all.</description>
+    </item>
+    <item>
+      <title>Disabling the Ugreen Nas Indexer</title>
+      <link>https://digdilem.org/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:01 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/ugreen-nas/ugreen-nas-indexer/index.html</guid>
+      <description>I have a UGREEN NASync DXP2800 NAS. It’s very good with some lovely design touches like the toolless caddies that are amongst the best I’ve ever used, including many enterprise systems.&#xA;But one thing annoys me, and others too, is that it has an inbuilt indexer and thumbnail generator for photos that runs on the files you upload, regardless of whether you want it to, or are even using the bundled Photo software or indexer. Some of use a NAS just to store files for other programs.</description>
+    </item>
+    <item>
+      <title>Finding User Defines</title>
+      <link>https://digdilem.org/sysadmin/mariadb/finding-user-defines/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 13:33:46 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/mariadb/finding-user-defines/index.html</guid>
+      <description>Finding out if a user has any defines** Before DROPping an sql user, it’s sensible to check whether they have ever created any VIEWs, added a TRIGGER or written a stored PROCEDURE. If you don’t, and they did, then deleting the user will result in errors such as MySQL error 1449: The user specified as a definer does not exist&#xA;Why does this happen? MariaDb / MySql uses the definer’s permissions to check whether they have authorisation to use that VIEW (which may select from multiple tables), run that STORED PROCEDURE (which may INSERT or DELETE from a table) or run a TRIGGER (again, it may need read/write privs anywhere). It’s not a bad system and works well, but doesn’t protect itself when that user disappears.</description>
+    </item>
+    <item>
+      <title>Backing Up Important Data</title>
+      <link>https://digdilem.org/sysadmin/backing-up-data/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 12:53:19 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/backing-up-data/index.html</guid>
+      <description>Backing up your important data is essential. I’ve built many systems over the years, and this is one system that I’m currently using, having thought a great deal about it. It may not be what you need, but this may be worth reading as the core concepts are pretty sound, I think.&#xA;*What to back up? This is a core question to ask when you start planning. I think it’s quite simply answered by asking the secondary question: “Can I get the data again?” Don’t back up stuff you downloaded from the public internet unless it’s particularly rare. No TV, no Movies, no software installers. Don’t hoard data you can replace.</description>
+    </item>
+    <item>
+      <title>3 Quick Ways to Improve Mariadb Memory Handling</title>
+      <link>https://digdilem.org/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 09:09:50 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/mariadb/3-quick-ways-to-improve-mariadb-memory-handling/index.html</guid>
+      <description>These are quick and easy and can make a big difference</description>
+    </item>
+    <item>
+      <title>Solving Excess Memory Usage in Mariadb</title>
+      <link>https://digdilem.org/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/index.html</link>
+      <pubDate>Mon, 16 Jun 2025 09:05:13 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/mariadb/solving-excess-memory-usage-in-mariadb/index.html</guid>
+      <description>Users of MariaDb sometimes notice that the memory used by the process far exceeds what MariaDb is configured to use through its various configuration parameters and buffers. This is especially noticed in larger and busier database servers.&#xA;Often, despite looking like a memory leak in the application, this is actually a problem of fragmented memory not being aggressively cleaned by the malloc (memory allocation) library used.&#xA;Fortunately, it is a fairly easy thing to solve by installing one of two freely available libraries, jemalloc or tcmalloc, and telling mariadb to use it instead of the OS’s default. These more tightly monitor and defragmented memory pages.</description>
+    </item>
+    <item>
+      <title>Zabbix - How to monitor SSL Website Certificates</title>
+      <link>https://digdilem.org/sysadmin/zabbix/zabbix-monitor-ssl/index.html</link>
+      <pubDate>Fri, 13 Jun 2025 21:43:19 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/zabbix/zabbix-monitor-ssl/index.html</guid>
+      <description>Alerting when SSL certificates are about to expire</description>
+    </item>
+    <item>
+      <title>Migrating from PRTG to Zabbix – one team&#39;s journey.</title>
+      <link>https://digdilem.org/sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/index.html</link>
+      <pubDate>Fri, 13 Jun 2025 20:27:37 +0100</pubDate>
+      <guid>https://digdilem.org/sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/index.html</guid>
+      <description>We turned off PRTG this week after migrating to Zabbix. Here&#39;s what we learned along the way.</description>
+    </item>
+  </channel>
+</rss>

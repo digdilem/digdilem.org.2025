@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts :: Digital Dilemma</title>
+    <link>https://digdilem.org/thoughts/index.html</link>
+    <description>Why Free Software is better for your company</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Jul 2025 20:04:43 +0100</lastBuildDate>
+    <atom:link href="https://digdilem.org/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Free Software is better for your company</title>
+      <link>https://digdilem.org/thoughts/why-foss-is-better-for-companies/index.html</link>
+      <pubDate>Sat, 26 Jul 2025 20:04:43 +0100</pubDate>
+      <guid>https://digdilem.org/thoughts/why-foss-is-better-for-companies/index.html</guid>
+      <description>Commercial software is a business risk The year is 2025 and we’ve seen a lot of disruption in commercial software recently, such as:&#xA;The Broadcom acquisition of VMWare, leading to significantly hiked up prices and disruption in operation. Customers have reported an inability to download security patches, or even being unable to relicense at all. (And as Broadcom also cancelled Perpetual Licenses, this means that a lot of features companies rely upon stop working immediately) Atlassian, creators of Confluence, Jira and Trello cancelled self-hosting of their apps, forcing companies to migrate to their cloud products instead. (Not great for companies that prefer to keep their IP local) Paessler (Makers of enterprise monitoring and alerting platform, PRTG ) received significant investment by Turn/River, a venture capitalist firm. This resulted quickly with pricing rising 300 to 400% for existing customers. Venture Capitalist firms buying companies like Solarwinds, Splunk and many others causing concern amongst customers who expect much higher prices in the near future, worse support or reduced investment in development. Microsoft making a decision to require modern hardware for Windows 11, triggering the need to replace millions of perfectly good devices and generating a massive pile of e-waste. Companies using such software, and there can’t be many that haven’t been affected by these or similar changes recently, are faced with a tough decision - pay a lot more for the product or spend a lot of time and money transferring your operations to an alternative product.</description>
+    </item>
+  </channel>
+</rss>

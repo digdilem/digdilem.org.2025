@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backing Up Important Data :: Digital Dilemma</title>
+    <link>https://digdilem.org/sysadmin/backing-up-data/index.html</link>
+    <description>Backing up your important data is essential. I’ve built many systems over the years, and this is one system that I’m currently using, having thought a great deal about it. It may not be what you need, but this may be worth reading as the core concepts are pretty sound, I think.&#xA;*What to back up? This is a core question to ask when you start planning. I think it’s quite simply answered by asking the secondary question: “Can I get the data again?” Don’t back up stuff you downloaded from the public internet unless it’s particularly rare. No TV, no Movies, no software installers. Don’t hoard data you can replace.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://digdilem.org/sysadmin/backing-up-data/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
