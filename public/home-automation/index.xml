@@ -3,10 +3,10 @@
   <channel>
     <title>Home Automation :: Digital Dilemma</title>
     <link>https://digdilem.org/home-automation/index.html</link>
-    <description>My stuff about Home Automation&#xA;Cool Automation Projects Esphome Heating Water With Home Assistant Keeping Zigbee Sensors Running in Extreme Cold Measuring Freezer Temperatures Using Gpslogger for Traccar</description>
+    <description>My stuff about Home Automation&#xA;Cool Automation Projects Esphome Heating Water With Home Assistant Keeping Zigbee Sensors Running in Extreme Cold Make a smarter Diffuser Measuring Freezer Temperatures Using Gpslogger for Traccar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jun 2025 15:26:57 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 14:56:50 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/home-automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Esphome</title>
@@ -14,6 +14,13 @@
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
       <guid>https://digdilem.org/home-automation/esphome/index.html</guid>
       <description>This is a new chapter.&#xA;ESP Project Boxes Measuring Voltage With an Esp32 Measuring Wind With Esphome One Wire</description>
+    </item>
+    <item>
+      <title>Make a smarter Diffuser</title>
+      <link>https://digdilem.org/home-automation/smarter-diffuser/index.html</link>
+      <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
+      <guid>https://digdilem.org/home-automation/smarter-diffuser/index.html</guid>
+      <description>Making a diffuser a little smarter Making nicer smells My dumb diffuser&#xA;I bought this bargain diffuser second-hand from Ebay last year. You fill the container with water and add a few drops of an essential oil and it makes your room smell nice. There’s a little ultrasonic emitter inside that turns the liquid into a cool mist that pours forth from the tip.&#xA;It works well enough like this. You press a button and it starts. You press the same button two more times and it stops. There are some pretty lights too.</description>
     </item>
     <item>
       <title>Keeping Zigbee Sensors Running in Extreme Cold</title>

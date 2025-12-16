@@ -56,7 +56,7 @@
   </url>
   <url>
     <loc>https://digdilem.org/home-automation/index.html</loc>
-    <lastmod>2025-06-21T15:26:57+01:00</lastmod>
+    <lastmod>2025-12-16T14:56:50+00:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/misc/index.html</loc>
@@ -98,11 +98,31 @@
     <lastmod>2025-06-13T21:43:19+01:00</lastmod>
   </url>
   <url>
-    <loc>https://digdilem.org/categories/adventure/index.html</loc>
-    <lastmod>2025-11-10T10:55:05+00:00</lastmod>
+    <loc>https://digdilem.org/categories/automation/index.html</loc>
+    <lastmod>2025-12-16T14:56:50+00:00</lastmod>
   </url>
   <url>
     <loc>https://digdilem.org/categories/index.html</loc>
+    <lastmod>2025-12-16T14:56:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/home-assistant/index.html</loc>
+    <lastmod>2025-12-16T14:56:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/home-automation/index.html</loc>
+    <lastmod>2025-12-16T14:56:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/home-automation/smarter-diffuser/index.html</loc>
+    <lastmod>2025-12-16T14:56:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/smell/index.html</loc>
+    <lastmod>2025-12-16T14:56:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digdilem.org/categories/adventure/index.html</loc>
     <lastmod>2025-11-10T10:55:05+00:00</lastmod>
   </url>
   <url>
@@ -271,14 +291,6 @@
   </url>
   <url>
     <loc>https://digdilem.org/categories/esphome/index.html</loc>
-    <lastmod>2025-06-21T15:26:57+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://digdilem.org/categories/home-assistant/index.html</loc>
-    <lastmod>2025-06-21T15:26:57+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://digdilem.org/categories/home-automation/index.html</loc>
     <lastmod>2025-06-21T15:26:57+01:00</lastmod>
   </url>
   <url>

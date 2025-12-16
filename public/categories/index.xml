@@ -6,8 +6,36 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Nov 2025 10:55:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 14:56:50 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Category :: Automation</title>
+      <link>https://digdilem.org/categories/automation/index.html</link>
+      <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
+      <guid>https://digdilem.org/categories/automation/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Home-Assistant</title>
+      <link>https://digdilem.org/categories/home-assistant/index.html</link>
+      <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
+      <guid>https://digdilem.org/categories/home-assistant/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Home-Automation</title>
+      <link>https://digdilem.org/categories/home-automation/index.html</link>
+      <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
+      <guid>https://digdilem.org/categories/home-automation/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Category :: Smell</title>
+      <link>https://digdilem.org/categories/smell/index.html</link>
+      <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
+      <guid>https://digdilem.org/categories/smell/index.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>Category :: Adventure</title>
       <link>https://digdilem.org/categories/adventure/index.html</link>
@@ -244,20 +272,6 @@
       <link>https://digdilem.org/categories/esphome/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
       <guid>https://digdilem.org/categories/esphome/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Home-Assistant</title>
-      <link>https://digdilem.org/categories/home-assistant/index.html</link>
-      <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/categories/home-assistant/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category :: Home-Automation</title>
-      <link>https://digdilem.org/categories/home-automation/index.html</link>
-      <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/categories/home-automation/index.html</guid>
       <description></description>
     </item>
     <item>
