@@ -137,7 +137,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Digital Dilemma",
-    "content": "My Software\nText Adventures During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.\nA collection of my Text Adventures for various formats can be found on my github page IRC Scripts A selection of various IRC scripts, most of which were written to work with XChat (Now replaced by HexChat) as well as Irssi and Eggdrop. They ranged from fun, silly, stupid, useful and very useful. 2000s to 2010s\nGithub Fidonet Software Various pieces of freeware / Public Domain software I wrote during the early 1990s for Fidonet or Public Domain in Borland Turbo C\nGithub IP Camera Database A list of IP Cameras with some useful paths and details to help them integrate with CCTV software, notably Zoneminder - Early 2000s. This hasn’t been updated for years but may still be useful for old cameras\nGithub",
+    "content": "My Software\nText Adventures During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.\nA collection of my Text Adventures for various formats can be found on my github page IRC Scripts A selection of various IRC scripts, most of which were written to work with XChat (Now replaced by HexChat) as well as Irssi and Eggdrop. They ranged from fun, silly, stupid, useful and very useful. 2000s to 2010s\nGithub Fidonet Software Various pieces of freeware / Public Domain software I wrote during the early 1990s for Fidonet or Public Domain in Borland Turbo C\nGithub IP Camera Database A list of IP Cameras with some useful paths and details to help them integrate with CCTV software, notably Zoneminder - Early 2000s. This hasn’t been updated for years but may still be useful for old cameras\nGithub Taskpony",
     "description": "My Software\nText Adventures During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.\nA collection of my Text Adventures for various formats can be found on my github page IRC Scripts A selection of various IRC scripts, most of which were written to work with XChat (Now replaced by HexChat) as well as Irssi and Eggdrop. They ranged from fun, silly, stupid, useful and very useful. 2000s to 2010s",
     "tags": [],
     "title": "Software",
@@ -204,8 +204,8 @@ var relearn_searchindex = [
     "content": "",
     "description": "",
     "tags": [],
-    "title": "Category :: Automation",
-    "uri": "/categories/automation/index.html"
+    "title": "Category :: Bootstrap",
+    "uri": "/categories/bootstrap/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma",
@@ -214,6 +214,54 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Categories",
     "uri": "/categories/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Organisation",
+    "uri": "/categories/organisation/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Perl",
+    "uri": "/categories/perl/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Software",
+    "uri": "/categories/software/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Software",
+    "content": "Taskpony is a self-hostable web app intended to be small, easy to install and operate with a clean and intuitive interface. It wants to do one thing well - add, display and complete tasks.\nTaskpony\nTaskpony supports unlimited Tasks organised within unlimited Lists, repeating tasks and free movement of tasks within Lists. Tasks can be exported to the clipboard, CSV, PDF or cleanly printed.\nNo phone app required. The interface is responsive and scales well to all devices. There are no trackers and does not require access to the internet to function as all required files are included.\nLearn more over at the Taskpony Github Page\nTaskpony is software I wrote to replace Google Tasks for my own use, and has evolved into something that may be useful to other people.\nIt’s FOSS software released under the MIT Licence.",
+    "description": "Taskpony is a self-hostable web app intended to be small, easy to install and operate with a clean and intuitive interface. It wants to do one thing well - add, display and complete tasks.\nTaskpony\nTaskpony supports unlimited Tasks organised within unlimited Lists, repeating tasks and free movement of tasks within Lists. Tasks can be exported to the clipboard, CSV, PDF or cleanly printed.\nNo phone app required. The interface is responsive and scales well to all devices. There are no trackers and does not require access to the internet to function as all required files are included.",
+    "tags": [],
+    "title": "Taskpony",
+    "uri": "/software/taskpony/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Tasks",
+    "uri": "/categories/tasks/index.html"
+  },
+  {
+    "breadcrumb": "Digital Dilemma \u003e  Categories",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Category :: Automation",
+    "uri": "/categories/automation/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",
@@ -254,14 +302,6 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Category :: Adventure",
     "uri": "/categories/adventure/index.html"
-  },
-  {
-    "breadcrumb": "Digital Dilemma \u003e  Categories",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Category :: Software",
-    "uri": "/categories/software/index.html"
   },
   {
     "breadcrumb": "Digital Dilemma \u003e  Categories",

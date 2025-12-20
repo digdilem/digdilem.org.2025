@@ -6,7 +6,7 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Nov 2025 10:55:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 15:00:52 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/categories/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text Adventures</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 10 Nov 2025 10:55:05 +0000</pubDate>
       <guid>https://digdilem.org/text-adventures/index.html</guid>
       <description>Text Adventures&#xA;During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company, some through The Guild Software. Some were released as public domain / freeware. They were written for 8-bit and 16-bit computers such as the Amstrad CPC, and ported to Spectrum and C64, with later ones written for the PC.</description>
+    </item>
+    <item>
+      <title>Taskpony</title>
+      <link>https://digdilem.org/software/taskpony/index.html</link>
+      <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
+      <guid>https://digdilem.org/software/taskpony/index.html</guid>
+      <description>Taskpony is a self-hostable web app intended to be small, easy to install and operate with a clean and intuitive interface. It wants to do one thing well - add, display and complete tasks.&#xA;Taskpony&#xA;Taskpony supports unlimited Tasks organised within unlimited Lists, repeating tasks and free movement of tasks within Lists. Tasks can be exported to the clipboard, CSV, PDF or cleanly printed.&#xA;No phone app required. The interface is responsive and scales well to all devices. There are no trackers and does not require access to the internet to function as all required files are included.</description>
     </item>
     <item>
       <title>Total Reality Delusion</title>

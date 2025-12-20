@@ -6,7 +6,7 @@
     <description>Welcome to Digital Dilemma&#xA;A small place on the internet that’s been around for a long time and serves as a place for me to put stuff.&#xA;I hope you find something here of interest.&#xA;About Dartmoor Home Automation Misc Remote Controlled Lawnmower Software Sysadmin Text Adventures Thoughts Vehicles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Dec 2025 14:56:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 15:00:52 +0000</lastBuildDate>
     <atom:link href="https://digdilem.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
@@ -46,7 +46,7 @@
     <item>
       <title>Software</title>
       <link>https://digdilem.org/software/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
       <guid>https://digdilem.org/software/index.html</guid>
       <description>My Software&#xA;Text Adventures During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott’s “Witch of Wessex Software” company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.&#xA;A collection of my Text Adventures for various formats can be found on my github page IRC Scripts A selection of various IRC scripts, most of which were written to work with XChat (Now replaced by HexChat) as well as Irssi and Eggdrop. They ranged from fun, silly, stupid, useful and very useful. 2000s to 2010s</description>
     </item>
