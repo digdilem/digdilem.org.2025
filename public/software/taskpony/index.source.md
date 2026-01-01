@@ -29,3 +29,4 @@ Taskpony is software I wrote to replace Google Tasks for my own use, and has evo
 It's FOSS software released under the MIT Licence.
 
 
+virus

@@ -36,7 +36,7 @@ So I thought I'd see if I could add that functionality. Turns out it wasn't hard
 
 Just undoing three philips screws and the entire thing opened up easily. Unplugging two wires with handy connectors, and wiggling the button panel out from its holder made it easy to split the halves apart. 
 
-![Under the bowl](underbowl)
+![Under the bowl](underbowl.jpg)
 
 This contains a fairly simple PCB.  Key components are:
 
