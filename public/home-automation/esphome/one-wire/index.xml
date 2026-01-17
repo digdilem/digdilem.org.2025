@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Using One Wire sensors in ESPHome :: Digital Dilemma</title>
-    <link>http://localhost:1313/home-automation/esphome/one-wire/index.html</link>
+    <link>https://digdilem.org/home-automation/esphome/one-wire/index.html</link>
     <description>Onewire / 1wire / one wire / Dallas / Maxim is a very cheap way to deploy single or multiple temperature sensors, plus some other devices such as mini wireless buttons.&#xA;I’ve been using them at my house for around twelve years with lots of success, first connecting them to Domoticz and later, Home Assistant. There’s several ways to use them and I’ll explain a couple.&#xA;One wire with Home Assistant (ESPHome and ESP32/ESP8266 controllers, or USB) This is my absolute favourite way of using these sensors nowadays. I find working with ESPHome a pleasure and the wiring is very simple and forgiving. There are various forms of connectors</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/home-automation/esphome/one-wire/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/home-automation/esphome/one-wire/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

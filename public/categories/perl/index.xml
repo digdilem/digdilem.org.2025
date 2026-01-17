@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Perl :: Category :: Digital Dilemma</title>
-    <link>http://localhost:1313/categories/perl/index.html</link>
+    <link>https://digdilem.org/categories/perl/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Dec 2025 15:00:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/perl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/categories/perl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Taskpony</title>
-      <link>http://localhost:1313/software/taskpony/index.html</link>
+      <link>https://digdilem.org/software/taskpony/index.html</link>
       <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
-      <guid>http://localhost:1313/software/taskpony/index.html</guid>
+      <guid>https://digdilem.org/software/taskpony/index.html</guid>
       <description>Taskpony is a self-hostable web app intended to be small, easy to install and operate with a clean and intuitive interface. It wants to do one thing well - add, display and complete tasks.&#xA;Taskpony&#xA;Taskpony supports unlimited Tasks organised within unlimited Lists, repeating tasks and free movement of tasks within Lists. Tasks can be exported to the clipboard, CSV, PDF or cleanly printed.&#xA;No phone app required. The interface is responsive and scales well to all devices. There are no trackers and does not require access to the internet to function as all required files are included.</description>
     </item>
   </channel>

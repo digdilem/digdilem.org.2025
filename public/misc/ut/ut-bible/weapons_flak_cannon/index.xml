@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/misc/ut/ut-bible/weapons_flak_cannon/index.html</link>
+    <link>https://digdilem.org/misc/ut/ut-bible/weapons_flak_cannon/index.html</link>
     <description>UT BIBLE by ocr*flocutus - News Weapons - Flak Cannon Damage:   24h/shrapnel * 8 schrapnels = 192h    primary 105h + 5 shrapnels * 24h/shrapnel = 225h   secondary Rate: 1,4/s primary 1,1/s secondary Splash radius:   150uu secondary Damage/s: 269h primary 248h secondary The flak is the best close range weapon in UT. With the primary fire mode you can use it shotgun-like in infights, doing up to 192 damage per hit or you can make use of the fact that the shrapnels reflect from walls to shoot around corners (Take care not to hit yourself).&#xA;The secondary fire mode is something like a grenade launcher. On impact there is an explosion inflicting 105h in it�s centre and spawning 5 flak shrapnels, therefore doing enough damage to kill a player with 100 armor.&#xA;This is the weapon of choice for aggressive players, because you have to get very close in order to use the flak most effectively.&#xA;It`s also very useful for camping in tight rooms, or for spamming, which is the reason why it`s often called a lame weapon, but who cares...&#xA;&lt;&lt;&lt; back | top | next &gt;&gt;&gt;        Unreal Tournament and the stylized &#34;U&#34; are trademarks of Epic Games, Inc.&#xA;All other tradmarks are the property of their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/misc/ut/ut-bible/weapons_flak_cannon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/misc/ut/ut-bible/weapons_flak_cannon/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

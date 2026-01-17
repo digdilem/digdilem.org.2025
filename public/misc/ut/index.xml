@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unreal Tournament :: Digital Dilemma</title>
-    <link>http://localhost:1313/misc/ut/index.html</link>
+    <link>https://digdilem.org/misc/ut/index.html</link>
     <description>Unreal Tournament&#xA;(Very) old things relating to Unreal Tournament; Probably the best FPS ever made.&#xA;Aimbot Faq Domination Ut Bible</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Jun 2025 17:34:40 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/misc/ut/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/misc/ut/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aimbot Faq</title>
-      <link>http://localhost:1313/misc/ut/aimbot-faq/index.html</link>
+      <link>https://digdilem.org/misc/ut/aimbot-faq/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:28:04 +0100</pubDate>
-      <guid>http://localhost:1313/misc/ut/aimbot-faq/index.html</guid>
+      <guid>https://digdilem.org/misc/ut/aimbot-faq/index.html</guid>
       <description>Flash’s Aimbot FAQ Please note - I wrote this over two decades ago when I was trying to make UT an equal playing field. I’ve no idea if any of it is relevant to other games! – Flash, 2025&#xA;And other Unreal-Tournament related cheaty bits Don’t ask me about UT2K3, MOHAA, MW or any other game - I only play UT! Suffice to say that if you can aim a weapon in a first-person-shooter, then there is a cheat for it. Most FPS cheats have similar properties to the below, so this may still be of some use. In-depth info about ASH, by [PiNK]Bunny (Outdated) Catchers CTF have a list of ASH binds too Update October, 2005: Added pic of brightskin for the curious. Some parts of this faq are seriously outdated. Update April, 2005: I did some more checking to see what was out there now. From what I’m hearing, most of the UT cheat writers have now left UT alone and moved up to UT2k4, but one or two still exist. Private cheats (the hardest to block) are rumoured to still be in existence, but the likes of Pure, UTDCC, qValidate etc apparently now kill all, or almost all, publically available cheats</description>
     </item>
     <item>
       <title>Flash&#39;s guide for Domination newbies...</title>
-      <link>http://localhost:1313/misc/ut/domination/index.html</link>
+      <link>https://digdilem.org/misc/ut/domination/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:40 +0100</pubDate>
-      <guid>http://localhost:1313/misc/ut/domination/index.html</guid>
+      <guid>https://digdilem.org/misc/ut/domination/index.html</guid>
       <description>Written some time in the early 2000’s to try and encourage UT players into the Domination mod –Flash, 2025&#xA;Intended for them’s who can play UT, insta or nw, but who don’t know&#xA;much about the DOM mod.&#xA;Server Rules: (Normal CB stuff and what most clans use) 5 v 5. 20 mins per map. No score cap. 2 maps. FF = 0% WS = ON Redeemer = OFF Translocator = ON Intro: Dom is a great mod. A bit like defending in CTF. When played with nw&#xA;then trans-whoring is essential and spam is rife - it’s by far the&#xA;spammiest mod in UT. It’s non-stop action with lots of little tricks&#xA;and has all the range of skill levels playing. All weapons have their&#xA;place and the pace means you use what you’ve got.</description>
     </item>
     <item>
       <title>Ut Bible</title>
-      <link>http://localhost:1313/misc/ut/ut-bible/index.html</link>
+      <link>https://digdilem.org/misc/ut/ut-bible/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:35 +0100</pubDate>
-      <guid>http://localhost:1313/misc/ut/ut-bible/index.html</guid>
+      <guid>https://digdilem.org/misc/ut/ut-bible/index.html</guid>
       <description>This is a copy of the Unreal Tournament Bible hosted here for the sake of preservation. Full credit goes to the original author, ocr*Flocutus – Flash, 2025&#xA;UT Bible by ocr*Flocutus</description>
     </item>
   </channel>

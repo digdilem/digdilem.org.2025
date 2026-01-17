@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Extending UPS runtimes :: Digital Dilemma</title>
-    <link>http://localhost:1313/misc/ups-expansion/index.html</link>
+    <link>https://digdilem.org/misc/ups-expansion/index.html</link>
     <description>Expanding UPS runtimes on the cheap Despite what some manufacturers would have you believe, the battery packs for nearly all Uninterruptable Power Supplies are not magical, they’re just 12 volt Sealed Lead Acid batteries.&#xA;This means that, if you don’t mind a little bit of basic wiring, you can use any 12v lead acid type battery with them. If you happen to have an old car or tractor battery lying around that’s no longer quite good enough to turn an engine over in a cold winter, it would still have enough capacity to run a UPS.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/misc/ups-expansion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/misc/ups-expansion/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

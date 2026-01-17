@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Improving a Himalayan Seat :: Digital Dilemma</title>
-    <link>http://localhost:1313/vehicles/motorbikes/improving-a-himalayan-seat/index.html</link>
+    <link>https://digdilem.org/vehicles/motorbikes/improving-a-himalayan-seat/index.html</link>
     <description>I love my Himalayan, but the seat is not its best feature. It’s hard, strangely narrow and angles forwards. Not only giving you a numb and then increasingly painful rear end after a time riding, but also squishing your gentleman’s equipment against the fuel tank.&#xA;My first attempt to fix this was the buy the genuine Royal Enfield “Touring seat” for £70.80. It’s an easy swap – just remove the old and slip in the new. But, amazingly, I couldn’t tell the difference! It felt exactly the same. It wasn’t made the same; it was open underneath and there was a different mesh where it was solid in the other, but it was just as hard and uncomfortable.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/vehicles/motorbikes/improving-a-himalayan-seat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/vehicles/motorbikes/improving-a-himalayan-seat/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

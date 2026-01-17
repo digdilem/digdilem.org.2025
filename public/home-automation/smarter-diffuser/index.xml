@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Make a smarter Diffuser :: Digital Dilemma</title>
-    <link>http://localhost:1313/home-automation/smarter-diffuser/index.html</link>
+    <link>https://digdilem.org/home-automation/smarter-diffuser/index.html</link>
     <description>Making a diffuser a little smarter Making nicer smells My dumb diffuser&#xA;I bought this bargain diffuser second-hand from Ebay last year. You fill the container with water and add a few drops of an essential oil and it makes your room smell nice. There’s a little ultrasonic emitter inside that turns the liquid into a cool mist that pours forth from the tip.&#xA;It works well enough like this. You press a button and it starts. You press the same button two more times and it stops. There are some pretty lights too.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/home-automation/smarter-diffuser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/home-automation/smarter-diffuser/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

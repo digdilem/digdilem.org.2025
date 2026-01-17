@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/misc/ut/ut-bible/menu/index.html</link>
+    <link>https://digdilem.org/misc/ut/ut-bible/menu/index.html</link>
     <description>UT BIBLE by ocr*flocutus Contents     1.   News 2.   Info 3.   Controls 4.   Graphics 5.   Dodging 6.   Weapons a) Impact Hammer b) Enforcer c) Double Enforcer d) Bio Rifle e) Shock Rifle f) Pulse Gun g) Ripper h) Minigun i) Flak Cannon j) Rocket Launcher k) Sniper Rifle 7.    Map Control 8.    Underdog 9.    Timing 10.  Lead 11.  Sounds 12.  Respawning 13.  Prediction 14.  Surprise 14.  Shield Bug 15.  Tricks 15.  Feign death 16.  General 17.  Ocrana Mainpage 18.  Downloads 19.  Links 20.  Forum 21.  Credits Unreal Tournament and the stylized &#34;U&#34; are trademarks of Epic Games, Inc.&#xA;All other tradmarks are the property of their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/misc/ut/ut-bible/menu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/misc/ut/ut-bible/menu/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

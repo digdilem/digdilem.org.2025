@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monitoring :: Category :: Digital Dilemma</title>
-    <link>http://localhost:1313/categories/monitoring/index.html</link>
+    <link>https://digdilem.org/categories/monitoring/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Sep 2025 20:41:13 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://digdilem.org/categories/monitoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zabbix Agent2 on Ugreen Dxp2800</title>
-      <link>http://localhost:1313/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html</link>
+      <link>https://digdilem.org/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html</link>
       <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
-      <guid>http://localhost:1313/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html</guid>
+      <guid>https://digdilem.org/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/index.html</guid>
       <description>I recently got a new NAS, a UGreen DXP2800, and wanted to add it to me existing Zabbix Server to monitor disk space and get alerts when I was running low. I couldn’t find much information about how to do this, so I wrote this for those who follow after.&#xA;The Ugreen DXP 2800&#xA;Whilst you can mount in each network share into an existing machine that already has a Zabbix Agent running, I wanted to run the agent on the NAS itself - it is just a linux server, after all.</description>
     </item>
   </channel>
