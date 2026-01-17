@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinion :: Category :: Digital Dilemma</title>
-    <link>https://digdilem.org/categories/opinion/index.html</link>
+    <link>http://localhost:1313/categories/opinion/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Jul 2025 20:04:43 +0100</lastBuildDate>
-    <atom:link href="https://digdilem.org/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts</title>
-      <link>https://digdilem.org/thoughts/index.html</link>
+      <link>http://localhost:1313/thoughts/index.html</link>
       <pubDate>Sat, 26 Jul 2025 20:04:43 +0100</pubDate>
-      <guid>https://digdilem.org/thoughts/index.html</guid>
+      <guid>http://localhost:1313/thoughts/index.html</guid>
       <description>Why Free Software is better for your company</description>
     </item>
   </channel>

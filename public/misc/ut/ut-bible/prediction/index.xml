@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://digdilem.org/misc/ut/ut-bible/prediction/index.html</link>
+    <link>http://localhost:1313/misc/ut/ut-bible/prediction/index.html</link>
     <description>UT BIBLE by ocr*flocutus - News Prediction In a duel prediction is everything. It`s always about trying to figure out where your opponent is, with what his health/armor/weapon status is and what he is going to do. This is simply said the main key to success.&#xA;There are 3 different kinds of prediction.&#xA;1st level prediction is used in fights, mainly with non-instant hit weapons like RL and ASMD (secondary). With these weapons you shouldn�t shoot where your opponent is, but where he will be when the projectile impacts. Trying to predict this position is 1st level prediction.&#xA;2nd level prediction is prediction on sight. You see your opponent going into a hallway with only 2 entrances for example. You can predict when he will come out at the other side using the player speed as a reference.&#xA;3rd level prediction is a bit more tricky. It`s based on sounds, upcoming events, like shield/armor respawn or the last known status of your opponent, if he is low on health, he will be going for health packs for example. Or if he took the last shield/armor, you can be pretty sure, that he will come back for the next one. More generally said, it`s based on logical thinking. During the match you always have to ask yourself &#34;Where could he be?&#34; and &#34;What is he up to?&#34;. To get the answers to those questions is mainly a matter of practice, map knowledge and quick thinking.&#xA;&lt;&lt;&lt; back | top | next &gt;&gt;&gt;        Unreal Tournament and the stylized &#34;U&#34; are trademarks of Epic Games, Inc.&#xA;All other tradmarks are the property of their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://digdilem.org/misc/ut/ut-bible/prediction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/misc/ut/ut-bible/prediction/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

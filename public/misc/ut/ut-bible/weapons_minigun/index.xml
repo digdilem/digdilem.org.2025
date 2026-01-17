@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://digdilem.org/misc/ut/ut-bible/weapons_minigun/index.html</link>
+    <link>http://localhost:1313/misc/ut/ut-bible/weapons_minigun/index.html</link>
     <description>UT BIBLE by ocr*flocutus - News Weapons - Minigun Damagehit:   15-22.5h   Rate: 10,4/s primary 12,5/s secondary Inaccuracy: 0.5 degrees primary 2.7 degrees  secondary Damage/s avg:   140-234 -&gt; 187   primary 169-281 -&gt; 225 secondary The Minigun is one of the best weapons in UT. It�s an instant hit, rapid fire weapon, that can kill virtually anything in a matter of 1-2 seconds. The slower more accurate primary fire is imho next to useless, but the less accurate secondary fire is excellent for mid to close range fights.&#xA;The only disadvantage of this gun is it�s instant hit nature. You always have to keep a lock on your opponent, which means that you have to follow him around corners. With all the prediction weapons in UT this is a very bad idea, you often eat a combo or some multirockets when following.&#xA;That�s why the Minigun is mainly something for open areas and it�s a great &#34;finish him&#34;-weapon.&#xA;&lt;&lt;&lt; back | top | next &gt;&gt;&gt;        Unreal Tournament and the stylized &#34;U&#34; are trademarks of Epic Games, Inc.&#xA;All other tradmarks are the property of their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://digdilem.org/misc/ut/ut-bible/weapons_minigun/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/misc/ut/ut-bible/weapons_minigun/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

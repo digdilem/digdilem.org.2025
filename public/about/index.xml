@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me :: Digital Dilemma</title>
-    <link>https://digdilem.org/about/index.html</link>
+    <link>http://localhost:1313/about/index.html</link>
     <description>About this Website History Digital Dilemma is a name used by it’s creator, Simon Avery, since 1990 relating to computer related services.&#xA;Early 1990s – Round Corner Software / Digital Dilemma I founded and ran a Shareware company that distributed cassette tapes and 3″ 178Kb disks of Public Domain / Shareware Software for the Amstrad CPC. Some of it was my own text adventures, but mostly other peoples’ games. Back then, this was the standard way to distribute software that wasn’t on sale in the local shops. People would request some titles, I’d copy them to either cassette tape or 3&#34; floppy Disks for the Amstrad CPC and post them off in a jiffy bag, charging around £3 a diskfull. It was never meant to make money, just to cover the postage costs.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Jun 2025 10:32:32 +0100</lastBuildDate>
-    <atom:link href="https://digdilem.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Author</title>
-      <link>https://digdilem.org/about/me/index.html</link>
+      <link>http://localhost:1313/about/me/index.html</link>
       <pubDate>Mon, 16 Jun 2025 10:32:32 +0100</pubDate>
-      <guid>https://digdilem.org/about/me/index.html</guid>
+      <guid>http://localhost:1313/about/me/index.html</guid>
       <description>Digital Dilemma / digdilem / Flash / Flasheart / Simon Avery An old geek from Dartmoor&#xA;I’ve been a labourer, tree surgeon, van driver, maintenance worker, fundraiser and managing director of a horse charity.&#xA;Currently I’m a Linux Sysadmin happily working for a Sports company in Exeter, England.&#xA;I have always been a geek, and fairly recently self-diagnosed as Autistic. This follows an early formal diagnosis of Dyslexia. Re-evaluating my life with this information has led to a lot of “Of course!” moments…</description>
     </item>
   </channel>

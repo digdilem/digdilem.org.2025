@@ -2,486 +2,486 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories :: Digital Dilemma</title>
-    <link>https://digdilem.org/categories/index.html</link>
+    <link>http://localhost:1313/categories/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Dec 2025 15:00:52 +0000</lastBuildDate>
-    <atom:link href="https://digdilem.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Category :: Bootstrap</title>
-      <link>https://digdilem.org/categories/bootstrap/index.html</link>
+      <link>http://localhost:1313/categories/bootstrap/index.html</link>
       <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
-      <guid>https://digdilem.org/categories/bootstrap/index.html</guid>
+      <guid>http://localhost:1313/categories/bootstrap/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Organisation</title>
-      <link>https://digdilem.org/categories/organisation/index.html</link>
+      <link>http://localhost:1313/categories/organisation/index.html</link>
       <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
-      <guid>https://digdilem.org/categories/organisation/index.html</guid>
+      <guid>http://localhost:1313/categories/organisation/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Perl</title>
-      <link>https://digdilem.org/categories/perl/index.html</link>
+      <link>http://localhost:1313/categories/perl/index.html</link>
       <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
-      <guid>https://digdilem.org/categories/perl/index.html</guid>
+      <guid>http://localhost:1313/categories/perl/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Software</title>
-      <link>https://digdilem.org/categories/software/index.html</link>
+      <link>http://localhost:1313/categories/software/index.html</link>
       <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
-      <guid>https://digdilem.org/categories/software/index.html</guid>
+      <guid>http://localhost:1313/categories/software/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Tasks</title>
-      <link>https://digdilem.org/categories/tasks/index.html</link>
+      <link>http://localhost:1313/categories/tasks/index.html</link>
       <pubDate>Sat, 20 Dec 2025 15:00:52 +0000</pubDate>
-      <guid>https://digdilem.org/categories/tasks/index.html</guid>
+      <guid>http://localhost:1313/categories/tasks/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Automation</title>
-      <link>https://digdilem.org/categories/automation/index.html</link>
+      <link>http://localhost:1313/categories/automation/index.html</link>
       <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
-      <guid>https://digdilem.org/categories/automation/index.html</guid>
+      <guid>http://localhost:1313/categories/automation/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Home-Assistant</title>
-      <link>https://digdilem.org/categories/home-assistant/index.html</link>
+      <link>http://localhost:1313/categories/home-assistant/index.html</link>
       <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
-      <guid>https://digdilem.org/categories/home-assistant/index.html</guid>
+      <guid>http://localhost:1313/categories/home-assistant/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Home-Automation</title>
-      <link>https://digdilem.org/categories/home-automation/index.html</link>
+      <link>http://localhost:1313/categories/home-automation/index.html</link>
       <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
-      <guid>https://digdilem.org/categories/home-automation/index.html</guid>
+      <guid>http://localhost:1313/categories/home-automation/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Smell</title>
-      <link>https://digdilem.org/categories/smell/index.html</link>
+      <link>http://localhost:1313/categories/smell/index.html</link>
       <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
-      <guid>https://digdilem.org/categories/smell/index.html</guid>
+      <guid>http://localhost:1313/categories/smell/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Adventure</title>
-      <link>https://digdilem.org/categories/adventure/index.html</link>
+      <link>http://localhost:1313/categories/adventure/index.html</link>
       <pubDate>Mon, 10 Nov 2025 10:55:05 +0000</pubDate>
-      <guid>https://digdilem.org/categories/adventure/index.html</guid>
+      <guid>http://localhost:1313/categories/adventure/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Spectrum</title>
-      <link>https://digdilem.org/categories/spectrum/index.html</link>
+      <link>http://localhost:1313/categories/spectrum/index.html</link>
       <pubDate>Mon, 10 Nov 2025 10:55:05 +0000</pubDate>
-      <guid>https://digdilem.org/categories/spectrum/index.html</guid>
+      <guid>http://localhost:1313/categories/spectrum/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Pc</title>
-      <link>https://digdilem.org/categories/pc/index.html</link>
+      <link>http://localhost:1313/categories/pc/index.html</link>
       <pubDate>Thu, 30 Oct 2025 11:25:20 +0000</pubDate>
-      <guid>https://digdilem.org/categories/pc/index.html</guid>
+      <guid>http://localhost:1313/categories/pc/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Server</title>
-      <link>https://digdilem.org/categories/server/index.html</link>
+      <link>http://localhost:1313/categories/server/index.html</link>
       <pubDate>Thu, 30 Oct 2025 11:25:20 +0000</pubDate>
-      <guid>https://digdilem.org/categories/server/index.html</guid>
+      <guid>http://localhost:1313/categories/server/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Backups</title>
-      <link>https://digdilem.org/categories/backups/index.html</link>
+      <link>http://localhost:1313/categories/backups/index.html</link>
       <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/backups/index.html</guid>
+      <guid>http://localhost:1313/categories/backups/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Homelab</title>
-      <link>https://digdilem.org/categories/homelab/index.html</link>
+      <link>http://localhost:1313/categories/homelab/index.html</link>
       <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/homelab/index.html</guid>
+      <guid>http://localhost:1313/categories/homelab/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Nas</title>
-      <link>https://digdilem.org/categories/nas/index.html</link>
+      <link>http://localhost:1313/categories/nas/index.html</link>
       <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/nas/index.html</guid>
+      <guid>http://localhost:1313/categories/nas/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Proxmox</title>
-      <link>https://digdilem.org/categories/proxmox/index.html</link>
+      <link>http://localhost:1313/categories/proxmox/index.html</link>
       <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/proxmox/index.html</guid>
+      <guid>http://localhost:1313/categories/proxmox/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Sysadmin</title>
-      <link>https://digdilem.org/categories/sysadmin/index.html</link>
+      <link>http://localhost:1313/categories/sysadmin/index.html</link>
       <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/sysadmin/index.html</guid>
+      <guid>http://localhost:1313/categories/sysadmin/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Ugreen</title>
-      <link>https://digdilem.org/categories/ugreen/index.html</link>
+      <link>http://localhost:1313/categories/ugreen/index.html</link>
       <pubDate>Sat, 06 Sep 2025 15:45:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/ugreen/index.html</guid>
+      <guid>http://localhost:1313/categories/ugreen/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Monitoring</title>
-      <link>https://digdilem.org/categories/monitoring/index.html</link>
+      <link>http://localhost:1313/categories/monitoring/index.html</link>
       <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
-      <guid>https://digdilem.org/categories/monitoring/index.html</guid>
+      <guid>http://localhost:1313/categories/monitoring/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Zabbix</title>
-      <link>https://digdilem.org/categories/zabbix/index.html</link>
+      <link>http://localhost:1313/categories/zabbix/index.html</link>
       <pubDate>Wed, 03 Sep 2025 20:41:13 +0100</pubDate>
-      <guid>https://digdilem.org/categories/zabbix/index.html</guid>
+      <guid>http://localhost:1313/categories/zabbix/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Blog</title>
-      <link>https://digdilem.org/categories/blog/index.html</link>
+      <link>http://localhost:1313/categories/blog/index.html</link>
       <pubDate>Sat, 26 Jul 2025 20:04:43 +0100</pubDate>
-      <guid>https://digdilem.org/categories/blog/index.html</guid>
+      <guid>http://localhost:1313/categories/blog/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Foss</title>
-      <link>https://digdilem.org/categories/foss/index.html</link>
+      <link>http://localhost:1313/categories/foss/index.html</link>
       <pubDate>Sat, 26 Jul 2025 20:04:43 +0100</pubDate>
-      <guid>https://digdilem.org/categories/foss/index.html</guid>
+      <guid>http://localhost:1313/categories/foss/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Opinion</title>
-      <link>https://digdilem.org/categories/opinion/index.html</link>
+      <link>http://localhost:1313/categories/opinion/index.html</link>
       <pubDate>Sat, 26 Jul 2025 20:04:43 +0100</pubDate>
-      <guid>https://digdilem.org/categories/opinion/index.html</guid>
+      <guid>http://localhost:1313/categories/opinion/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Thoughts</title>
-      <link>https://digdilem.org/categories/thoughts/index.html</link>
+      <link>http://localhost:1313/categories/thoughts/index.html</link>
       <pubDate>Sat, 26 Jul 2025 20:04:43 +0100</pubDate>
-      <guid>https://digdilem.org/categories/thoughts/index.html</guid>
+      <guid>http://localhost:1313/categories/thoughts/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Faq</title>
-      <link>https://digdilem.org/categories/faq/index.html</link>
+      <link>http://localhost:1313/categories/faq/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:40 +0100</pubDate>
-      <guid>https://digdilem.org/categories/faq/index.html</guid>
+      <guid>http://localhost:1313/categories/faq/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Fps</title>
-      <link>https://digdilem.org/categories/fps/index.html</link>
+      <link>http://localhost:1313/categories/fps/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:40 +0100</pubDate>
-      <guid>https://digdilem.org/categories/fps/index.html</guid>
+      <guid>http://localhost:1313/categories/fps/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Gaming</title>
-      <link>https://digdilem.org/categories/gaming/index.html</link>
+      <link>http://localhost:1313/categories/gaming/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:40 +0100</pubDate>
-      <guid>https://digdilem.org/categories/gaming/index.html</guid>
+      <guid>http://localhost:1313/categories/gaming/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Unreal</title>
-      <link>https://digdilem.org/categories/unreal/index.html</link>
+      <link>http://localhost:1313/categories/unreal/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:40 +0100</pubDate>
-      <guid>https://digdilem.org/categories/unreal/index.html</guid>
+      <guid>http://localhost:1313/categories/unreal/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Unrealtournament</title>
-      <link>https://digdilem.org/categories/unrealtournament/index.html</link>
+      <link>http://localhost:1313/categories/unrealtournament/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:40 +0100</pubDate>
-      <guid>https://digdilem.org/categories/unrealtournament/index.html</guid>
+      <guid>http://localhost:1313/categories/unrealtournament/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Ut</title>
-      <link>https://digdilem.org/categories/ut/index.html</link>
+      <link>http://localhost:1313/categories/ut/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:34:40 +0100</pubDate>
-      <guid>https://digdilem.org/categories/ut/index.html</guid>
+      <guid>http://localhost:1313/categories/ut/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Anticheat</title>
-      <link>https://digdilem.org/categories/anticheat/index.html</link>
+      <link>http://localhost:1313/categories/anticheat/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:28:04 +0100</pubDate>
-      <guid>https://digdilem.org/categories/anticheat/index.html</guid>
+      <guid>http://localhost:1313/categories/anticheat/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Cheat</title>
-      <link>https://digdilem.org/categories/cheat/index.html</link>
+      <link>http://localhost:1313/categories/cheat/index.html</link>
       <pubDate>Sat, 28 Jun 2025 17:28:04 +0100</pubDate>
-      <guid>https://digdilem.org/categories/cheat/index.html</guid>
+      <guid>http://localhost:1313/categories/cheat/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Gardening</title>
-      <link>https://digdilem.org/categories/gardening/index.html</link>
+      <link>http://localhost:1313/categories/gardening/index.html</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://digdilem.org/categories/gardening/index.html</guid>
+      <guid>http://localhost:1313/categories/gardening/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Nature</title>
-      <link>https://digdilem.org/categories/nature/index.html</link>
+      <link>http://localhost:1313/categories/nature/index.html</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://digdilem.org/categories/nature/index.html</guid>
+      <guid>http://localhost:1313/categories/nature/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Projects</title>
-      <link>https://digdilem.org/categories/projects/index.html</link>
+      <link>http://localhost:1313/categories/projects/index.html</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://digdilem.org/categories/projects/index.html</guid>
+      <guid>http://localhost:1313/categories/projects/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Remote-Control</title>
-      <link>https://digdilem.org/categories/remote-control/index.html</link>
+      <link>http://localhost:1313/categories/remote-control/index.html</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://digdilem.org/categories/remote-control/index.html</guid>
+      <guid>http://localhost:1313/categories/remote-control/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Cooling</title>
-      <link>https://digdilem.org/categories/cooling/index.html</link>
+      <link>http://localhost:1313/categories/cooling/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
-      <guid>https://digdilem.org/categories/cooling/index.html</guid>
+      <guid>http://localhost:1313/categories/cooling/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Project</title>
-      <link>https://digdilem.org/categories/project/index.html</link>
+      <link>http://localhost:1313/categories/project/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:44:00 +0100</pubDate>
-      <guid>https://digdilem.org/categories/project/index.html</guid>
+      <guid>http://localhost:1313/categories/project/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Land-Rover</title>
-      <link>https://digdilem.org/categories/land-rover/index.html</link>
+      <link>http://localhost:1313/categories/land-rover/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:38:07 +0100</pubDate>
-      <guid>https://digdilem.org/categories/land-rover/index.html</guid>
+      <guid>http://localhost:1313/categories/land-rover/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Seats</title>
-      <link>https://digdilem.org/categories/seats/index.html</link>
+      <link>http://localhost:1313/categories/seats/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:38:07 +0100</pubDate>
-      <guid>https://digdilem.org/categories/seats/index.html</guid>
+      <guid>http://localhost:1313/categories/seats/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Esphome</title>
-      <link>https://digdilem.org/categories/esphome/index.html</link>
+      <link>http://localhost:1313/categories/esphome/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/categories/esphome/index.html</guid>
+      <guid>http://localhost:1313/categories/esphome/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Measuring</title>
-      <link>https://digdilem.org/categories/measuring/index.html</link>
+      <link>http://localhost:1313/categories/measuring/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/categories/measuring/index.html</guid>
+      <guid>http://localhost:1313/categories/measuring/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Voltage</title>
-      <link>https://digdilem.org/categories/voltage/index.html</link>
+      <link>http://localhost:1313/categories/voltage/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/categories/voltage/index.html</guid>
+      <guid>http://localhost:1313/categories/voltage/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Anenometer</title>
-      <link>https://digdilem.org/categories/anenometer/index.html</link>
+      <link>http://localhost:1313/categories/anenometer/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:18:14 +0100</pubDate>
-      <guid>https://digdilem.org/categories/anenometer/index.html</guid>
+      <guid>http://localhost:1313/categories/anenometer/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Wind</title>
-      <link>https://digdilem.org/categories/wind/index.html</link>
+      <link>http://localhost:1313/categories/wind/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:18:14 +0100</pubDate>
-      <guid>https://digdilem.org/categories/wind/index.html</guid>
+      <guid>http://localhost:1313/categories/wind/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Aqara</title>
-      <link>https://digdilem.org/categories/aqara/index.html</link>
+      <link>http://localhost:1313/categories/aqara/index.html</link>
       <pubDate>Fri, 20 Jun 2025 21:08:04 +0100</pubDate>
-      <guid>https://digdilem.org/categories/aqara/index.html</guid>
+      <guid>http://localhost:1313/categories/aqara/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Battery</title>
-      <link>https://digdilem.org/categories/battery/index.html</link>
+      <link>http://localhost:1313/categories/battery/index.html</link>
       <pubDate>Fri, 20 Jun 2025 21:08:04 +0100</pubDate>
-      <guid>https://digdilem.org/categories/battery/index.html</guid>
+      <guid>http://localhost:1313/categories/battery/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Temperature</title>
-      <link>https://digdilem.org/categories/temperature/index.html</link>
+      <link>http://localhost:1313/categories/temperature/index.html</link>
       <pubDate>Fri, 20 Jun 2025 21:08:04 +0100</pubDate>
-      <guid>https://digdilem.org/categories/temperature/index.html</guid>
+      <guid>http://localhost:1313/categories/temperature/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Zigbee</title>
-      <link>https://digdilem.org/categories/zigbee/index.html</link>
+      <link>http://localhost:1313/categories/zigbee/index.html</link>
       <pubDate>Fri, 20 Jun 2025 21:08:04 +0100</pubDate>
-      <guid>https://digdilem.org/categories/zigbee/index.html</guid>
+      <guid>http://localhost:1313/categories/zigbee/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Gps</title>
-      <link>https://digdilem.org/categories/gps/index.html</link>
+      <link>http://localhost:1313/categories/gps/index.html</link>
       <pubDate>Fri, 20 Jun 2025 14:37:18 +0100</pubDate>
-      <guid>https://digdilem.org/categories/gps/index.html</guid>
+      <guid>http://localhost:1313/categories/gps/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Linux</title>
-      <link>https://digdilem.org/categories/linux/index.html</link>
+      <link>http://localhost:1313/categories/linux/index.html</link>
       <pubDate>Fri, 20 Jun 2025 14:37:18 +0100</pubDate>
-      <guid>https://digdilem.org/categories/linux/index.html</guid>
+      <guid>http://localhost:1313/categories/linux/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Misc</title>
-      <link>https://digdilem.org/categories/misc/index.html</link>
+      <link>http://localhost:1313/categories/misc/index.html</link>
       <pubDate>Fri, 20 Jun 2025 14:37:18 +0100</pubDate>
-      <guid>https://digdilem.org/categories/misc/index.html</guid>
+      <guid>http://localhost:1313/categories/misc/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Motorbikes</title>
-      <link>https://digdilem.org/categories/motorbikes/index.html</link>
+      <link>http://localhost:1313/categories/motorbikes/index.html</link>
       <pubDate>Mon, 16 Jun 2025 18:08:29 +0100</pubDate>
-      <guid>https://digdilem.org/categories/motorbikes/index.html</guid>
+      <guid>http://localhost:1313/categories/motorbikes/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Review</title>
-      <link>https://digdilem.org/categories/review/index.html</link>
+      <link>http://localhost:1313/categories/review/index.html</link>
       <pubDate>Mon, 16 Jun 2025 18:08:29 +0100</pubDate>
-      <guid>https://digdilem.org/categories/review/index.html</guid>
+      <guid>http://localhost:1313/categories/review/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Traccar</title>
-      <link>https://digdilem.org/categories/traccar/index.html</link>
+      <link>http://localhost:1313/categories/traccar/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:37:52 +0100</pubDate>
-      <guid>https://digdilem.org/categories/traccar/index.html</guid>
+      <guid>http://localhost:1313/categories/traccar/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Databases</title>
-      <link>https://digdilem.org/categories/databases/index.html</link>
+      <link>http://localhost:1313/categories/databases/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:33:46 +0100</pubDate>
-      <guid>https://digdilem.org/categories/databases/index.html</guid>
+      <guid>http://localhost:1313/categories/databases/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Mariadb</title>
-      <link>https://digdilem.org/categories/mariadb/index.html</link>
+      <link>http://localhost:1313/categories/mariadb/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:33:46 +0100</pubDate>
-      <guid>https://digdilem.org/categories/mariadb/index.html</guid>
+      <guid>http://localhost:1313/categories/mariadb/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Himalayan</title>
-      <link>https://digdilem.org/categories/himalayan/index.html</link>
+      <link>http://localhost:1313/categories/himalayan/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:24:14 +0100</pubDate>
-      <guid>https://digdilem.org/categories/himalayan/index.html</guid>
+      <guid>http://localhost:1313/categories/himalayan/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Hobbies</title>
-      <link>https://digdilem.org/categories/hobbies/index.html</link>
+      <link>http://localhost:1313/categories/hobbies/index.html</link>
       <pubDate>Mon, 16 Jun 2025 12:46:41 +0100</pubDate>
-      <guid>https://digdilem.org/categories/hobbies/index.html</guid>
+      <guid>http://localhost:1313/categories/hobbies/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Vehicles</title>
-      <link>https://digdilem.org/categories/vehicles/index.html</link>
+      <link>http://localhost:1313/categories/vehicles/index.html</link>
       <pubDate>Mon, 16 Jun 2025 10:41:56 +0100</pubDate>
-      <guid>https://digdilem.org/categories/vehicles/index.html</guid>
+      <guid>http://localhost:1313/categories/vehicles/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: About</title>
-      <link>https://digdilem.org/categories/about/index.html</link>
+      <link>http://localhost:1313/categories/about/index.html</link>
       <pubDate>Mon, 16 Jun 2025 10:32:32 +0100</pubDate>
-      <guid>https://digdilem.org/categories/about/index.html</guid>
+      <guid>http://localhost:1313/categories/about/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Database</title>
-      <link>https://digdilem.org/categories/database/index.html</link>
+      <link>http://localhost:1313/categories/database/index.html</link>
       <pubDate>Mon, 16 Jun 2025 09:09:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/database/index.html</guid>
+      <guid>http://localhost:1313/categories/database/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Memory</title>
-      <link>https://digdilem.org/categories/memory/index.html</link>
+      <link>http://localhost:1313/categories/memory/index.html</link>
       <pubDate>Mon, 16 Jun 2025 09:09:50 +0100</pubDate>
-      <guid>https://digdilem.org/categories/memory/index.html</guid>
+      <guid>http://localhost:1313/categories/memory/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Land-Rovers</title>
-      <link>https://digdilem.org/categories/land-rovers/index.html</link>
+      <link>http://localhost:1313/categories/land-rovers/index.html</link>
       <pubDate>Wed, 11 Jun 2025 19:07:03 +0000</pubDate>
-      <guid>https://digdilem.org/categories/land-rovers/index.html</guid>
+      <guid>http://localhost:1313/categories/land-rovers/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Dartmoor</title>
-      <link>https://digdilem.org/categories/dartmoor/index.html</link>
+      <link>http://localhost:1313/categories/dartmoor/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://digdilem.org/categories/dartmoor/index.html</guid>
+      <guid>http://localhost:1313/categories/dartmoor/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Travel</title>
-      <link>https://digdilem.org/categories/travel/index.html</link>
+      <link>http://localhost:1313/categories/travel/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://digdilem.org/categories/travel/index.html</guid>
+      <guid>http://localhost:1313/categories/travel/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Walking</title>
-      <link>https://digdilem.org/categories/walking/index.html</link>
+      <link>http://localhost:1313/categories/walking/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://digdilem.org/categories/walking/index.html</guid>
+      <guid>http://localhost:1313/categories/walking/index.html</guid>
       <description></description>
     </item>
   </channel>

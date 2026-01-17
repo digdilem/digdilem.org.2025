@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker :: Digital Dilemma</title>
-    <link>https://digdilem.org/sysadmin/docker/index.html</link>
+    <link>http://localhost:1313/sysadmin/docker/index.html</link>
     <description>Things relating to Docker.&#xA;My Docker Articles Docker Network Fails After Iptables Restarts</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Jun 2025 12:40:58 +0100</lastBuildDate>
-    <atom:link href="https://digdilem.org/sysadmin/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sysadmin/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Network Fails After Iptables Restarts</title>
-      <link>https://digdilem.org/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html</link>
+      <link>http://localhost:1313/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html</link>
       <pubDate>Mon, 16 Jun 2025 12:40:58 +0100</pubDate>
-      <guid>https://digdilem.org/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html</guid>
+      <guid>http://localhost:1313/sysadmin/docker/docker-network-fails-after-iptables-restarts/index.html</guid>
       <description>For almost a decade, Docker users have been complaining about a specific problem using Docker. This has affected us quite a lot, including taking around 40 docker servers running hundreds of services offline recently when I ran a script that added a local firewall rule.&#xA;The issue is that when Docker starts, it adds whatever rules it needs to talk to the world to the local firewall service. That’s often iptables, but also nftables and probably others. Those rules are temporary and not saved in the firewall’s configuration.</description>
     </item>
   </channel>

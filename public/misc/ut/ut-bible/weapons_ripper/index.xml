@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://digdilem.org/misc/ut/ut-bible/weapons_ripper/index.html</link>
+    <link>http://localhost:1313/misc/ut/ut-bible/weapons_ripper/index.html</link>
     <description>UT BIBLE by ocr*flocutus - News Weapons - Ripper Damage/hit:   45h primary 157h headshot 52h secondary Rate: 2.9/s   primary 1.5/s   secondary Splash Radius:    180uu   secondary Damage/s: 130h primary 455h headshot 78h secondary The Ripper is mainly a weapon for spamming. In primary mode it shoots projectiles, that are reflected from floor and walls 6 times, so you can shoot around corners. If they hit a player in the upper third of the playermodel the hit is counted as a headshot inflicting more than 3 times the normal damage, so you should always aim for the head. The ripper headshot has the biggest damage/second potential, but it�s mainly a matter of luck if you manage to hit.&#xA;The secondary fire mode shoots explosive projectiles, just like the rockets. Their big advantage is, that they are much faster than rockets, but with almost the same splash radius and a faster rate of fire, so this mode is best used to knock a player around by shooting at their feets. The ripper secondary only inflicts less than half the damage of a rocket though, so you should only use the ripper in this mode if there are no other weapons available.&#xA;All in all the Ripper is mainly a weapon, for FFA where you can make lots of frags by just spamming with the Razor Blades. It�s rarely used in duel.&#xA;&lt;&lt;&lt; back | top | next &gt;&gt;&gt;        Unreal Tournament and the stylized &#34;U&#34; are trademarks of Epic Games, Inc.&#xA;All other tradmarks are the property of their respective companies.&#xA;� 2000/2001 - Florian Bl�mm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://digdilem.org/misc/ut/ut-bible/weapons_ripper/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/misc/ut/ut-bible/weapons_ripper/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

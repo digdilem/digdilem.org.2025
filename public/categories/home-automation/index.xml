@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home-Automation :: Category :: Digital Dilemma</title>
-    <link>https://digdilem.org/categories/home-automation/index.html</link>
+    <link>http://localhost:1313/categories/home-automation/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Dec 2025 14:56:50 +0000</lastBuildDate>
-    <atom:link href="https://digdilem.org/categories/home-automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/home-automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make a smarter Diffuser</title>
-      <link>https://digdilem.org/home-automation/smarter-diffuser/index.html</link>
+      <link>http://localhost:1313/home-automation/smarter-diffuser/index.html</link>
       <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
-      <guid>https://digdilem.org/home-automation/smarter-diffuser/index.html</guid>
+      <guid>http://localhost:1313/home-automation/smarter-diffuser/index.html</guid>
       <description>Making a diffuser a little smarter Making nicer smells My dumb diffuser&#xA;I bought this bargain diffuser second-hand from Ebay last year. You fill the container with water and add a few drops of an essential oil and it makes your room smell nice. There’s a little ultrasonic emitter inside that turns the liquid into a cool mist that pours forth from the tip.&#xA;It works well enough like this. You press a button and it starts. You press the same button two more times and it stops. There are some pretty lights too.</description>
     </item>
     <item>
       <title>Measuring Voltage With an Esp32</title>
-      <link>https://digdilem.org/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</link>
+      <link>http://localhost:1313/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</link>
       <pubDate>Sat, 21 Jun 2025 15:26:57 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</guid>
+      <guid>http://localhost:1313/home-automation/esphome/measuring-voltage-with-an-esp32/index.html</guid>
       <description>A fun little project that has a useful function for me – wirelessly connecting a vehicle battery to Home Assistant.&#xA;Justification: I wanted to be able to check my vehicle’s battery was good, and automatically alert me if it wasn’t.&#xA;I own a classic Land Rover that doesn’t get driven enough, and I wanted to keep an eye on the battery voltage so that I knew when to put it on charge, using HA to alert me when it dropped below a certain point. That worked well for a while, but then I had much worse problems with my Motorbike which, despite two new batteries, went low enough to fail to start after only 10 days. I spent a long time trying to sort out the parasitic drain, but the general advice was “They all do that”. So I got a Optimate battery tender that trickle-charges it. The only problem was remembering to plug the thing in! So I moved my widget across to the bike shed and connected it directly to the 12v feed on the tender. Now, if I forget to plug it back in and the voltage drops below 12.6v, I get a SMS telling me I’ve been forgetful.</description>
     </item>
     <item>
       <title>Keeping Zigbee Sensors Running in Extreme Cold</title>
-      <link>https://digdilem.org/home-automation/zigbee-sensors-in-the-cold/index.html</link>
+      <link>http://localhost:1313/home-automation/zigbee-sensors-in-the-cold/index.html</link>
       <pubDate>Fri, 20 Jun 2025 21:08:04 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/zigbee-sensors-in-the-cold/index.html</guid>
+      <guid>http://localhost:1313/home-automation/zigbee-sensors-in-the-cold/index.html</guid>
       <description>The Aqara (and other) Zigbee devices are great in almost every situation. But when using them in cold conditions, such as inside a freezer, the default CR2032 batteries don’t last well, especially in subzero temperatures.&#xA;Fortunately, it’s really simple to adapt them to use the much larger and commonly available 18650 Lithium rechargable batteries. I’ve had several of these batteries reporting the temperature of my freezer in around -20c for over a year without needing recharging – quite remarkable!</description>
     </item>
     <item>
       <title>How Home Assistant is helping heat my water for free (With help from the sun)</title>
-      <link>https://digdilem.org/home-automation/heating-water-with-ha/index.html</link>
+      <link>http://localhost:1313/home-automation/heating-water-with-ha/index.html</link>
       <pubDate>Fri, 20 Jun 2025 20:08:45 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/heating-water-with-ha/index.html</guid>
+      <guid>http://localhost:1313/home-automation/heating-water-with-ha/index.html</guid>
       <description>(Free in third party energy costs, anyway)&#xA;Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85</description>
     </item>
     <item>
       <title>Using Gpslogger for Traccar</title>
-      <link>https://digdilem.org/home-automation/using-gpslogger-for-traccar/index.html</link>
+      <link>http://localhost:1313/home-automation/using-gpslogger-for-traccar/index.html</link>
       <pubDate>Mon, 16 Jun 2025 13:37:52 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/using-gpslogger-for-traccar/index.html</guid>
+      <guid>http://localhost:1313/home-automation/using-gpslogger-for-traccar/index.html</guid>
       <description>Traccar is an amazing piece of free, open source software to track GPS devices and people.&#xA;However, I had trouble getting accurate results through its Traccar Client Android app – it would report positions miles away from where I was, and a journey was logged with very strange results indeed. However, GPSLogger already running on the same device was extremely accurate.&#xA;I’ve since learned that changing Traccar’s client to ‘High Sensitivity’ does fix most of the inaccuracies, but I still preferred GPSLogger which could also record a local GPX and upload to Gdrive at the same time I decided to use GPSLogger’s Custom URL feature to use that to update Traccar, and skip using the dedicated client entirely. This also meant one less app running on my phone, as I use GPSLogger to automatically create GPX files of my journeys.</description>
     </item>
     <item>
       <title>Measuring Freezer Temperatures</title>
-      <link>https://digdilem.org/home-automation/measuring-freezer-temperatures/index.html</link>
+      <link>http://localhost:1313/home-automation/measuring-freezer-temperatures/index.html</link>
       <pubDate>Mon, 16 Jun 2025 09:30:44 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/measuring-freezer-temperatures/index.html</guid>
+      <guid>http://localhost:1313/home-automation/measuring-freezer-temperatures/index.html</guid>
       <description>Please also read my article about keeping Zigbee and other battery devices running in sub-zero temperatures Or dealing with battery failure in minus twenty degrees.&#xA;Some years ago, I filled one of my freezers with frozen meat for my dogs and forgot to turn it on. My dogs helpfully reminded me three weeks later when it started oozing liquid out through the door. Finding a home for 80kg of rotted meat in open plastic bags was one of the less fun jobs I’ve had, and trying to prevent this happening again drove me to start monitoring their temperatures.</description>
     </item>
     <item>
       <title>Cool Automation Projects</title>
-      <link>https://digdilem.org/home-automation/cool-automation-projects/index.html</link>
+      <link>http://localhost:1313/home-automation/cool-automation-projects/index.html</link>
       <pubDate>Sun, 15 Jun 2025 22:18:04 +0100</pubDate>
-      <guid>https://digdilem.org/home-automation/cool-automation-projects/index.html</guid>
+      <guid>http://localhost:1313/home-automation/cool-automation-projects/index.html</guid>
       <description>Just some cool ideas for automation if you’re looking for inspiration, or justifying why Home Automation can be useful.&#xA;Automatic Night Lights Problem: Like many people into their middle age, I sometimes need to visit the toilet at night. Turning on lights and remembering to turn them off wasn’t the biggest deal in the world, but I thought it woke my brain up just a little bit more than it needed.</description>
     </item>
     <item>
       <title>Containers for ESP Projects</title>
-      <link>https://digdilem.org/home-automation/esphome/esp-containers/index.html</link>
+      <link>http://localhost:1313/home-automation/esphome/esp-containers/index.html</link>
       <pubDate>Wed, 11 Jun 2025 19:07:03 +0000</pubDate>
-      <guid>https://digdilem.org/home-automation/esphome/esp-containers/index.html</guid>
+      <guid>http://localhost:1313/home-automation/esphome/esp-containers/index.html</guid>
       <description>A selection of random containers I&#39;ve used for Home Automation projects</description>
     </item>
   </channel>
