@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Esphome :: Digital Dilemma</title>
+    <title>Esphome :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/home-automation/esphome/index.html</link>
     <description>This is a new chapter.&#xA;ESP Project Boxes Measuring Voltage With an Esp32 Measuring Wind With Esphome One Wire</description>
     <generator>Hugo</generator>

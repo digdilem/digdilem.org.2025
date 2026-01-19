@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zabbix :: Digital Dilemma</title>
+    <title>Zabbix :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/sysadmin/zabbix/index.html</link>
     <description>Things relating to the excellent monitoring tool, Zabbix.&#xA;Zabbix official Website My Zabbix Articles Migrating from PRTG to Zabbix – one team&#39;s journey. Zabbix - How to monitor SSL Website Certificates</description>
     <generator>Hugo</generator>

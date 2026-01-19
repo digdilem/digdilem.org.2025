@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sysadmin :: Digital Dilemma</title>
+    <title>Sysadmin :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/sysadmin/index.html</link>
     <description>These are things that may be useful to Sysadmins, or just technical people who like playing with computers.&#xA;Backing Up Important Data Docker Mariadb UGreen NAS DXP2800 Zabbix</description>
     <generator>Hugo</generator>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UGreen NAS DXP2800 :: Digital Dilemma</title>
+    <title>UGreen NAS DXP2800 :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/sysadmin/ugreen-nas/index.html</link>
     <description>Things relating to my UGreen DXP2800 NAS&#xA;The Ugreen DXP 2800&#xA;UGreen Articles Disabling the Ugreen Nas Indexer Proxmox Backup Server on a Ugreen DXP2800 NAS in Docker Zabbix Agent2 on Ugreen Dxp2800</description>
     <generator>Hugo</generator>

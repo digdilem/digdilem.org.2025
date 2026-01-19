@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home-Automation :: Category :: Digital Dilemma</title>
+    <title>Home-Automation :: Category :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/categories/home-automation/index.html</link>
     <description></description>
     <generator>Hugo</generator>
@@ -34,7 +34,7 @@
       <link>https://digdilem.org/home-automation/heating-water-with-ha/index.html</link>
       <pubDate>Fri, 20 Jun 2025 20:08:45 +0100</pubDate>
       <guid>https://digdilem.org/home-automation/heating-water-with-ha/index.html</guid>
-      <description>(Free in third party energy costs, anyway)&#xA;Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85</description>
+      <description>Using Home Assistant to heat hot water using excess electricity</description>
     </item>
     <item>
       <title>Using Gpslogger for Traccar</title>

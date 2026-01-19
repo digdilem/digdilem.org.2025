@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Finding User Defines :: Digital Dilemma</title>
+    <title>Finding User Defines :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/sysadmin/mariadb/finding-user-defines/index.html</link>
     <description>Finding out if a user has any defines** Before DROPping an sql user, it’s sensible to check whether they have ever created any VIEWs, added a TRIGGER or written a stored PROCEDURE. If you don’t, and they did, then deleting the user will result in errors such as MySQL error 1449: The user specified as a definer does not exist&#xA;Why does this happen? MariaDb / MySql uses the definer’s permissions to check whether they have authorisation to use that VIEW (which may select from multiple tables), run that STORED PROCEDURE (which may INSERT or DELETE from a table) or run a TRIGGER (again, it may need read/write privs anywhere). It’s not a bad system and works well, but doesn’t protect itself when that user disappears.</description>
     <generator>Hugo</generator>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Digital Dilemma</title>
+    <title>Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/index.html</link>
     <description>Welcome to Digital Dilemma&#xA;A small place on the internet that’s been around for a long time and serves as a place for me to put stuff.&#xA;I hope you find something here of interest.&#xA;About Dartmoor Home Automation Misc Remote Controlled Lawnmower Software Sysadmin Text Adventures Thoughts Vehicles</description>
     <generator>Hugo</generator>
@@ -27,7 +27,7 @@
       <link>https://digdilem.org/home-automation/index.html</link>
       <pubDate>Tue, 16 Dec 2025 14:56:50 +0000</pubDate>
       <guid>https://digdilem.org/home-automation/index.html</guid>
-      <description>My stuff about Home Automation&#xA;Cool Automation Projects Esphome Heating Water With Home Assistant Keeping Zigbee Sensors Running in Extreme Cold Make a smarter Diffuser Measuring Freezer Temperatures Using Gpslogger for Traccar</description>
+      <description>My stuff about Home Automation&#xA;Cool Automation Projects Esphome Keeping Zigbee Sensors Running in Extreme Cold Make a smarter Diffuser Measuring Freezer Temperatures Solar Heating Water With Home Assistant Using Gpslogger for Traccar</description>
     </item>
     <item>
       <title>Misc</title>

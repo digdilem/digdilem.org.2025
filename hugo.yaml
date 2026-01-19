@@ -1,7 +1,7 @@
 baseURL: https://digdilem.org/
 languageCode: en-us
-title: Digital Dilemma
-description: A place for things
+title: Digital Dilemma - Personal Tech, Projects and Software
+description: A place for projects and experiments in technology and self-hosting.
 #linkTitle: Relearn
 theme: hugo-theme-relearn
 

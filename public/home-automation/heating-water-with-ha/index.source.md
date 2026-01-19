@@ -1,13 +1,13 @@
 ---
 date: '2025-06-20T20:08:45+01:00'
 draft: false
-linktitle: 'Heating Water With Home Assistant'
+linktitle: 'Solar Heating Water With Home Assistant'
 title: 'How Home Assistant is helping heat my water for free (With help from the sun)'
 author: Simon Avery
+description: 'Using Home Assistant to heat hot water using excess electricity'
 categories:
     - home-automation
     - projects
-
 ---
 
 *(Free in third party energy costs, anyway)*
@@ -30,42 +30,42 @@ Anyway, I scratched my head and came up with this system.
 
 ![Solar Inverter integrating into Home Assistant](1.png)
 
-- A low power 1kw 27″ top-mounted immersion element. Normal immersions are 3kw, which is more than I can generate to excess. 1kw is perfect for me. I fitted this to the tank (fiddly) and connected it to a 13a capable flex which connected to a standard UK 13a fused plug.  
+- A low power 1kw 27″ top-mounted immersion element. Normal immersions are 3kw, which is more than I can generate to excess. 1kw is perfect for me. I fitted this to the tank (fiddly) and connected it to a 13a capable flex which connected to a standard UK 13a fused plug.
 
-![Top of the 1kw immersion element, showing its two thermostats (one user settable, one factory set)](2.png)   
+![Top of the 1kw immersion element, showing its two thermostats (one user settable, one factory set)](2.png)
 
-- A TPLink MiniKasa smart socket. (wifi) The socket is rated for 13a and by choosing a low power immersion (they’re normally 3kw for fixed wiring) I’m keeping load on that around 5a at 230vac, and the switch is not getting warm. I would be more concerned about load with an unbranded or low quality switch. But even in a warm room, this is fine. 
+- A TPLink MiniKasa smart socket. (wifi) The socket is rated for 13a and by choosing a low power immersion (they’re normally 3kw for fixed wiring) I’m keeping load on that around 5a at 230vac, and the switch is not getting warm. I would be more concerned about load with an unbranded or low quality switch. But even in a warm room, this is fine.
 
-![TPLink MiniKasa socket that allows HA to turn the Immersion Element on and off](3.png)    
+![TPLink MiniKasa socket that allows HA to turn the Immersion Element on and off](3.png)
 
 - A Onewire temperature sensor on the outside of the hot water tank. Have also used Aqara sensors for this. On the picture above, that's the "HW_Tank" reading on the above screenshot.
 
-- An existing Home Assistant setup. 
+- An existing Home Assistant setup.
 
-## Cost: 
+## Cost:
 
-- £73 for the 1kw element. 
-- £12 for the MiniKasa smart socket 
+- £73 for the 1kw element.
+- £12 for the MiniKasa smart socket
 - £5 for ancillaries (socket, wiring, sensor, tea)
-- £7,700 for the solar install *(ahem)*
+- *(And £7,700 for the solar install)*
 
 ## Controlling things
 
 This just needs two very simple automations
 
-1. If the solar system is sending >1200 watts to the grid for more than 5 minutes and the temperature of the tank is <60c: 
+1. If the solar system is sending >1200 watts to the grid for more than 5 minutes and the temperature of the tank is <60c:
     - Turn **on** socket feeding the immersion.
 
 2. If sending <1000w to the grid for more than 3 minutes **or** temp >65c:
-    - Turn **off** socket feeding the immersion. 
+    - Turn **off** socket feeding the immersion.
 
 ## Safety:
 
 Some things to consider if you fancy doing something similar.
 
-- This is a traditional UK Y-Plan **vented** hot water system. It's fed by an unpressurised cold water tank in the loft, so there is little risk of explosion should the water get too hot. 
+- This is a traditional UK Y-Plan **vented** hot water system. It's fed by an unpressurised cold water tank in the loft, so there is little risk of explosion should the water get too hot.
 
-- My tank didn't have space to insert the heating element in-situ, so I needed to drain and remove it. Even then, the top nut was very stiff and difficult to remove. 
+- My tank didn't have space to insert the heating element in-situ, so I needed to drain and remove it. Even then, the top nut was very stiff and difficult to remove.
 
 - Be competent at mains wiring.
 
@@ -73,7 +73,7 @@ Some things to consider if you fancy doing something similar.
 
 - Build in as many safeguards as you can. For example, I have a tertiary automation that turns off the switch if it happens to be on at sunset, when there's no chance of any more free power. This is a safety precaution, but also a cost one. Electricity from the mains is expensive - I don't want that to be heating my water by accident!
 
-It's working great. The water gets hotter
+It's working great. The water gets hotter quite quickly on a sunny day. In the summer on a sunny day, my solar panels have filled the house battery and switched to heating this water by around 11am, and continue to be able to do so until around 6pm. Of course it doesn't need to, but I could use that water and have it reheated two or three times each day, and still sell the excess back to the grid.
 
 ## Result
 

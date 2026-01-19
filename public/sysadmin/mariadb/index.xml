@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mariadb :: Digital Dilemma</title>
+    <title>Mariadb :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/sysadmin/mariadb/index.html</link>
     <description>Things relating to MariaDb, a widespread and very good SQL Database Server&#xA;MariaDb Official Website My MariaDb Articles 3 Quick Ways to Improve Mariadb Memory Handling Finding User Defines Solving Excess Memory Usage in Mariadb</description>
     <generator>Hugo</generator>

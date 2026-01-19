@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker :: Digital Dilemma</title>
+    <title>Docker :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/sysadmin/docker/index.html</link>
     <description>Things relating to Docker.&#xA;My Docker Articles Docker Network Fails After Iptables Restarts</description>
     <generator>Hugo</generator>

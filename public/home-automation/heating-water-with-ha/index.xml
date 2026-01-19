@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma</title>
+    <title>How Home Assistant is helping heat my water for free (With help from the sun) :: Digital Dilemma - Personal Tech, Projects and Software</title>
     <link>https://digdilem.org/home-automation/heating-water-with-ha/index.html</link>
-    <description>(Free in third party energy costs, anyway)&#xA;Update after three years I’ve not had to change or maintain any of this setup – everything has continued to work perfectly. Through the summer, a typical sunny day charges the 5.4kwh battery by about 11 AM, then heats the water and exports to the grid for another few hours before the hot water’s heated. For our house of two, that meant the LPG boiler that normally heats the water stayed off through all of July and August, and most of June and September. Not bad for an investment of £85</description>
+    <description>Using Home Assistant to heat hot water using excess electricity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
