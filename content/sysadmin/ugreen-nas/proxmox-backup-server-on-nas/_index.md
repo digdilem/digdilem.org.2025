@@ -73,9 +73,9 @@ Client-Side Encryption: Data is encrypted on the source Proxmox VE host before i
 
 ![Make a note of this Location](image-1.png)
 
-* Start by going to your Ugreen NAS and use the `App Center` to install `Docker`. This will create a new icon on your NAS' desktop called Docker. 
+* Start by going to your Ugreen NAS and use the `App Center` to install `Docker`. This will create a new icon on your NAS' desktop called Docker.
 
-When Docker is installed, open it. 
+When Docker is installed, open it.
 
 * Go to `Project` and click `Create`
 
@@ -85,11 +85,11 @@ Name: Something like 'proxmox-backup-server'
 
 Storage Path: This is where the Docker project stores its information for the container, not the where the backups are - but they can be the same if you wish.
 
-Compose Configuration: This is where you paste your `docker-compose.yml` file. 
+Compose Configuration: This is where you paste your `docker-compose.yml` file.
 
 #### The docker-compose.yml file
 
-I used the image and compose file created by `ayufan` [here](https://github.com/ayufan/pve-backup-server-dockerfiles/blob/main/docker-compose.yml) 
+I used the image and compose file created by `ayufan` [here](https://github.com/ayufan/pve-backup-server-dockerfiles/blob/main/docker-compose.yml)
 
 This is my version. There's a few changes:
 
@@ -114,8 +114,8 @@ services:
       - /run
     stop_signal: SIGHUP
     cap_add:
-      - SYS_RAWIO # smartctl support    
-    mem_limit: 2G      
+      - SYS_RAWIO # smartctl support
+    mem_limit: 2G
 ```
 
 When ready, go ahead and click `Deploy`. If all goes well, Docker will download the PBS image and create the container and launch PBS!
@@ -128,7 +128,7 @@ PBS should now be available on port 8007 of your NAS's ip. Go open it at `https:
 
 The initial credentials are: `user` **admin@pbs** and `password` **pbspbs** and chang the `Realm` to **Proxmox Backup authentication Server**
 
-Once in PBS, the first thing you'll want to do is add the storage to it. 
+Once in PBS, the first thing you'll want to do is add the storage to it.
 
 * In the PBS menu, select `+ Add Datastore`
 
@@ -172,13 +172,13 @@ Once the storage is showing up, you can create a new Backup schedule
 
 * `Datacenter` then `Backup` and `Add`
 
-Fill this up as you would for a normal backup job, but change `Storage` to your new `pbs_nas` storage (Or whatever you named it above). 
+Fill this up as you would for a normal backup job, but change `Storage` to your new `pbs_nas` storage (Or whatever you named it above).
 
 ![Creating a new backup schedule](image-5.png)
 
 *Info: If you have an existing backup job, you can just change the Storage to this without recreating everything*
 
-Complete your new schedule and test it by clicking `Run Now` with it selected. 
+Complete your new schedule and test it by clicking `Run Now` with it selected.
 
 All going well, Proxmox should connect to PBS and start the job. The first time will take around the same time as a normal Proxmox vm backup, but subsequent ones will be much faster as it will only copy the changes to each vm.
 
@@ -199,18 +199,20 @@ This is done from your Proxmox server - in fact, you won't need to revisit PBS a
 
 If PBS isn't working right, the first thing to do is to read the container logs. Do this by clicking on `Docker` -> `Container` and `proxmox_basic_server`. Then click the `Log` tab.
 
-* If you get permission problems when PBS first tries to create chunks, then the Shared folder likely needs less restrictive permissions. This can't be done through the web apps, only through the Docker container's terminal. 
+* If you get permission problems when PBS first tries to create chunks, then the Shared folder likely needs less restrictive permissions. This can't be done through the web apps, only through the Docker container's terminal.
 
-    * In the `Docker App`, click the `Container` menu item, then the `proxmox_backup_server` entry and then the `Terminal` tab. 
+    * In the `Docker App`, click the `Container` menu item, then the `proxmox_backup_server` entry and then the `Terminal` tab.
 
     * If prompted, create a new shell using `/bin/bash/` (As it suggests)
 
-    * Give the *backup directory* full write permissions. 
+    * Give the *backup directory* full write permissions.
 
     ```
     chmod 777 /backups
     ```
-    
-    * Stop the container (`Basic Information` tab, then the stop/start button) and then after a few seconds, start it again. 
+
+    * Stop the container (`Basic Information` tab, then the stop/start button) and then after a few seconds, start it again.
+
+* April 2026: `Gluecksritter18` [reports](https://github.com/digdilem/digdilem.org.2025/issues/1) that a recent Ugreen update can cause problems and offers some permission changes to work around that. I haven't experienced this situation myself with my existing PBS system, but the details are there if you need them.
 
 

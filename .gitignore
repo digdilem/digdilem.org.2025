@@ -1,2 +1,7 @@
 /.hugo_build.lock
-/public/
+/public
+/resources
+/node_modules
+
+.vscode/
+.wrangler/

@@ -39,13 +39,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true # Needed if you want to allow raw HTML
-    # 20250621 Try to get images to display with a title below them
-    # parser:
-    #   attribute:
-    #     block: true
-    # renderer:
-    #   wrapStandAloneImageWithinParagraph: false
-    # ---20250621
 
   highlight:
     codeFences: true
