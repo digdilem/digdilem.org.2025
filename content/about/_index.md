@@ -9,9 +9,11 @@ categories:
 
 ### About this Website
 
+<a href="mailto:sites@digdilem.org">Contact Author</a>
+
 ## History
 
-Digital Dilemma is a name used by it's creator, Simon Avery, since 1990 relating to computer related services. 
+Digital Dilemma is a name used by it's creator, Simon Avery, since 1990 relating to computer related services.
 
 ### Early 1990s – Round Corner Software / Digital Dilemma
 
@@ -49,7 +51,7 @@ Process: I write the site locally using VSCode, using `hugo serve` to review a l
 
 ### Digital Dilemma in the past
 
-It's 2025 and there's been a website here for around thirty years. 
+It's 2025 and there's been a website here for around thirty years.
 
 The method has changed, such as;
 
@@ -59,9 +61,9 @@ The method has changed, such as;
 * Jekyll hosted on Github
 * Wordpress hosted via Cloudflare Tunnel on my home server
 
-There's no formal company, product or service attached to Digital Dilemma. I use digdilem as a nick in a great many places and I've generally provided this site, in some form or another, mostly to house a few projects and share some information. 
+There's no formal company, product or service attached to Digital Dilemma. I use digdilem as a nick in a great many places and I've generally provided this site, in some form or another, mostly to house a few projects and share some information.
 
-I hope this is useful in some small way. 
+I hope this is useful in some small way.
 
 {{% children sort="title" %}}
 
@@ -69,7 +71,7 @@ I hope this is useful in some small way.
 
 ### Cookie Policy
 
-There is no explicit cookie opt-in page. Awful things. I'm not commercially exploiting this information and there is no tracking necessary for the website to work. 
+There is no explicit cookie opt-in page. Awful things. I'm not commercially exploiting this information and there is no tracking necessary for the website to work.
 
 Simple web stats are collected using [Umami](https://github.com/umami-software/umami) which has a [GDPR Statement](https://umami.is/docs/faq) stating that opt-in is not required.
 
