@@ -55,7 +55,7 @@ It's 2025 and there's been a website here for around thirty years.
 
 The method has changed, such as;
 
-* Hand written HTML hosted on BTInterenet home pages
+* Hand written HTML hosted on BTInternet home pages
 * Dreamweaver HTML
 * Wordpress on a VPS
 * Jekyll hosted on Github
