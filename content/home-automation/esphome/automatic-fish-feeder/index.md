@@ -5,7 +5,7 @@ description: "Feeding my fish automatically"
 date: 2026-04-28T19:07:03.814Z
 preview: ""
 draft: false
-image: /wp-content/uploads/2025/03/image-12.png
+image: image-5.png
 author: Simon Avery
 tags:
     - home-automation
@@ -14,7 +14,6 @@ tags:
 categories:
     - home-automation
 ---
-
 
 I recently got a new tropical fish tank and, of course, wanted to make maintaining it a little easier. I initially bought an automatic fish feeder, but it only worked with granules which my fish wouldn't eat, they liked flakes only.
 
@@ -175,3 +174,4 @@ actions:
 mode: single
 ```
 
+![Feeder atop the tank](image-5.png)
