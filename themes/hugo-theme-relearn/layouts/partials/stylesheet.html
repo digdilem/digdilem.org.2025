@@ -30,7 +30,7 @@
       {{- $wrap = .Params.highlightWrap }}
     {{- end }}
     {{- $disableInlineCopyToClipboard := site.Params.disableInlineCopyToClipBoard }}
-    {{- $pageBaseLang := replaceRE "([a-z]+).*" "${1}" .Page.Language.LanguageCode }}
+    {{- $pageBaseLang := replaceRE "([a-z]+).*" "${1}" .Page.Language.Locale }}
     {{- $contentlangs := (union (slice | append (site.Params.additionalContentLanguage | default slice)) (slice $pageBaseLang)) }}
     {{- $quotedcontentlangs := slice }}
     {{- $searchIndexUrl := "" }}
