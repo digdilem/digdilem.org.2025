@@ -1,16 +1,16 @@
 ---
-title: "The Dartmoor Archive"
-linktitle: "Dartmoor"
+title: "The Dartmoor Website Archive"
+linktitle: "Dartmoor Website Archive"
 type: "chapter"
 weight: 20
 categories:
   - dartmoor
-  - walking 
+  - walking
   - nature
   - travel
 ---
 
-> *Dartmoor is a vast, wild, and rugged upland area in Devon, England, characterized by extensive granite tors, heather-clad moorland, and deep river valleys. It's a national park known for its dramatic landscapes, rich prehistoric archaeology including stone circles and hut circles, and unique wildlife, as well as its iconic Dartmoor ponies that roam freely. The area is steeped in history and folklore, offering diverse opportunities for walking, exploration, and experiencing a truly untamed natural environment." -- Gemini AI when asked to sum up Dartmoor. 
+> *Dartmoor is a vast, wild, and rugged upland area in Devon, England, characterized by extensive granite tors, heather-clad moorland, and deep river valleys. It's a national park known for its dramatic landscapes, rich prehistoric archaeology including stone circles and hut circles, and unique wildlife, as well as its iconic Dartmoor ponies that roam freely. The area is steeped in history and folklore, offering diverse opportunities for walking, exploration, and experiencing a truly untamed natural environment." -- Gemini AI when asked to sum up Dartmoor.
 
 Dartmoor means a lot to a lot people. To me it is my freedom and my cathedral, a place to be myself and reset my mind. I've lived and worked on or near it for most of my life and it's core to who I am now. There are many beautiful places in the World, but this one means the most to me.
 
@@ -28,7 +28,7 @@ These are the sites I'm looking after:
     *Formerly: www.dartmoorletterboxing.org, now expired*
 
     The original forum for Dartmoor Letterboxing, dating back well over two decades. Sadly, Letterboxing is in decline, primarily (in my view) because it's so hard for new people to get a toehold as many boxes are Word-of-mouth only, combined with the popularity of Geocaching.
-    However, the historical posts are worth preserving. It was impossible to archive the forum as a functional PHPBB site and keep it secure, so I have exported the posts as static HTML pages. 
+    However, the historical posts are worth preserving. It was impossible to archive the forum as a functional PHPBB site and keep it secure, so I have exported the posts as static HTML pages.
 
 * [Dartmoor Cam](https://dartmoorcam.co.uk/)
 
@@ -42,7 +42,7 @@ These are the sites I'm looking after:
 
 * [The Cornish Pasty "The Compleat Pastypaedia"](https://cornishpasties.org.uk/)
 
-    Simultaneously a deeply knowledgeable and humorous study of traditional Cornish cuisine, again by Keith Ryan. 
+    Simultaneously a deeply knowledgeable and humorous study of traditional Cornish cuisine, again by Keith Ryan.
     *Cornish, not Dartmoor, but they're good neighbours*
 
 
