@@ -13,9 +13,9 @@ weight: 19
 
 Despite what some manufacturers would have you believe, the battery packs for nearly all Uninterruptable Power Supplies are not magical, they're just 12 volt Sealed Lead Acid batteries.
 
-This means that, if you don't mind a little bit of basic wiring, you can use any 12v lead acid type battery with them. If you happen to have an old car or tractor battery lying around that's no longer quite good enough to turn an engine over in a cold winter, it would still have enough capacity to run a UPS. 
+This means that, if you don't mind a little bit of basic wiring, you can use any 12v lead acid type battery with them. If you happen to have an old car or tractor battery lying around that's no longer quite good enough to turn an engine over in a cold winter, it would still have enough capacity to run a UPS.
 
-I've done this several times and it's always worked out well for almost no money. 
+I've done this several times and it's always worked out well for almost no money.
 
 Note: Car batteries emit more hydrogen when charging than SLAs, so only do this in a well ventilated space.
 
@@ -31,13 +31,13 @@ Note: Car batteries emit more hydrogen when charging than SLAs, so only do this 
 ![How it goes together](ups-diagram1.png)
 
 1. Ensure your car battery is charged up to at least 12.2v. Resting voltage for a fully charged 12v battery is around 12.6 to 12.8v.
-2. Disconnect the UPS from the mains and open it up. Stay away from the circuitry - there'll be some capacitors in there that can still give a painful and dangerous shock. 
+2. Disconnect the UPS from the mains and open it up. Stay away from the circuitry - there'll be some capacitors in there that can still give a painful and dangerous shock.
 3. Disconnect and remove the old SLA battery
-4. Extend the positive lead that used to go to the positive terminal on the old battery. This should be of a similar guaged wire and be long enough to reach the positive terminal of the car battery. You may wish to fit an in-line fuse to this, although the UPS will probably already have one.  
-5. Repeat for the negative lead. 
-6. Replace UPS covers.  You may need to cut a hole in the UPS case, or tail the leads out of the front. 
+4. Extend the positive lead that used to go to the positive terminal on the old battery. This should be of a similar guaged wire and be long enough to reach the positive terminal of the car battery. You may wish to fit an in-line fuse to this, although the UPS will probably already have one.
+5. Repeat for the negative lead.
+6. Replace UPS covers.  You may need to cut a hole in the UPS case, or tail the leads out of the front.
 
-When connected, the UPS should go into mains-lost mode and perhaps start beeping. 
+When connected, the UPS should go into mains-lost mode and perhaps start beeping.
 
 At this point, it should be safe to connect the UPS back into the mains and it should behave exactly as it did with an internal battery.
 
@@ -59,6 +59,12 @@ After being depleted, UPS' will recharge their battery and this will obviously t
 
 * Lead acid batteries emit more hydrogen when charging than SLA batteries do, which is explosive. Ensure your space is well ventilated. (I run my server in a garage, which was perfect)
 * If the wiring extension is long, increase guage to avoid voltage drop. (There are various formulas for this)
+
+## 24v UPS
+
+Below is a picture of my APC Smart-UPS 750 with a home made pack. Although hard to see, that's four SLA batteries wired 2S2P to produce 24v which then connects to the normally internal battery connectors. I did add a thermal cutout fuse (dangly thing on left) as I had one. In this case, the UPS only feeds the little NAS to the left of it, and this pack is enough to keep that running for around half a day without mains power.  For more power, just add combinations of batteries together, provided the output matches the expected voltage.
+
+![24v APC UPS](frankenups.jpg)
 
 
 
