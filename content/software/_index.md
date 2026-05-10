@@ -10,6 +10,7 @@ My Software
 
 *During the late 1980s and early 1990s, I was a part of the thriving British Text Adventure scene and as well as enjoying many such games, I wrote a few too. Many of these were sold through Joan Pancott's "Witch of Wessex Software" company. Some were freeware. These were written for 8-bit and 16-bit computers, with later ones running on PC.*
 
+* [You can play some of them in your browser on these pages!](/text-adventures/)
 * [A collection of my Text Adventures for various formats can be found on my github page](https://github.com/digdilem/textadventures)
 
 ## IRC Scripts
@@ -30,7 +31,7 @@ My Software
 
 *A list of IP Cameras with some useful paths and details to help them integrate with CCTV software, notably [Zoneminder](https://zoneminder.com/) - Early 2000s. This hasn't been updated for years but may still be useful for old cameras*
 
-* [Github](https://github.com/digdilem/ipcamera-database) 
+* [Github](https://github.com/digdilem/ipcamera-database)
 
 -------------------------
 
