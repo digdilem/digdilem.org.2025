@@ -110,7 +110,6 @@ other = "Copy link to clipboard"
 other = "Copied link to clipboard!"
 
 [Chapter]
-#other = "Chapter {{.}}"
 other = ""
 
 [Language]
@@ -118,24 +117,3 @@ other = "Language"
 
 [Theme]
 other = "Theme"
-
-[Submenu]
-other = "Submenu {{.}}"
-
-[Subsections]
-other = "Subsections of {{.}}"
-
-[tags]
-other = "Tags"
-
-[tag]
-other = "Tag"
-
-[categories]
-other = "Categories"
-
-[category]
-other = "Category"
-
-[Details]
-other = "Details"

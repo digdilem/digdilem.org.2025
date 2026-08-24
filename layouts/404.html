@@ -18,15 +18,15 @@
       <main id="R-body-inner" class="highlightable chapter" tabindex="-1">
         <div class="flex-block-wrapper">
           <article>
-            <h1 id="404"><span>4</span>{{ partial "shortcodes/icon.html" (dict "page" . "icon" "far fa-frown" )}}<span>4</span></h1>
-            <h2 id="{{ T "title-404" | plainify | anchorize }}">{{ T "title-404" }}</h2>
+            <br><br><br><br>
+            <h1 id="{{ T "title-404" | plainify | anchorize }}">404 Not Found</h1>
             <p></p>
-            <p>{{ T "message-404" }}</p>
+            <br><br>
+            <p>Hmm, that page doesn't seem to exist</p>
             <p></p>
-            <p>We had a bit of a tidy up in June 2025, maybe that url changed?</p>
             <p></p>
-            <p><a href="{{ partial "permalink.gotmpl" (dict "to" .Site.Home) }}">{{ T "Go-to-homepage" }}</a></p>
-
+            <br><br>
+            <p><a href="https://digdilem.org/">Return to Digital Dilemma</a></p>
           </article>
         </div>
       </main>
