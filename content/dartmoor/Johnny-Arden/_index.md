@@ -40,6 +40,8 @@ Watching her learn alongside Johnny, I knew she was instantly captivated. Watchi
 
 Sitting on that log in the middle of Dartmoor a warm on a warm summer evening with swallows riding the air, watching the two adults drive circles and figure eights, is a memory I shall carry forever. Both adults experienced with horses, but one learning much from the other. The drive home to Torquay afterwards was a chatty one, with Mum bubbling over with excitement and plans.
 
+![Johnny Arden driving Mum's Gig, 1980s](Johnny_Arden.jpg)
+
 One of the regular routes with Johnny was when he would tack up his own team of four Bay Dartmoor Ponies. These were fierce creatures to a young lad, and I was always careful around them, especially when tacking up when they were quick to bite anyone they could reach, especially as the girths were pulled tight. Johnny's cart was a four-wheeled affair, with a hydraulic footbrake and a car battery that powered lights, as he was not afraid to drive long distances and that often meant getting home late and in darkness. The cart was on four car wheels and tyres, and meant to work, not look fancy.  A great many years later, I was to see Johnny's cart at Exeter Auction House during a horse sale as his effects were being dispersed, and it was exactly as I remembered it.
 
 Once the team was harnessed and "put to" the cart, Johnny would drive with Mum sitting next to him. I'd ride on the back, bouncing around on the tailgate. The normal route would be to turn left out of the yard, then right by the post-box which took us over another small bridge and up the long and narrow lane to Holne. This served well to warm the ponies up as it wasn't too steep.
