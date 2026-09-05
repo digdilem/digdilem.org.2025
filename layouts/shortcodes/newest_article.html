@@ -1,0 +1,7 @@
+{{ $articles := where .Site.Pages "Kind" "section" }}
+{{ $pages := $articles.ByDate.Reverse }}
+{{ with index $pages 0 }}
+  <article class="newest-article">
+    Latest article: <a href="{{ .RelPermalink }}">{{ .Title }}</a>, <i>Published on {{ .Date.Format "January 2, 2006" }}</i>
+  </article>
+{{ end }}

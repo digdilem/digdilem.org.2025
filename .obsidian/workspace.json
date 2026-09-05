@@ -11,14 +11,10 @@
             "id": "d09b120a106b7eb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/sysadmin/backing-up-data/_index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "New tab"
             }
           }
         ]
@@ -188,7 +184,40 @@
   },
   "active": "d09b120a106b7eb0",
   "lastOpenFiles": [
-    "content/thoughts/fastmail-vs-protonmail/_index.md",
+    "content/home-automation/esphome/esp-containers/_index.md",
+    "public/home-automation/esphome/automatic-fish-feeder/readme-esphome/index.source.md",
+    "public/home-automation/esphome/automatic-fish-feeder/readme-esphome/index.xml",
+    "public/home-automation/esphome/automatic-fish-feeder/readme-esphome/index.html",
+    "public/home-automation/esphome/automatic-fish-feeder/readme-esphome",
+    "content/home-automation/esphome/automatic-fish-feeder/_index.md",
+    "layouts/shortcodes/newest_article.html",
+    "layouts/shortcodes",
+    "layouts/newest_article.html",
+    "content/vehicles/motorbikes/villaging-with-the-himalayan/_index.md",
+    "content/vehicles/motorbikes/selling-dream-motorbike/_index.md",
+    "content/vehicles/motorbikes/review-puig-windscreen/_index.md",
+    "content/vehicles/motorbikes/improving-a-himalayan-seat/_index.md",
+    "content/vehicles/motorbikes/honest-review-oxford-grips/_index.md",
+    "content/vehicles/motorbikes/himalayan-modifications/_index.md",
+    "content/vehicles/motorbikes/fitting-ammo-boxes-to-himalayan/_index.md",
+    "content/vehicles/motorbikes/fitting-16t-sprocket/_index.md",
+    "content/vehicles/land-rover/restoring-old-land-rovers/_index.md",
+    "content/vehicles/land-rover/fitting-gas-rams/_index.md",
+    "content/vehicles/land-rover/_index.md",
+    "content/misc/ut/aimbot-faq/_index.md",
+    "content/misc/ut/_index.md",
+    "content/misc/using-gpslogger-with-traccar/_index.md",
+    "content/misc/ups-expansion/_index.md",
+    "content/misc/redneck-water-cooling/_index.md",
+    "content/misc/_index.md",
+    "content/home-automation/using-gpslogger-for-traccar/_index.md",
+    "content/home-automation/smarter-diffuser/_index.md",
+    "content/home-automation/measuring-freezer-temperatures/_index.md",
+    "content/home-automation/heating-water-with-ha/_index.md",
+    "content/home-automation/esphome/one-wire/_index.md",
+    "content/home-automation/esphome/measuring-wind-with-esphome/_index.md",
+    "content/test/test2",
+    "content/test",
     "public/thoughts/fastmail-vs-protonmail/fastmail-vs-protonmail.png",
     "content/thoughts/fastmail-vs-protonmail/fastmail-vs-protonmail.png"
   ]

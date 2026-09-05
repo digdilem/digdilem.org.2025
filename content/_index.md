@@ -9,4 +9,6 @@ A small place on the internet that's [been around for a long time](/about/index.
 
 I hope you find something here of interest.
 
+{{% newest_article %}}
+
 {{% children sort="title" %}}
