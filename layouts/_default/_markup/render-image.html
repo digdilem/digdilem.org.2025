@@ -10,9 +10,8 @@
        {{ with .Text }}alt="{{ . }}"{{ end }}
        {{ with .Title }}title="{{ . }}"{{ end }}
        loading="lazy"
-       decoding="async"
-  >
+       decoding="async"  >
   {{ if $caption }}
-    <figcaption><p><b><i>{{ $caption }}</b></i></p></figcaption>
+    <figcaption><p><b><i>{{ $caption }}</i></b></p></figcaption>
   {{ end }}
 </figure>

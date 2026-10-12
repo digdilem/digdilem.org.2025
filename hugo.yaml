@@ -38,6 +38,8 @@ enableRobotsTXT: true
 
 markup:
   goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
     renderer:
       unsafe: true # Needed if you want to allow raw HTML
 

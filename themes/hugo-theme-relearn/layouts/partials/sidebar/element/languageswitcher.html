@@ -1,5 +1,5 @@
-{{- $siteLanguages := site.Languages }}
-{{- $showlangswitch := and hugo.IsMultilingual (not site.Params.disableLanguageSwitchingButton) (gt (int (len $siteLanguages)) 1) }}
+{{- $translations := .page.AllTranslations }}
+{{- $showlangswitch := and hugo.IsMultilingual (not site.Params.disableLanguageSwitchingButton) (gt (len $translations) 1) }}
 {{- if $showlangswitch }}
   {{- $icon := .element.icon | default "language" }}
   {{- if and $icon (not (findRE ".*?\\bfa-\\w.*?" $icon)) }}
@@ -13,7 +13,7 @@
                   <label class="a11y-only" for="R-select-language">{{ T "Language" }}</label>
                   <select id="R-select-language">
                     {{- $pageLang := .page.Language.Lang }}
-                    {{- range .page.AllTranslations }}
+                    {{- range $translations }}
                     <option id="R-select-language-{{ .Language.Lang }}" value="{{ .Language.Lang }}" data-url="{{ partial "permalink.gotmpl" (dict "to" .) }}" lang="{{ .Language.Locale }}"{{ if eq $pageLang .Language.Lang }} selected data-selected{{ end }}>{{ .Language.LanguageName }}</option>
                     {{- end }}
                   </select>
