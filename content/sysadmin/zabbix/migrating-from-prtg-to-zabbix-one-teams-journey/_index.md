@@ -88,6 +88,17 @@ No, they haven't. I'm even more impressed with Zabbix than I was. We've had no p
 
 Zabbix server has been faultless. Not a single crash. 
 
-We *have* had the Zabbix agent stop a few times on Windows clients. That shows up within 5 minutes, and we only noticed because it was set not to automatically restart. Changing the service entry to restart on failure means that's a problem we've only had to solve once.
+We *have* had the Zabbix agent stop a few times on Windows clients. That shows up within 5 minutes, and we only noticed because it was set not to automatically restart. Changing the service entry to restart on failure means that's a problem we've only had to solve once.. *We've established this happens when a Windows server gets very low on free memory so starts culling services as OOM protection. Zabbix agent is (rightfully) low priority so gets stopped*
 
 Otherwise, it's brilliant. We're up to around 30,000 items being monitored across some 500 devices on a low spec vm (2x vcpus, 8gb ram) PRTG simply cannot compete at any level with Zabbix - except perhaps the UI, which may be slightly nicer. But not worth the cost, either financially or in terms of upkeep.
+
+# Two years on
+------
+Not much to add. We're still with Zabbix, recording even more stats and really happy with it.  
+Zabbix has been utterly faultless, both server and agents. Still using a tiny footprint compared to PRTG and, doing some rough calcs, it's already saved us around £18,000 in PRTG fees by switching. 
+
+
+
+
+
+

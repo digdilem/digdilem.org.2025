@@ -11,10 +11,17 @@
             "id": "d09b120a106b7eb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled 1"
             }
           }
         ]
@@ -184,13 +191,15 @@
   },
   "active": "d09b120a106b7eb0",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "content/sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/_index.md",
     "static/ads.txt",
     "content/vehicles/_index.md",
     "content/thoughts/why-foss-is-better-for-companies/_index.md",
     "content/thoughts/fastmail-vs-protonmail/_index.md",
     "content/thoughts/_index.md",
     "content/sysadmin/zabbix/zabbix-monitor-ssl/_index.md",
-    "content/sysadmin/zabbix/migrating-from-prtg-to-zabbix-one-teams-journey/_index.md",
     "content/sysadmin/zabbix/_index.md",
     "content/sysadmin/ugreen-nas/zabbix-agent2-on-ugreen-dxp2800/_index.md",
     "content/sysadmin/ugreen-nas/Ugreen-Nas-Indexer/_index.md",
